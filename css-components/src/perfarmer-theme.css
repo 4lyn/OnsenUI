@@ -145,3 +145,22 @@
   /* others */
   --tap-highlight-color: transparent;
 }
+
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./font/Rubik-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: italic;
+  font-weight: 400;
+  src: url('./font/Rubik-Italic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: italic;
+  font-weight: 700;
+  src: url('./font/Rubik-Bold.ttf') format('truetype');
+}
