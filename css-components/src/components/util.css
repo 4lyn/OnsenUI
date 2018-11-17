@@ -1,7 +1,7 @@
 
 :root {
   --reset-font: {
-    font-family: -apple-system, 'Rubik', sans-serif;
+    font-family: -apple-system, 'Rubik', 'Helvetica', 'Arial', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-weight: var(--font-weight);
@@ -98,7 +98,7 @@
   @custom-media --retina-query (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx);
 
   --material-font: {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik', 'Helvetica', 'Arial', sans-serif;
     -webkit-font-smoothing: antialiased;
     font-weight: var(--material-font-weight);
   }
