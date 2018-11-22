@@ -226,6 +226,17 @@
   border: none;
 }
 
+.bottom-bar--button {
+  text-align: center;
+}
+
+.bottom-bar--button .button {
+  height: var(--toolbar-height);
+  border-radius: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 /*~
   name: Toolbar with Segment
   category: Toolbar
