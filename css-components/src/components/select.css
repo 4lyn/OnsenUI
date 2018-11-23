@@ -205,7 +205,7 @@
   name: Select Input with Placeholder
   category: Select Input
   markup: |
-    <select class="select-input select-input--placeholder" value="">
+    <select class="select-input select-input--underbar select-input--placeholder" value="">
       <option value="" hidden>Choose ...</option>
       <option>Option 1</option>
       <option>Option 2</option>
@@ -213,7 +213,7 @@
     </select>
 */
 
-.select-input--placeholder {
+.select-input--placeholder, .select-input--placeholder:invalid {
   color: var(--input-placeholder-color);
 }
 

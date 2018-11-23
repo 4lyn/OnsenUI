@@ -187,3 +187,29 @@
     background-size: 100% 2px, 100% 2px;
   }
 }
+
+/*~
+  name: Underbar Input invalid
+  category: Text Input
+  elements: ons-input
+  markup: |
+    <div><label class="label-invalid">Label</div>
+    <div><input type="number" class="text-input text-input--underbar" placeholder="Type 'eee'" value=""></div>
+*/
+
+.label-invalid {
+  color: var(--input-invalid-text-color);
+}
+
+/*~
+  name: Underbar Material Input invalid
+  category: Text Input
+  elements: ons-input
+  markup: |
+    <div><label class="label-invalid">Label</div>
+    <div><input type="number" class="text-input text-input--material text-input--underbar" placeholder="Type 'eee'" value=""></div>
+*/
+
+.text-input--material.text-input--underbar:invalid {
+  background-image: none;
+}
