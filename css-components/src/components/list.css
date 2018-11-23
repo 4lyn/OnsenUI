@@ -1042,3 +1042,52 @@
   font-weight: var(--material-list-title-font-weight);
   line-height: var(--material-list-title-line-height);
 }
+
+/*~
+  name: List with input
+  category: List
+  markup: |
+    <ul class="list">
+      <li class="list-item list-item--nodivider">
+        <div class="list-item__center list-item--nodivider__center">Label 1</div>
+      </li>
+      <li class="list-item list-item--longdivider list-item--input">
+        <div class="list-item__center list-item--longdivider__center list-item--input__center">
+          <input type="text" class="text-input text-input--underbar" placeholder="Placeholder 1" value="">
+        </div>
+      </li>
+    </ul>
+ */
+
+.list-item--input__center {
+  padding-right: 16px;
+}
+
+.list-item--input__center input {
+  width: 100%;
+}
+
+/*~
+  name: List with select
+  category: List
+  markup: |
+    <ul class="list">
+      <li class="list-item list-item--nodivider">
+        <div class="list-item__center list-item--nodivider__center">Label 1</div>
+      </li>
+      <li class="list-item list-item--longdivider list-item--input">
+        <div class="list-item__center list-item--longdivider__center list-item--input__center">
+          <select class="select-input select-input--underbar select-input--placeholder" value=""">
+            <option value="" hidden>Choose ...</option>
+            <option>Option 1</option>
+            <option>Option 2</option>
+            <option>Option 3</option>
+          </select>
+        </div>
+      </li>
+    </ul>
+ */
+
+.list-item--input__center select {
+  width: 100%;
+}
