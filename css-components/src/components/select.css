@@ -201,3 +201,22 @@
   border-bottom: 1px solid var(--input-invalid-border-color);
 }
 
+/*~
+  name: Select Input with Placeholder
+  category: Select Input
+  markup: |
+    <select class="select-input select-input--placeholder" value="">
+      <option value="" hidden>Choose ...</option>
+      <option>Option 1</option>
+      <option>Option 2</option>
+      <option>Option 3</option>
+    </select>
+*/
+
+.select-input--placeholder {
+  color: var(--input-placeholder-color);
+}
+
+.select-input--placeholder option, .select-input--placeholder optgroup {
+  color: var(--select-input-color);
+}
