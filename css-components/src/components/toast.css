@@ -87,6 +87,16 @@
   color: var(--material-toast-button-text-color);
 }
 
+/*~
+  name: Tabbar Toast
+  category: Toast
+  markup: |
+    <div class="toast toast--tabbar">
+      <div class="toast__message toast--tabbar__message">Message Message Message Message Message Message</div>
+      <button class="toast__button toast--tabbar__button">ACTION</button>
+    </div>
+*/
+
 .toast--tabbar {
   bottom: var(--tabbar-height);
 }
