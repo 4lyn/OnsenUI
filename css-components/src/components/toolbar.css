@@ -394,3 +394,39 @@
   background-image: none;
   border-bottom: none;
 }
+
+/*~
+  name: Perfarmer No Shadow Toolbar
+  category: Toolbar
+  elements: ons-toolbar
+  markup: |
+    <!-- custom class: toolbar--perfarmer toolbar--perfarmer__left toolbar--perfarmer__center toolbar--perfarmer__right toolbar-button--perfarmer -->
+    <div class="toolbar toolbar--noshadow toolbar--perfarmer">
+      <div class="toolbar__left toolbar--perfarmer__left">
+        <div class="back-button" style="display: inline-block;">
+          <span class="back-button__icon">
+            <!--?xml version="1.0" encoding="UTF-8"?-->
+            <svg width="13px" height="21px" viewBox="0 0 13 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <title>ios-back-button-icon</title>
+              <desc>Created with Sketch.</desc>
+              <defs></defs>
+              <g id="toolbar-back-button" stroke="none" stroke-width="1" fill-rule="evenodd">
+                <g id="ios" transform="translate(-34.000000, -30.000000)">
+                  <polygon id="ios-back-button-icon" points="34 40.5 44.5 30 46.5 32 38 40.5 46.5 49 44.5 51"></polygon>
+                </g>
+              </g>
+            </svg>
+          </span>
+          <span class="back-button__label"></span>
+        </div>
+      </div>
+      <div class="toolbar__center toolbar__title toolbar--perfarmer__center">
+        Blé tendre - Améliorant
+      </div>
+      <div class="toolbar__right toolbar--perfarmer__right">
+        <span class="toolbar-button toolbar-button--perfarmer">
+          <i class="fa fa-cog"></i>
+        </span>
+      </div>
+    </div>
+*/

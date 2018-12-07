@@ -168,3 +168,19 @@
 .back-button--material:active {
   opacity: 1;
 }
+
+/*~
+  name: Perfarmer Toolbar Button
+  category: Toolbar Button
+  elements: ons-toolbar-button
+  markup: |
+    <!-- custom class: toolbar-button--perfarmer -->
+    <!-- Prerequisite=This example use font-awesome(http://fortawesome.github.io/Font-Awesome/) to display icons. -->
+    <button class="toolbar-button toolbar-button--perfarmer">
+      <i class="fa fa-bell"></i>
+    </button>
+
+    <button class="toolbar-button toolbar-button--perfarmer">
+      Label
+    </button>
+*/
