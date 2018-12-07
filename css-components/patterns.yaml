@@ -401,11 +401,6 @@ markup: |
       <div class="toolbar__center toolbar__title toolbar--perfarmer__center">
         Blé tendre - Améliorant
       </div>
-      <div class="toolbar__right toolbar--perfarmer__right">
-        <span class="toolbar-button toolbar-button--perfarmer">
-          <i class="fa fa-cog"></i>
-        </span>
-      </div>
     </div>
 
     <div class="tabbar tabbar--top tabbar--perfdetail">
