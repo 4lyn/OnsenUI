@@ -374,3 +374,111 @@ markup: |
       </div>
     </div>
   </div>
+---
+name: Perfarmer Onglet ventes
+markup: |
+  <div class="page">
+
+    <div class="toolbar toolbar--noshadow toolbar--perfarmer">
+      <div class="toolbar__left toolbar--perfarmer__left">
+        <div class="back-button" style="display: inline-block;">
+          <span class="back-button__icon">
+            <!--?xml version="1.0" encoding="UTF-8"?-->
+            <svg width="13px" height="21px" viewBox="0 0 13 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <title>ios-back-button-icon</title>
+              <desc>Created with Sketch.</desc>
+              <defs></defs>
+              <g id="toolbar-back-button" stroke="none" stroke-width="1" fill-rule="evenodd">
+                <g id="ios" transform="translate(-34.000000, -30.000000)">
+                  <polygon id="ios-back-button-icon" points="34 40.5 44.5 30 46.5 32 38 40.5 46.5 49 44.5 51"></polygon>
+                </g>
+              </g>
+            </svg>
+          </span>
+          <span class="back-button__label"></span>
+        </div>
+      </div>
+      <div class="toolbar__center toolbar__title toolbar--perfarmer__center">
+        Blé tendre - Améliorant
+      </div>
+      <div class="toolbar__right toolbar--perfarmer__right">
+        <span class="toolbar-button toolbar-button--perfarmer">
+          <i class="fa fa-cog"></i>
+        </span>
+      </div>
+    </div>
+
+    <div class="tabbar tabbar--top tabbar--perfdetail">
+      <label class="tabbar__item tabbar--top__item tabbar--perfdetail__item">
+        <input type="radio" name="tabbar-perfarmer-a" checked="checked">
+        <button class="tabbar__button tabbar--top-border__button tabbar--top__button tabbar--perfdetail__button">
+          <div class="tabbar__label tabbar--top__label tabbar--perfdetail__label">Cours</div>
+        </button>
+      </label>
+
+      <label class="tabbar__item tabbar--top__item tabbar--perfdetail__item">
+        <input type="radio" name="tabbar-perfarmer-a">
+        <button class="tabbar__button tabbar--top-border__button tabbar--top__button tabbar--perfdetail__button">
+          <div class="tabbar__label tabbar--top__label tabbar--perfdetail__label">Stratégie</div>
+        </button>
+      </label>
+
+      <label class="tabbar__item tabbar--top__item tabbar--perfdetail__item">
+        <input type="radio" name="tabbar-perfarmer-a">
+        <button class="tabbar__button tabbar--top-border__button tabbar--top__button tabbar--perfdetail__button">
+          <div class="tabbar__label tabbar--top__label tabbar--perfdetail__label">Ventes</div>
+        </button>
+      </label>
+    </div>
+
+    <p>
+      200 t<br/>
+      sur 375 t à vendre
+    </p>
+
+    <p>
+      <a href="#donotclick">Modifier mes tonnes à vendre</a>
+    </p>
+
+    <div class="list-title list-title--perfarmer">
+      Ventes enregistrées
+      <span class="list-title--perfarmer__right">Prix moyen : 215 €/t</span>
+    </div>
+    <ul class="list list--noborder list--perfarmer">
+      <li class="list-item list-item--chevron list-item--perfarmer">
+        <div class="list-item__left list-item--perfarmer__left">
+          <img class="list-item__thumbnail list-item--perfarmer__thumbnail" src="https://placekitten.com/g/40/40" alt="Cute kitten">
+        </div>
+
+        <div class="list-item__center list-item--perfarmer__center">
+          <div class="list-item__title list-item--perfarmer__title">100t | Auxbonsgrains</div>
+          <div class="list-item__subtitle list-item--perfarmer__subtitle">10 mai 2018</div>
+        </div>
+
+        <div class="list-item__right list-item--chevron__right list-item--perfarmer__right">
+          <div class="list-item__label list-item--perfarmer__label">212 €/t</div>
+        </div>
+      </li>
+      <li class="list-item list-item--chevron list-item--perfarmer">
+        <div class="list-item__left list-item--perfarmer__left">
+          <img class="list-item__thumbnail list-item--perfarmer__thumbnail" src="https://placekitten.com/g/42/41" alt="Cute kitten">
+        </div>
+
+        <div class="list-item__center list-item--perfarmer__center">
+          <div class="list-item__title list-item--perfarmer__title">100t | Gersodoc</div>
+          <div class="list-item__subtitle list-item--perfarmer__subtitle">15 juillet 2018</div>
+        </div>
+
+        <div class="list-item__right list-item--chevron__right list-item--perfarmer__right">
+          <div class="list-item__label list-item--perfarmer__label">218 €/t</div>
+        </div>
+      </li>
+
+      <li class="list-item list-item--button">
+        <div class="list-item__center list-item--button__center">
+          Enregistrer une vente
+        </div>
+      </li>
+    </ul>
+
+  </div>

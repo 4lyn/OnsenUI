@@ -22,3 +22,8 @@
   font-weight: 700;
   src: url('./font/Rubik-Bold.ttf') format('truetype');
 }
+
+a {
+  font-weight: 500;
+  color: var(--highlight-color);
+}
