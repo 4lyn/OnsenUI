@@ -521,3 +521,62 @@
   font-size: 10px;
 }
 
+/*~
+  name: Perfarmer Home Tabbar
+  category: Tabbar
+  elements: ons-tabbar ons-tab
+  markup: |
+    <!-- custom class: tabbar--perfhome tabbar--perfhome__item tabbar--perfhome__button tabbar--perfhome__icon tabbar--perfhome__label -->
+    <!-- Prerequisite=This example use font-awesome(http://fortawesome.github.io/Font-Awesome/) to display icons. -->
+    <div class="tabbar tabbar--perfhome">
+      <label class="tabbar__item tabbar--perfhome__item">
+        <input type="radio" name="tabbar-perfarmer-b" checked="checked">
+        <button class="tabbar__button tabbar--perfhome__button">
+          <div class="tabbar__icon tabbar--perfhome__icon">
+            <i class="fa fa-chart-line"></i>
+          </div>
+          <div class="tabbar__label tabbar--perfhome__label">Commercialisation</div>
+        </button>
+      </label>
+
+      <label class="tabbar__item tabbar--perfhome__item">
+        <input type="radio" name="tabbar-perfarmer-b">
+        <button class="tabbar__button tabbar--perfhome__button">
+          <div class="tabbar__icon tabbar--perfhome__icon">
+            <i class="fa fa-leaf"></i>
+          </div>
+          <div class="tabbar__label tabbar--perfhome__label">Mes cultures</div>
+        </button>
+      </label>
+    </div>
+*/
+
+/*~
+  name: Perfarmer Detail Bordered Top Tabbar
+  category: Tabbar
+  elements: ons-tabbar ons-tab
+  markup: |
+    <!-- custom class: tabbar--perfdetail tabbar--perfdetail__item tabbar--perfdetail__button tabbar--perfdetail__label -->
+    <div class="tabbar tabbar--top tabbar--perfdetail">
+      <label class="tabbar__item tabbar--top__item tabbar--perfdetail__item">
+        <input type="radio" name="tabbar-perfarmer-a" checked="checked">
+        <button class="tabbar__button tabbar--top-border__button tabbar--top__button tabbar--perfdetail__button">
+          <div class="tabbar__label tabbar--top__label tabbar--perfdetail__label">Cours</div>
+        </button>
+      </label>
+
+      <label class="tabbar__item tabbar--top__item tabbar--perfdetail__item">
+        <input type="radio" name="tabbar-perfarmer-a">
+        <button class="tabbar__button tabbar--top-border__button tabbar--top__button tabbar--perfdetail__button">
+          <div class="tabbar__label tabbar--top__label tabbar--perfdetail__label">Stratégie</div>
+        </button>
+      </label>
+
+      <label class="tabbar__item tabbar--top__item tabbar--perfdetail__item">
+        <input type="radio" name="tabbar-perfarmer-a">
+        <button class="tabbar__button tabbar--top-border__button tabbar--top__button tabbar--perfdetail__button">
+          <div class="tabbar__label tabbar--top__label tabbar--perfdetail__label">Ventes</div>
+        </button>
+      </label>
+    </div>
+*/
