@@ -12,6 +12,7 @@ body {
   user-select: auto !important;
 }
 
+/*
 a,
 a:link,
 a:visited {
@@ -22,6 +23,7 @@ a:visited {
 a:hover {
   text-decoration: none;
 }
+*/
 
 .pv-content {
   padding-left: 140px;
@@ -47,7 +49,7 @@ a:hover {
 
 .pv-component-preview {
   display: block;
-  width: 350px;
+  width: 375px;
   box-sizing: border-box;
   margin: 0px 10px 6px 10px;
 }
@@ -94,8 +96,8 @@ a:hover {
 .pv-pattern__example {
   display: block;
   position: relative;
-  width: 320px;
-  height: 568px;
+  width: 375px;
+  height: 667px;
   border-radius: 2px;
   border: 1px solid rgba(0, 0, 0, 0.08);
   box-sizing: border-box;
