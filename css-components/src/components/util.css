@@ -1,7 +1,7 @@
 
 :root {
   --reset-font: {
-    font-family: -apple-system, 'Rubik', 'Helvetica', 'Arial', sans-serif;
+    font-family: 'Rubik', -apple-system, 'Helvetica', 'Arial', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-weight: var(--font-weight);
