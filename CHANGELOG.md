@@ -2,6 +2,13 @@
 CHANGELOG
 ====
 
+2.10.6
+---
+
+ ### Misc
+
+ * Avoid event-stream@3.3.6 vulnerability (https://github.com/dominictarr/event-stream/issues/116).
+
 2.10.5
 ---
 
