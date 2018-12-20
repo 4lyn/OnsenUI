@@ -75,7 +75,7 @@ a:hover {
   align-items: center;
   text-align: center;
   border-radius: 3px;
-  width: 350px;
+  width: 375px;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08) inset;
 }
 
@@ -87,7 +87,7 @@ a:hover {
 }
 
 .pv-pattern {
-  width: 320px;
+  width: 375px;
   box-sizing: border-box;
   display: inline-block;
   margin: 0px 10px 6px 10px;
