@@ -1096,12 +1096,12 @@
   name: Perfarmer Detail List
   category: List
   markup: |
-    <!-- custom class: *--perfdetail *--perfdetail__* list-item--perfbutton list-item--perfbutton__center -->
-    <div class="list-title list-title--perfdetail">
+    <!-- custom class: *--perflist *--perflist__* *--perfdetail *--perfdetail__* -->
+    <div class="list-title list-title--perflist">
       Ventes enregistrées
-      <span class="list-title--perfdetail__right">Prix moyen : 215 €/t</span>
+      <span class="list-title--perflist__right">Prix moyen : 215 €/t</span>
     </div>
-    <ul class="list list--noborder list--perfdetail">
+    <ul class="list list--noborder list--perflist">
       <li class="list-item list-item--chevron list-item--perfdetail">
         <div class="list-item__left list-item--perfdetail__left">
           <img class="list-item__thumbnail list-item--perfdetail__thumbnail" src="https://www.beta.perfarmer.com/landing/assets/cultures/ble_tendre_icon.png">
@@ -1116,11 +1116,40 @@
           <div class="list-item__label list-item--perfdetail__label">212 €/t</div>
         </div>
       </li>
+    </ul>
+ */
 
+/*~
+  name: Perfarmer Button List
+  category: List
+  markup: |
+    <!-- custom class: list--perflist list-item--perfbutton list-item--perfbutton__center -->
+    <ul class="list list--noborder list--perflist">
       <li class="list-item list-item--perfbutton">
         <div class="list-item__center list-item--perfbutton__center">
-          Enregistrer une vente
+          <button class="button button--quiet button--perflist">Enregistrer une vente</button>
         </div>
+      </li>
+    </ul>
+ */
+
+/*~
+  name: Perfarmer Culture List
+  category: List
+  markup: |
+    <!-- custom class: list--perflist *--perfcult *--perfcult__* -->
+    <ul class="list list--noborder list--perflist">
+      <li class="list-item list-item--chevron list-item--perfcult">
+      
+        <div class="list-item__left list-item--perfcult__left">
+          <img class="list-item__thumbnail list-item--perfcult__thumbnail" src="https://www.beta.perfarmer.com/landing/assets/cultures/ble_tendre_icon.png">
+        </div>
+
+        <div class="list-item__center list-item--perfcult__center">
+          <div class="list-item__title list-item--perfcult__title">Blé tendre</div>
+          <div class="list-item__subtitle list-item--perfcult__subtitle">50 ha - 7 t/ha</div>
+        </div>
+
       </li>
     </ul>
  */

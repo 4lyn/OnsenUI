@@ -227,3 +227,16 @@
 .action-sheet-mask--material {
   background-color: var(--material-action-sheet-mask-color);
 }
+
+/*~
+  name: Perfarmer Action Sheet
+  category: Action Sheet
+  markup: |
+    <!-- custom class: *--perfsheet -->
+    <div class="action-sheet-mask action-sheet-mask--perfsheet"></div>
+    <div class="action-sheet action-sheet--perfsheet">
+      <div class="action-sheet-title action-sheet-title--perfsheet">Title</div>
+      <button class="action-sheet-button action-sheet-button--perfsheet">Label</button>
+      <button class="action-sheet-button action-sheet-button--perfsheet">Cancel</button>
+    </div>
+*/

@@ -413,61 +413,67 @@ markup: |
       </label>
     </div>
 
-    <p>
-      200 t<br/>
-      sur 375 t à vendre
-    </p>
+    <div>
 
-    <p>
-      <a href="#donotclick">Modifier mes tonnes à vendre</a>
-    </p>
+      <p>
+        200 t<br/>
+        sur 375 t à vendre
+      </p>
 
-    <div class="list-title list-title--perfdetail">
-      Ventes enregistrées
-      <span class="list-title--perfdetail__right">Prix moyen : 215 €/t</span>
+      <p>
+        <a href="#donotclick">Modifier mes tonnes à vendre</a>
+      </p>
+
+      <div class="list-title list-title--perflist">
+        Ventes enregistrées
+        <span class="list-title--perflist__right">Prix moyen : 215 €/t</span>
+      </div>
+      <ul class="list list--noborder list--perflist">
+        <li class="list-item list-item--chevron list-item--perfdetail">
+          <div class="list-item__left list-item--perfdetail__left">
+            <img class="list-item__thumbnail list-item--perfdetail__thumbnail" src="https://www.beta.perfarmer.com/landing/assets/cultures/ble_tendre_icon.png">
+          </div>
+
+          <div class="list-item__center list-item--perfdetail__center">
+            <div class="list-item__title list-item--perfdetail__title">100t | Auxbonsgrains</div>
+            <div class="list-item__subtitle list-item--perfdetail__subtitle">10 mai 2018</div>
+          </div>
+
+          <div class="list-item__right list-item--chevron__right list-item--perfdetail__right">
+            <div class="list-item__label list-item--perfdetail__label">212 €/t</div>
+          </div>
+        </li>
+        <li class="list-item list-item--chevron list-item--perfdetail">
+          <div class="list-item__left list-item--perfdetail__left">
+            <img class="list-item__thumbnail list-item--perfdetail__thumbnail" src="https://www.beta.perfarmer.com/landing/assets/cultures/tournesol_icon.png">
+          </div>
+
+          <div class="list-item__center list-item--perfdetail__center">
+            <div class="list-item__title list-item--perfdetail__title">100t | Gersodoc</div>
+            <div class="list-item__subtitle list-item--perfdetail__subtitle">15 juillet 2018</div>
+          </div>
+
+          <div class="list-item__right list-item--chevron__right list-item--perfdetail__right">
+            <div class="list-item__label list-item--perfdetail__label">218 €/t</div>
+          </div>
+        </li>
+
+        <li class="list-item list-item--perfbutton">
+          <div class="list-item__center list-item--perfbutton__center">
+            <button class="button button--quiet button--perflist">Enregistrer une vente</button>
+          </div>
+        </li>
+      </ul>
+
     </div>
-    <ul class="list list--noborder list--perfdetail">
-      <li class="list-item list-item--chevron list-item--perfdetail">
-        <div class="list-item__left list-item--perfdetail__left">
-          <img class="list-item__thumbnail list-item--perfdetail__thumbnail" src="https://www.beta.perfarmer.com/landing/assets/cultures/ble_tendre_icon.png">
-        </div>
-
-        <div class="list-item__center list-item--perfdetail__center">
-          <div class="list-item__title list-item--perfdetail__title">100t | Auxbonsgrains</div>
-          <div class="list-item__subtitle list-item--perfdetail__subtitle">10 mai 2018</div>
-        </div>
-
-        <div class="list-item__right list-item--chevron__right list-item--perfdetail__right">
-          <div class="list-item__label list-item--perfdetail__label">212 €/t</div>
-        </div>
-      </li>
-      <li class="list-item list-item--chevron list-item--perfdetail">
-        <div class="list-item__left list-item--perfdetail__left">
-          <img class="list-item__thumbnail list-item--perfdetail__thumbnail" src="https://www.beta.perfarmer.com/landing/assets/cultures/tournesol_icon.png">
-        </div>
-
-        <div class="list-item__center list-item--perfdetail__center">
-          <div class="list-item__title list-item--perfdetail__title">100t | Gersodoc</div>
-          <div class="list-item__subtitle list-item--perfdetail__subtitle">15 juillet 2018</div>
-        </div>
-
-        <div class="list-item__right list-item--chevron__right list-item--perfdetail__right">
-          <div class="list-item__label list-item--perfdetail__label">218 €/t</div>
-        </div>
-      </li>
-
-      <li class="list-item list-item--perfbutton">
-        <div class="list-item__center list-item--perfbutton__center">
-          Enregistrer une vente
-        </div>
-      </li>
-    </ul>
 
   </div>
 ---
 name: Perfarmer Accueil
 markup: |
   <div class="page">
+
+    <div>
 
       <section style="padding: 20px; margin-top: 100px">
         <h1>Vendez vos céréales au bon prix</h1>
@@ -485,10 +491,130 @@ markup: |
           </small>
         </p>
       </section>
+    
+    </div>
 
   </div>
 ---
 name: Perfarmer Onboarding
+markup: |
+  <div class="page">
+
+    <div class="toolbar toolbar--noshadow toolbar--perfhome">
+      <div class="toolbar__left">
+      </div>
+      <div class="toolbar__center toolbar__title toolbar--perfhome__center">
+        <button class="toolbar-button toolbar-button--perfrecolte">
+          Récolte 2018
+          <i class="fa fa-chevron down"></i>
+        </button>
+      </div>
+      <div class="toolbar__right toolbar--perfhome__right">
+        <span class="toolbar-button toolbar-button--perfhome">
+          <img src="https://www.beta.perfarmer.com/landing/assets/icon_cog.png">
+        </span>
+      </div>
+    </div>
+
+    <div></div>
+
+    <div class="tabbar tabbar--perfhome">
+      <label class="tabbar__item tabbar--perfhome__item">
+        <input type="radio" name="tabbar-perfarmer-b" checked="checked">
+        <button class="tabbar__button tabbar--perfhome__button">
+          <div class="tabbar__icon tabbar--perfhome__icon">
+            <i class="fa fa-chart-line"></i>
+          </div>
+          <div class="tabbar__label tabbar--perfhome__label">Commercialisation</div>
+        </button>
+      </label>
+
+      <label class="tabbar__item tabbar--perfhome__item">
+        <input type="radio" name="tabbar-perfarmer-b">
+        <button class="tabbar__button tabbar--perfhome__button">
+          <div class="tabbar__icon tabbar--perfhome__icon">
+            <i class="fa fa-leaf"></i>
+          </div>
+          <div class="tabbar__label tabbar--perfhome__label">Mes cultures</div>
+        </button>
+      </label>
+    </div>
+
+  </div>
+
+  <div class="alert-dialog-mask alert-dialog-mask--perfalert"></div>
+  <div class="alert-dialog alert-dialog--perfalert">
+    <div class="alert-dialog-container alert-dialog-container--perfalert">
+
+      <div class="alert-dialog-title alert-dialog-title--perfalert">
+        <img src="https://www.beta.perfarmer.com/landing/assets/badge_0feuille.png"><br/>
+        Bienvenue Michel !
+      </div>
+
+      <div class="alert-dialog-content alert-dialog-content--perfalert">
+        Prêt pour un petit tour de l'application ?
+        <button class="button button--perfalert">C'est parti !</button>
+      </div>
+
+    </div>
+  </div>
+---
+name: Perfarmer Switch Recolte
+markup: |
+  <div class="page">
+
+    <div class="toolbar toolbar--noshadow toolbar--perfhome">
+      <div class="toolbar__left">
+      </div>
+      <div class="toolbar__center toolbar__title toolbar--perfhome__center">
+        <button class="toolbar-button toolbar-button--perfrecolte">
+          Récolte 2018
+          <i class="fa fa-chevron down"></i>
+        </button>
+      </div>
+      <div class="toolbar__right toolbar--perfhome__right">
+        <span class="toolbar-button toolbar-button--perfhome">
+          <img src="https://www.beta.perfarmer.com/landing/assets/icon_cog.png">
+        </span>
+      </div>
+    </div>
+
+    <div></div>
+
+    <div class="tabbar tabbar--perfhome">
+      <label class="tabbar__item tabbar--perfhome__item">
+        <input type="radio" name="tabbar-perfarmer-b" checked="checked">
+        <button class="tabbar__button tabbar--perfhome__button">
+          <div class="tabbar__icon tabbar--perfhome__icon">
+            <i class="fa fa-chart-line"></i>
+          </div>
+          <div class="tabbar__label tabbar--perfhome__label">Commercialisation</div>
+        </button>
+      </label>
+
+      <label class="tabbar__item tabbar--perfhome__item">
+        <input type="radio" name="tabbar-perfarmer-b">
+        <button class="tabbar__button tabbar--perfhome__button">
+          <div class="tabbar__icon tabbar--perfhome__icon">
+            <i class="fa fa-leaf"></i>
+          </div>
+          <div class="tabbar__label tabbar--perfhome__label">Mes cultures</div>
+        </button>
+      </label>
+    </div>
+
+  </div>
+
+  <div class="action-sheet-mask action-sheet-mask--perfsheet"></div>
+  <div class="action-sheet action-sheet--perfsheet">
+    <div class="action-sheet-title action-sheet-title--perfsheet">Récolte</div>
+    <button class="action-sheet-button action-sheet-button--perfsheet">2020</button>
+    <button class="action-sheet-button action-sheet-button--perfsheet">2019</button>
+    <button class="action-sheet-button action-sheet-button--perfsheet">2018</button>
+    <button class="action-sheet-button action-sheet-button--perfsheet">Fermer</button>
+  </div>
+---
+name: Perfarmer Home Empty State
 markup: |
   <div class="page">
     <div class="toolbar toolbar--noshadow toolbar--perfhome">
@@ -506,7 +632,18 @@ markup: |
         </span>
       </div>
     </div>
-    <div></div>
+
+    <div>
+      <img src="https://www.beta.perfarmer.com/landing/assets/badge_0feuille.png"><br/>
+      <p>
+        C'est pas joli joli ces 3 feuilles grises. Commencez en ajoutant votre
+        <b>première culture !</b>
+      </p>
+      <p>
+        <button class="button button--perfcta">Ajouter une culture</button>
+      </p>
+    </div>
+
     <div class="tabbar tabbar--perfhome">
       <label class="tabbar__item tabbar--perfhome__item">
         <input type="radio" name="tabbar-perfarmer-b" checked="checked">
@@ -529,19 +666,80 @@ markup: |
       </label>
     </div>
   </div>
-  <div class="alert-dialog-mask alert-dialog-mask--perfalert"></div>
-  <div class="alert-dialog alert-dialog--perfalert">
-    <div class="alert-dialog-container alert-dialog-container--perfalert">
-
-      <div class="alert-dialog-title alert-dialog-title--perfalert">
-        <img src="https://www.beta.perfarmer.com/landing/assets/badge_0feuille.png"><br/>
-        Bienvenue Michel !
+---
+name: Perfarmer Home Cultures
+markup: |
+  <div class="page">
+    <div class="toolbar toolbar--noshadow toolbar--perfhome">
+      <div class="toolbar__left">
       </div>
-
-      <div class="alert-dialog-content alert-dialog-content--perfalert">
-        Prêt pour un petit tour de l'application ?
-        <button class="button button--perfalert">C'est parti !</button>
+      <div class="toolbar__center toolbar__title toolbar--perfhome__center">
+        <button class="toolbar-button toolbar-button--perfrecolte">
+          Récolte 2018
+          <i class="fa fa-chevron down"></i>
+        </button>
       </div>
+      <div class="toolbar__right toolbar--perfhome__right">
+        <span class="toolbar-button toolbar-button--perfhome">
+          <img src="https://www.beta.perfarmer.com/landing/assets/icon_cog.png">
+        </span>
+      </div>
+    </div>
 
+    <div>
+      <ul class="list list--noborder list--perflist">
+        <li class="list-item list-item--chevron list-item--perfcult">
+        
+          <div class="list-item__left list-item--perfcult__left">
+            <img class="list-item__thumbnail list-item--perfcult__thumbnail" src="https://www.beta.perfarmer.com/landing/assets/cultures/ble_tendre_icon.png">
+          </div>
+
+          <div class="list-item__center list-item--perfcult__center">
+            <div class="list-item__title list-item--perfcult__title">Blé tendre</div>
+            <div class="list-item__subtitle list-item--perfcult__subtitle">50 ha - 7 t/ha</div>
+          </div>
+
+        </li>
+        <li class="list-item list-item--chevron list-item--perfcult">
+        
+          <div class="list-item__left list-item--perfcult__left">
+            <img class="list-item__thumbnail list-item--perfcult__thumbnail" src="https://www.beta.perfarmer.com/landing/assets/cultures/tournesol_icon.png">
+          </div>
+
+          <div class="list-item__center list-item--perfcult__center">
+            <div class="list-item__title list-item--perfcult__title">Tournesol</div>
+            <div class="list-item__subtitle list-item--perfcult__subtitle">40 ha - 2,5 t/ha</div>
+          </div>
+
+        </li>
+
+        <li class="list-item list-item--perfbutton">
+          <div class="list-item__center list-item--perfbutton__center">
+            <button class="button button--quiet button--perflist">Ajouter une culture</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="tabbar tabbar--perfhome">
+      <label class="tabbar__item tabbar--perfhome__item">
+        <input type="radio" name="tabbar-perfarmer-b" checked="checked">
+        <button class="tabbar__button tabbar--perfhome__button">
+          <div class="tabbar__icon tabbar--perfhome__icon">
+            <i class="fa fa-chart-line"></i>
+          </div>
+          <div class="tabbar__label tabbar--perfhome__label">Commercialisation</div>
+        </button>
+      </label>
+
+      <label class="tabbar__item tabbar--perfhome__item">
+        <input type="radio" name="tabbar-perfarmer-b">
+        <button class="tabbar__button tabbar--perfhome__button">
+          <div class="tabbar__icon tabbar--perfhome__icon">
+            <i class="fa fa-leaf"></i>
+          </div>
+          <div class="tabbar__label tabbar--perfhome__label">Mes cultures</div>
+        </button>
+      </label>
     </div>
   </div>
