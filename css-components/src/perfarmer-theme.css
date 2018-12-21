@@ -15,7 +15,7 @@
   --perfarmer-gris-ligne: #979797;
 
   /* variables for iOS components */
-  --background-color: #efeff4;
+  --background-color: var(--perfarmer-gris-bg);
   --text-color: #202222;
   --sub-text-color: #999;
   --highlight-color: var(--perfarmer-vert);
@@ -86,7 +86,7 @@
   --select-input-border-color: var(--border-color);
 
   /* variables for Material Design components */
-  --material-background-color: #efeff4;
+  --material-background-color: var(--perfarmer-gris-bg);
   --material-text-color: var(--text-color);
   --material-notification-background-color: var(--perfarmer-rouge);
   --material-notification-color: white;
