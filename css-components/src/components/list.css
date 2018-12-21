@@ -1096,7 +1096,7 @@
   name: Perfarmer Detail List
   category: List
   markup: |
-    <!-- custom class: *--perfdetail *--perfdetail__* list-item--button list-item--button__center -->
+    <!-- custom class: *--perfdetail *--perfdetail__* list-item--perfbutton list-item--perfbutton__center -->
     <div class="list-title list-title--perfdetail">
       Ventes enregistrées
       <span class="list-title--perfdetail__right">Prix moyen : 215 €/t</span>
@@ -1117,8 +1117,8 @@
         </div>
       </li>
 
-      <li class="list-item list-item--button">
-        <div class="list-item__center list-item--button__center">
+      <li class="list-item list-item--perfbutton">
+        <div class="list-item__center list-item--perfbutton__center">
           Enregistrer une vente
         </div>
       </li>
