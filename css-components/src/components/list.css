@@ -1093,27 +1093,27 @@
 }
 
 /*~
-  name: Perfarmer List
+  name: Perfarmer Detail List
   category: List
   markup: |
-    <!-- custom class: *--perfarmer *--perfarmer__* list-item--button list-item--button__center -->
-    <div class="list-title list-title--perfarmer">
+    <!-- custom class: *--perfdetail *--perfdetail__* list-item--button list-item--button__center -->
+    <div class="list-title list-title--perfdetail">
       Ventes enregistrées
-      <span class="list-title--perfarmer__right">Prix moyen : 215 €/t</span>
+      <span class="list-title--perfdetail__right">Prix moyen : 215 €/t</span>
     </div>
-    <ul class="list list--noborder list--perfarmer">
-      <li class="list-item list-item--chevron list-item--perfarmer">
-        <div class="list-item__left list-item--perfarmer__left">
-          <img class="list-item__thumbnail list-item--perfarmer__thumbnail" src="https://placekitten.com/g/40/40" alt="Cute kitten">
+    <ul class="list list--noborder list--perfdetail">
+      <li class="list-item list-item--chevron list-item--perfdetail">
+        <div class="list-item__left list-item--perfdetail__left">
+          <img class="list-item__thumbnail list-item--perfdetail__thumbnail" src="https://placekitten.com/g/40/40" alt="Cute kitten">
         </div>
 
-        <div class="list-item__center list-item--perfarmer__center">
-          <div class="list-item__title list-item--perfarmer__title">100t | Auxbonsgrains</div>
-          <div class="list-item__subtitle list-item--perfarmer__subtitle">10 mai 2018</div>
+        <div class="list-item__center list-item--perfdetail__center">
+          <div class="list-item__title list-item--perfdetail__title">100t | Auxbonsgrains</div>
+          <div class="list-item__subtitle list-item--perfdetail__subtitle">10 mai 2018</div>
         </div>
 
-        <div class="list-item__right list-item--chevron__right list-item--perfarmer__right">
-          <div class="list-item__label list-item--perfarmer__label">212 €/t</div>
+        <div class="list-item__right list-item--chevron__right list-item--perfdetail__right">
+          <div class="list-item__label list-item--perfdetail__label">212 €/t</div>
         </div>
       </li>
 
