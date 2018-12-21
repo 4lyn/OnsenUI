@@ -464,3 +464,26 @@ markup: |
     </ul>
 
   </div>
+---
+name: Perfarmer Accueil
+markup: |
+  <div class="page">
+
+      <section style="padding: 20px; margin-top: 100px">
+        <h1>Vendez vos céréales au bon prix</h1>
+        <p>Créez votre première alerte en moins de 5min</p>
+      </section>
+
+      <section style="padding: 20px; background-color: white; position: absolute; width: -webkit-fill-available; bottom: 0; text-align: center">
+        <p>
+          <button class="button button--perfcta">S'inscrire</button>
+        </p>
+        <p>
+          <small>Vous avez déjà un compte Perfarmer ?
+            <br>
+            <a href="#">Connectez-vous</a>
+          </small>
+        </p>
+      </section>
+
+  </div>
