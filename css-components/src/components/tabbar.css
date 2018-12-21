@@ -585,10 +585,10 @@
   background-color: white;
 }
 
-:checked + .tabbar__button.tabbar--perfhome__button {
-  color: #0c3c2b;
-}
-
 .tabbar__button.tabbar--perfhome__button {
   color: rgba(0, 0, 0, 0.4);
+}
+
+:checked + .tabbar__button.tabbar--perfhome__button {
+  color: #0c3c2b;
 }
