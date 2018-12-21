@@ -4,19 +4,19 @@
   --background-color: #efeff4;
   --text-color: #202222;
   --sub-text-color: #999;
-  --highlight-color: #104c37;
+  --highlight-color: #0c3c2b;
   --second-highlight-color: #ffc943;
   --border-color: #ccc;
   --button-background-color: var(--highlight-color);
-  --button-cta-background-color: #104c37;
-  --toolbar-background-color: #104c37;
+  --button-cta-background-color: #0c3c2b;
+  --toolbar-background-color: #0c3c2b;
   --toolbar-button-color: #ffffff;
   --toolbar-text-color: #ffffff;
   --toolbar-border-color: #b2b2b2;
   --button-bar-color: var(--highlight-color);
   --button-bar-active-text-color: #fff;
   --button-bar-active-background-color: color(var(--button-bar-color) tint(70%));
-  --button-light-color: #104c37;
+  --button-light-color: #0c3c2b;
   --segment-color: var(--highlight-color);
   --segment-active-text-color: #fff;
   --segment-active-background-color: color(var(--segment-color) tint(70%));
@@ -34,7 +34,7 @@
   --tabbar-text-color: #d8d8d8;
   --tabbar-highlight-text-color: #e8612d;
   --tabbar-border-color: #ccc;
-  --switch-highlight-color: #104c37;
+  --switch-highlight-color: #0c3c2b;
   --switch-border-color: #e5e5e5;
   --switch-background-color: white;
   --range-track-background-color: #bdbdbd;
@@ -50,7 +50,7 @@
   --dialog-text-color: var(--text-color);
   --popover-background-color: white;
   --popover-text-color: #1f1f21;
-  --action-sheet-title-color: #104c37;
+  --action-sheet-title-color: #0c3c2b;
   --action-sheet-button-separator-color: rgba(0, 0, 0, 0.1);
   --action-sheet-button-color: var(--highlight-color);
   --action-sheet-button-destructive-color: #fe3824;
@@ -65,7 +65,7 @@
   --fab-active-background-color: color(var(--fab-background-color) a(70%));
   --card-background-color: white;
   --card-text-color: #030303;
-  --toast-background-color: #104c37;
+  --toast-background-color: #0c3c2b;
   --toast-text-color: white;
   --toast-button-text-color: #ffc943;
   --select-input-color: var(--text-color);
@@ -76,7 +76,7 @@
   --material-text-color: var(--text-color);
   --material-notification-background-color: #e8612d;
   --material-notification-color: white;
-  --material-switch-active-thumb-color: #104c37;
+  --material-switch-active-thumb-color: #0c3c2b;
   --material-switch-active-background-color: rgba(16, 76, 55, 0.33);
   --material-switch-inactive-thumb-color: #f1f1f1;
   --material-switch-inactive-background-color: #b0afaf;
@@ -85,29 +85,29 @@
   --material-range-disabled-thumb-color: #b0b0b0;
   --material-range-disabled-thumb-border-color: #eeeeee;
   --material-range-zero-thumb-color: #f2f2f2;
-  --material-toolbar-background-color: #104c37;
+  --material-toolbar-background-color: #0c3c2b;
   --material-toolbar-text-color: #ffffff;
   --material-toolbar-button-color: #ffffff;
   --material-segment-background-color: #fafafa;
   --material-segment-active-background-color: #c8c8c8;
   --material-segment-text-color: color(black a(38%));
   --material-segment-active-text-color: #353535;
-  --material-button-background-color: #104c37;
+  --material-button-background-color: #0c3c2b;
   --material-button-text-color: #ffffff;
   --material-button-disabled-background-color: color(#4f4f4f a(26%));
   --material-button-disabled-color: color(black a(26%));
   --material-flat-button-active-background-color: color(#999 a(20%));
   --material-list-background-color: #fff;
   --material-list-item-separator-color: #eee;
-  --material-list-header-text-color: #104c37;
-  --material-checkbox-active-color: #104c37;
-  --material-checkbox-inactive-color: #104c37;
+  --material-list-header-text-color: #0c3c2b;
+  --material-checkbox-active-color: #0c3c2b;
+  --material-checkbox-inactive-color: #0c3c2b;
   --material-checkbox-checkmark-color: #ffffff;
   --material-radio-button-active-color: #ffc943;
   --material-radio-button-inactive-color: #717171;
   --material-radio-button-disabled-color: #afafaf;
-  --material-text-input-text-color: #104c37;
-  --material-text-input-active-color: #104c37;
+  --material-text-input-text-color: #0c3c2b;
+  --material-text-input-active-color: #0c3c2b;
   --material-text-input-inactive-color: #afafaf;
   --material-search-background-color: #fafafa;
   --material-dialog-background-color: #ffffff;
@@ -116,7 +116,7 @@
   --material-alert-dialog-title-color: #31313a;
   --material-alert-dialog-content-color: rgba(49, 49, 58, 0.85);
   --material-alert-dialog-button-color: #37474f;
-  --material-progress-bar-primary-color: #104c37;
+  --material-progress-bar-primary-color: #0c3c2b;
   --material-progress-bar-secondary-color: #ffc943;
   --material-progress-bar-background-color: transparent;
   --material-progress-circle-primary-color: var(--material-progress-bar-primary-color);
@@ -131,7 +131,7 @@
   --material-fab-active-background-color: rgba(255, 255, 255, 0.75);
   --material-card-background-color: white;
   --material-card-text-color: rgba(0, 0, 0, 0.54);
-  --material-toast-background-color: #104c37;
+  --material-toast-background-color: #0c3c2b;
   --material-toast-text-color: white;
   --material-toast-button-text-color: #ffc943;
   --material-select-input-color: var(--material-text-color);
@@ -140,8 +140,23 @@
   --material-select-border-color: color(black a(12%));
   --material-popover-background-color: #fafafa;
   --material-popover-text-color: var(--material-text-color);
-  --material-action-sheet-text-color: #104c37;
+  --material-action-sheet-text-color: #0c3c2b;
 
   /* others */
   --tap-highlight-color: transparent;
+
+  /* perfarmer */
+  --perfarmer-vert: #0c3c2b;
+  --perfarmer-jaune: #ffc943;
+  --perfarmer-orange: #ff9e3e;
+  --perfarmer-rouge: #e8612d;
+  --perfarmer-noir: #000000;
+  --perfarmer-blanc: #ffffff;
+  --perfarmer-gris-title: #333333;
+  --perfarmer-gris-bg: #f2f4f8;
+  --perfarmer-gris-font: #808080;
+  --perfarmer-gris-unselected: #999999;
+  --perfarmer-gris-border: #d5d5d5;
+  --perfarmer-gris-placeholder: #bbbec3;
+  --perfarmer-gris-ligne: #979797;
 }
