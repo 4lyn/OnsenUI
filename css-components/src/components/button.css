@@ -440,5 +440,15 @@
   category: Button
   elements: ons-button
   markup: |
+    <!-- custom class: button--perfcta -->
     <button class="button button--perfcta">Button</button>
+*/
+
+/*~
+  name: Perfarmer Alert Button
+  category: Button
+  elements: ons-button
+  markup: |
+    <!-- custom class: button--perfalert -->
+    <button class="button button--perfalert">Button</button>
 */
