@@ -400,7 +400,7 @@
   category: Toolbar
   elements: ons-toolbar
   markup: |
-    <!-- custom class: toolbar--perfdetail toolbar--perfdetail__left toolbar--perfdetail__center toolbar--perfdetail__right -->
+    <!-- custom class: toolbar--perfdetail toolbar--perfdetail__left toolbar--perfdetail__center -->
     <div class="toolbar toolbar--noshadow toolbar--perfdetail">
       <div class="toolbar__left toolbar--perfdetail__left">
         <span class="toolbar-button toolbar-button--perfdetail">
@@ -410,6 +410,8 @@
       <div class="toolbar__center toolbar__title toolbar--perfdetail__center">
         Blé tendre - Améliorant
       </div>
+      <div class="toolbar__right">
+      </div>
     </div>
 */
 
@@ -418,8 +420,10 @@
   category: Toolbar
   elements: ons-toolbar
   markup: |
-    <!-- custom class: toolbar--perfhome toolbar--perfhome__left toolbar--perfhome__center toolbar--perfhome__right -->
+    <!-- custom class: toolbar--perfhome toolbar--perfhome__center toolbar--perfhome__right -->
     <div class="toolbar toolbar--noshadow toolbar--perfhome">
+      <div class="toolbar__left">
+      </div>
       <div class="toolbar__center toolbar__title toolbar--perfhome__center">
         <button class="toolbar-button toolbar-button--perfrecolte">
           Récolte 2018
@@ -433,3 +437,7 @@
       </div>
     </div>
 */
+
+.toolbar--perfhome {
+  background-color: #ffffff;
+}
