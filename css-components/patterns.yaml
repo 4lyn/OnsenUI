@@ -456,8 +456,8 @@ markup: |
         </div>
       </li>
 
-      <li class="list-item list-item--button">
-        <div class="list-item__center list-item--button__center">
+      <li class="list-item list-item--perfbutton">
+        <div class="list-item__center list-item--perfbutton__center">
           Enregistrer une vente
         </div>
       </li>
@@ -486,4 +486,62 @@ markup: |
         </p>
       </section>
 
+  </div>
+---
+name: Perfarmer Onboarding
+markup: |
+  <div class="page">
+    <div class="toolbar toolbar--noshadow toolbar--perfhome">
+      <div class="toolbar__left">
+      </div>
+      <div class="toolbar__center toolbar__title toolbar--perfhome__center">
+        <button class="toolbar-button toolbar-button--perfrecolte">
+          Récolte 2018
+          <i class="fa fa-chevron down"></i>
+        </button>
+      </div>
+      <div class="toolbar__right toolbar--perfhome__right">
+        <span class="toolbar-button toolbar-button--perfhome">
+          <img src="https://www.beta.perfarmer.com/landing/assets/icon_cog.png">
+        </span>
+      </div>
+    </div>
+    <div></div>
+    <div class="tabbar tabbar--perfhome">
+      <label class="tabbar__item tabbar--perfhome__item">
+        <input type="radio" name="tabbar-perfarmer-b" checked="checked">
+        <button class="tabbar__button tabbar--perfhome__button">
+          <div class="tabbar__icon tabbar--perfhome__icon">
+            <i class="fa fa-chart-line"></i>
+          </div>
+          <div class="tabbar__label tabbar--perfhome__label">Commercialisation</div>
+        </button>
+      </label>
+
+      <label class="tabbar__item tabbar--perfhome__item">
+        <input type="radio" name="tabbar-perfarmer-b">
+        <button class="tabbar__button tabbar--perfhome__button">
+          <div class="tabbar__icon tabbar--perfhome__icon">
+            <i class="fa fa-leaf"></i>
+          </div>
+          <div class="tabbar__label tabbar--perfhome__label">Mes cultures</div>
+        </button>
+      </label>
+    </div>
+  </div>
+  <div class="alert-dialog-mask alert-dialog-mask--perfalert"></div>
+  <div class="alert-dialog alert-dialog--perfalert">
+    <div class="alert-dialog-container alert-dialog-container--perfalert">
+
+      <div class="alert-dialog-title alert-dialog-title--perfalert">
+        <img src="https://www.beta.perfarmer.com/landing/assets/badge_0feuille.png"><br/>
+        Bienvenue Michel !
+      </div>
+
+      <div class="alert-dialog-content alert-dialog-content--perfalert">
+        Prêt pour un petit tour de l'application ?
+        <button class="button button--perfalert">C'est parti !</button>
+      </div>
+
+    </div>
   </div>
