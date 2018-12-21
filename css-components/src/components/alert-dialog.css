@@ -326,3 +326,26 @@
 .alert-dialog-mask--material {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+/*~
+  name: Perfarmer Alert Dialog
+  category: Alert Dialog
+  elements: ons-alert-dialog
+  markup: |
+    <!-- custom class: *--perfalert -->
+    <div class="alert-dialog-mask alert-dialog-mask--perfalert"></div>
+    <div class="alert-dialog alert-dialog--perfalert">
+      <div class="alert-dialog-container alert-dialog-container--perfalert">
+
+        <div class="alert-dialog-title alert-dialog-title--perfalert">
+          <img src="https://www.beta.perfarmer.com/landing/assets/badge_0feuille.png"><br/>
+          Alert
+        </div>
+
+        <div class="alert-dialog-content alert-dialog-content--perfalert">
+          Hello World!
+        </div>
+
+      </div>
+    </div>
+*/
