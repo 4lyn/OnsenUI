@@ -522,6 +522,36 @@
 }
 
 /*~
+  name: Perfarmer Detail Bordered Top Tabbar
+  category: Tabbar
+  elements: ons-tabbar ons-tab
+  markup: |
+    <!-- custom class: tabbar--perfdetail tabbar--perfdetail__item tabbar--perfdetail__button tabbar--perfdetail__label -->
+    <div class="tabbar tabbar--top tabbar--perfdetail">
+      <label class="tabbar__item tabbar--top__item tabbar--perfdetail__item">
+        <input type="radio" name="tabbar-perfarmer-a" checked="checked">
+        <button class="tabbar__button tabbar--top-border__button tabbar--top__button tabbar--perfdetail__button">
+          <div class="tabbar__label tabbar--top__label tabbar--perfdetail__label">Cours</div>
+        </button>
+      </label>
+
+      <label class="tabbar__item tabbar--top__item tabbar--perfdetail__item">
+        <input type="radio" name="tabbar-perfarmer-a">
+        <button class="tabbar__button tabbar--top-border__button tabbar--top__button tabbar--perfdetail__button">
+          <div class="tabbar__label tabbar--top__label tabbar--perfdetail__label">Stratégie</div>
+        </button>
+      </label>
+
+      <label class="tabbar__item tabbar--top__item tabbar--perfdetail__item">
+        <input type="radio" name="tabbar-perfarmer-a">
+        <button class="tabbar__button tabbar--top-border__button tabbar--top__button tabbar--perfdetail__button">
+          <div class="tabbar__label tabbar--top__label tabbar--perfdetail__label">Ventes</div>
+        </button>
+      </label>
+    </div>
+*/
+
+/*~
   name: Perfarmer Home Tabbar
   category: Tabbar
   elements: ons-tabbar ons-tab
@@ -551,32 +581,14 @@
     </div>
 */
 
-/*~
-  name: Perfarmer Detail Bordered Top Tabbar
-  category: Tabbar
-  elements: ons-tabbar ons-tab
-  markup: |
-    <!-- custom class: tabbar--perfdetail tabbar--perfdetail__item tabbar--perfdetail__button tabbar--perfdetail__label -->
-    <div class="tabbar tabbar--top tabbar--perfdetail">
-      <label class="tabbar__item tabbar--top__item tabbar--perfdetail__item">
-        <input type="radio" name="tabbar-perfarmer-a" checked="checked">
-        <button class="tabbar__button tabbar--top-border__button tabbar--top__button tabbar--perfdetail__button">
-          <div class="tabbar__label tabbar--top__label tabbar--perfdetail__label">Cours</div>
-        </button>
-      </label>
+.tabbar--perfhome {
+  background-color: white;
+}
 
-      <label class="tabbar__item tabbar--top__item tabbar--perfdetail__item">
-        <input type="radio" name="tabbar-perfarmer-a">
-        <button class="tabbar__button tabbar--top-border__button tabbar--top__button tabbar--perfdetail__button">
-          <div class="tabbar__label tabbar--top__label tabbar--perfdetail__label">Stratégie</div>
-        </button>
-      </label>
+:checked + .tabbar__button.tabbar--perfhome__button {
+  color: #0c3c2b;
+}
 
-      <label class="tabbar__item tabbar--top__item tabbar--perfdetail__item">
-        <input type="radio" name="tabbar-perfarmer-a">
-        <button class="tabbar__button tabbar--top-border__button tabbar--top__button tabbar--perfdetail__button">
-          <div class="tabbar__label tabbar--top__label tabbar--perfdetail__label">Ventes</div>
-        </button>
-      </label>
-    </div>
-*/
+.tabbar__button.tabbar--perfhome__button {
+  color: rgba(0, 0, 0, 0.4);
+}
