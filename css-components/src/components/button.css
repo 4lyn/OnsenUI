@@ -434,3 +434,11 @@
   background-color: transparent;
   color: var(--material-button-disabled-color);
 }
+
+/*~
+  name: Perfarmer Call To Action Button
+  category: Button
+  elements: ons-button
+  markup: |
+    <button class="button button--perfcta">Button</button>
+*/
