@@ -1120,18 +1120,26 @@
  */
 
 /*~
-  name: Perfarmer Button List
+  name: Perfarmer Quiet Button List
   category: List
   markup: |
     <!-- custom class: list--perflist list-item--perfbutton list-item--perfbutton__center -->
     <ul class="list list--noborder list--perflist">
       <li class="list-item list-item--perfbutton">
         <div class="list-item__center list-item--perfbutton__center">
-          <button class="button button--quiet button--perflist">Enregistrer une vente</button>
+          <button class="button button--quiet">Enregistrer une vente</button>
         </div>
       </li>
     </ul>
  */
+
+.list-item--perfbutton {
+  padding-right: 14px;
+}
+
+.list-item--perfbutton__center {
+  padding-right: 0;
+}
 
 /*~
   name: Perfarmer Culture List
@@ -1140,7 +1148,7 @@
     <!-- custom class: list--perflist *--perfcult *--perfcult__* -->
     <ul class="list list--noborder list--perflist">
       <li class="list-item list-item--chevron list-item--perfcult">
-      
+
         <div class="list-item__left list-item--perfcult__left">
           <img class="list-item__thumbnail list-item--perfcult__thumbnail" src="https://www.beta.perfarmer.com/landing/assets/cultures/ble_tendre_icon.png">
         </div>
@@ -1150,6 +1158,108 @@
           <div class="list-item__subtitle list-item--perfcult__subtitle">50 ha - 7 t/ha</div>
         </div>
 
+      </li>
+    </ul>
+ */
+
+/*~
+  name: Perfarmer Culture Background List
+  category: List
+  markup: |
+    <!-- custom class: list--perfhome *--perfcultbg *--perfcultbg__* -->
+    <ul class="list list--noborder list--perfhome">
+      <li class="list-item list-item--chevron list-item--nodivider list-item--perfcultbg">
+
+        <div class="list-item__center list-item--nodivider__center list-item--perfcultbg__center">
+          <div class="list-item__title list-item--perfcultbg__title">Blé tendre</div>
+          <div class="list-item__subtitle list-item--perfcultbg__subtitle">Améliorant</div>
+        </div>
+
+      </li>
+    </ul>
+ */
+
+.list-item--perfcultbg {
+  background-image: url('https://www.beta.perfarmer.com/landing/assets/cultures/ble_tendre_bg.png');
+}
+
+/*~
+  name: Perfarmer Cours List
+  category: List
+  markup: |
+    <!-- custom class: list--perfhome *--perfcours *--perfcours__* -->
+    <ul class="list list--noborder list--perfhome">
+      <li class="list-item list-item--perfcours">
+
+        <div class="list-item__center list-item--perfcours__center">
+          Euronext - Déc 18
+        </div>
+
+        <div class="list-item__center list-item--perfcours__right">
+          -2,77
+          <span class="badge-black">179,56</span>
+        </div>
+
+      </li>
+    </ul>
+ */
+
+/*~
+  name: Perfarmer Large Button List
+  category: List
+  markup: |
+    <!-- custom class: list--perflist list-item--perfbutton list-item--perfbutton__center -->
+    <ul class="list list--noborder list--perflist">
+      <li class="list-item list-item--perfbutton">
+        <div class="list-item__center list-item--perfbutton__center">
+          <button class="button button--large">Créer mon alerte de prix</button>
+        </div>
+      </li>
+    </ul>
+ */
+
+/*~
+  name: Perfarmer Alerte List
+  category: List
+  markup: |
+    <!-- custom class: list--perfhome *--perfalerte *--perfalerte__* -->
+    <ul class="list list--noborder list--perfhome">
+      <li class="list-item list-item--nodivider list-item--perfalerte">
+
+        <div class="list-item__center list-item--nodivider__center list-item--perfalerte__center">
+          Votre alerte
+        </div>
+
+        <div class="list-item__right list-item--nodivider__right list-item--perfalerte__right">
+          <!-- &#x1f44d; -->
+          200 €/t
+        </div>
+
+      </li>
+      <li class="list-item list-item--nodivider list-item--perfalerte">
+
+        <div class="list-item__center list-item--nodivider__center list-item--perfalerte__center">
+          Reste à vendre
+        </div>
+
+        <div class="list-item__right list-item--nodivider__right list-item--perfalerte__right">
+          100 t
+        </div>
+
+      </li>
+    </ul>
+ */
+
+/*~
+  name: Perfarmer Outline Button List
+  category: List
+  markup: |
+    <!-- custom class: list--perflist list-item--perfbutton list-item--perfbutton__center -->
+    <ul class="list list--noborder list--perflist">
+      <li class="list-item list-item--perfbutton">
+        <div class="list-item__center list-item--perfbutton__center">
+          <button class="button button--large button--outline">Voir le détail</button>
+        </div>
       </li>
     </ul>
  */
