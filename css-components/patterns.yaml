@@ -724,7 +724,7 @@ markup: |
 
     <div class="tabbar tabbar--perfhome">
       <label class="tabbar__item tabbar--perfhome__item">
-        <input type="radio" name="tabbar-perfarmer-b" checked="checked">
+        <input type="radio" name="tabbar-perfarmer-b">
         <button class="tabbar__button tabbar--perfhome__button">
           <div class="tabbar__icon tabbar--perfhome__icon">
             <i class="fa fa-chart-line"></i>
@@ -734,7 +734,7 @@ markup: |
       </label>
 
       <label class="tabbar__item tabbar--perfhome__item">
-        <input type="radio" name="tabbar-perfarmer-b">
+        <input type="radio" name="tabbar-perfarmer-b" checked="checked">
         <button class="tabbar__button tabbar--perfhome__button">
           <div class="tabbar__icon tabbar--perfhome__icon">
             <i class="fa fa-leaf"></i>
