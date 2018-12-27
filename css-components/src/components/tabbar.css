@@ -5,8 +5,8 @@
   --material-tabbar-current-color: var(--material-tabbar-highlight-text-color);
   --tabbar-active-border-top: none;
   --tabbar-focus-border-top: none;
-  --tabbar-height: 49px;
-  --tabbar-button-line-height: 49px;
+  --tabbar-height: 46px;
+  --tabbar-button-line-height: 36px;
   --tabbar-button-border: none;
   --tabbar-active-box-shadow: none;
   --tabbar-button-focus-box-shadow: none;
@@ -304,6 +304,22 @@
   right: 0;
   bottom: 0;
   z-index: 0;
+}
+
+.tabbar--perfdetail__item {
+  font-size: 15px;
+  overflow: hidden;
+}
+
+.tabbar--perfdetail__button {
+  height: var(--tabbar-height);
+  padding: 0 5px;
+}
+
+.tabbar--perfdetail__label {
+  font-weight: 500;
+  text-transform: uppercase;
+  vertical-align: top;
 }
 
 /*~
