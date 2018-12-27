@@ -4,6 +4,7 @@
   --toolbar-color: var(--toolbar-text-color);
 
   --toolbar-height: 44px;
+  --font-size: 16px;
   --toolbar-box-shadow: none;
   --toolbar-padding: 0;
   --toolbar-separator: 1px solid var(--toolbar-separator-color);
@@ -96,38 +97,39 @@
 
 .toolbar__left {
   @apply(--toolbar__item);
-  max-width: 50%;
-  width: 27%;
+  width: 40px;
   text-align: left;
   line-height: var(--toolbar-height);
 }
 
 .toolbar__right {
   @apply(--toolbar__item);
-  max-width: 50%;
-  width: 27%;
+  width: 40px;
   text-align: right;
   line-height: var(--toolbar-height);
 }
 
 .toolbar__center {
   @apply(--toolbar__item);
-  width: 46%;
+  flex: 1;
+  width: auto;
   text-align: center;
   line-height: var(--toolbar-height);
   font-size: var(--font-size);
   font-weight: var(--font-weight--large);
   color: var(--toolbar-color);
+  overflow: hidden;
 }
 
 .toolbar__title {
   line-height: var(--toolbar-height);
   font-size: var(--font-size);
   font-weight: var(--font-weight--large);
+  letter-spacing: -0.39px;
   color: var(--toolbar-color);
   margin: 0;
   padding: 0;
-  overflow: visible;
+  text-overflow: ellipsis;
 }
 
 .toolbar__center:first-child:last-child {
