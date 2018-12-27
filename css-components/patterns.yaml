@@ -850,19 +850,13 @@ markup: |
 
     <div>
 
-      <img src="https://www.beta.perfarmer.com/landing/assets/badge_1feuille.png"><br/>
-      <p>
-        Vous n'allez pas attendre janvier pour la deuxième feuille ?<br/>
-        Créez votre <b>deuxième alerte !</b>
-      </p>
-
       <ul class="list list--noborder list--perfhome">
 
         <li class="list-item list-item--chevron list-item--nodivider list-item--perfcultbg">
         
           <div class="list-item__center list-item--nodivider__center list-item--perfcultbg__center">
-            <div class="list-item__title list-item--perfcultbg__title">Soja</div>
-            <div class="list-item__subtitle list-item--perfcultbg__subtitle">Consommation</div>
+            <div class="list-item__title list-item--perfcultbg__title">Blé tendre</div>
+            <div class="list-item__subtitle list-item--perfcultbg__subtitle">Améliorant</div>
           </div>
 
         </li>
@@ -870,12 +864,12 @@ markup: |
         <li class="list-item list-item--perfcours">
         
           <div class="list-item__center list-item--perfcours__center">
-            Chicago
+            Euronext - Déc 18
           </div>
           
           <div class="list-item__right list-item--perfcours__right">
             +0,50
-            <span class="badge-black">212,12</span>
+            <span class="badge-black">180,89</span>
           </div>
 
         </li>
@@ -887,7 +881,7 @@ markup: |
           </div>
           
           <div class="list-item__right list-item--nodivider__right list-item--perfalerte__right">
-            200 €/t
+            210 €/t
           </div>
 
         </li>
@@ -898,7 +892,7 @@ markup: |
           </div>
           
           <div class="list-item__right list-item--nodivider__right list-item--perfalerte__right">
-            100 t
+            356 t
           </div>
 
         </li>
