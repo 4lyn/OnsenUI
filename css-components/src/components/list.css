@@ -5,7 +5,7 @@
   --list-border: 1px solid var(--list-item-separator-color);
   --list-item-min-height: 44px;
   --list-item-margin: 0 0 -1px 0;
-  --list-item-padding-side: 14px;
+  --list-item-padding-side: 15px;
   --list-item-padding: 0 0 0 var(--list-item-padding-side);
   --list-border-top: 1px solid var(--list-item-separator-color);
   --list-border-bottom: 1px solid var(--list-item-separator-color);
@@ -16,10 +16,11 @@
   --list-header-font-weight: var(--font-weight--large);
   --inset-list-border: 1px solid var(--list-item-separator-color);
   --list-title-color: #6d6d72;
-  --list-title-font-size: 13px;
+  --list-title-font-size: 14px;
   --list-title-font-weight: 500;
-  --list-title-line-height: 24px;
-  --list-title-padding: 0 0 0 16px;
+  --list-title-line-height: 17px;
+  --list-title-padding: 0 15px 16px 15px;
+  --list-item-chevron-color: rgba(128,128,128,1);
   --material-list-item-side-padding: 16px;
   --material-list-item-min-height: 48px;
   --material-list-item-padding: 0 0 0 var(--material-list-item-side-padding);
@@ -37,7 +38,7 @@
     background-image: linear-gradient(0deg, var(--list-item-separator-color), var(--list-item-separator-color) 100%);
 
     @media (--retina-query) {
-      background-image: linear-gradient(0deg, var(--list-item-separator-color), var(--list-item-separator-color) 50%, transparent 50%);
+      background-image: linear-gradient(0deg, var(--list-item-separator-color), var(--list-item-separator-color) 0, transparent 100%);
     }
   }
 
@@ -1104,7 +1105,7 @@
     <!-- custom class: list-title--perflist list-title--perflist__right list--perflist list-item--perfdetail list-item--perfdetail__* -->
     <div class="list-title list-title--perflist">
       Ventes enregistrées
-      <span class="list-title--perflist__right">Prix moyen : 215 €/t</span>
+      <span class="list-title--perflist__right">Prix moyen : <strong>215 €/t</strong></span>
     </div>
     <ul class="list list--noborder list--perflist">
       <li class="list-item list-item--chevron list-item--perfdetail">
@@ -1121,8 +1122,90 @@
           <div class="list-item__label list-item--perfdetail__label">212 €/t</div>
         </div>
       </li>
+
+      <li class="list-item list-item--chevron list-item--perfdetail">
+        <div class="list-item__left list-item--perfdetail__left">
+          <img class="list-item__thumbnail list-item--perfdetail__thumbnail" src="https://www.beta.perfarmer.com/landing/assets/cultures/ble_tendre_icon.png">
+        </div>
+
+        <div class="list-item__center list-item--perfdetail__center">
+          <div class="list-item__title list-item--perfdetail__title">100t | Auxbonsgrains</div>
+          <div class="list-item__subtitle list-item--perfdetail__subtitle">10 mai 2018</div>
+        </div>
+
+        <div class="list-item__right list-item--chevron__right list-item--perfdetail__right">
+          <div class="list-item__label list-item--perfdetail__label list-item--perfdetail__label__base">Base: 30 €/t</div>
+        </div>
+      </li>
+
+      <li class="list-item list-item--perfbutton">
+        <div class="list-item__center list-item--perfbutton__center">
+          <button class="button button--quiet button--perflist">Enregistrer une vente</button>
+        </div>
+      </li>
     </ul>
  */
+
+.list-item--perfdetail {
+  padding: 20px 0 20px 15px;
+  @apply(--retina-list-item-border);
+  background-position: 15px bottom;
+}
+ 
+.list-title--perflist {
+  display: flex;
+  justify-content: space-between;
+  text-transform: none;
+}
+
+.list-item--perfdetail__left {
+  align-items: flex-start;
+  padding: 0;
+  background: none;
+}
+
+.list-item--perfdetail__thumbnail {
+  border-radius: 50%;
+}
+
+.list-item--perfdetail__center {
+  padding: 0 15px;
+  background: none;
+}
+ 
+.list-item--perfdetail__title {
+  margin-bottom: 3px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000;
+}
+
+.list-item--perfdetail__subtitle {
+  font-size: 14px;
+  line-height: 17px;
+  color: #808080;
+}
+
+.list-item--perfdetail__right {
+  background: none;
+}
+
+.list-title--perflist__right {
+  color: #000;
+}
+
+.list-item--perfdetail__label {
+  opacity: 1;
+  white-space: nowrap;
+  font-weight: 500;
+  color: #000;
+}
+
+.list-item--perfdetail__label__base {
+  color: #ffffff;
+  background: #ff9e3e;
+  border-radius: 3px;
+}
 
 /*~
   name: Perfarmer Quiet Button List
@@ -1139,11 +1222,25 @@
  */
 
 .list-item--perfbutton {
-  padding-right: 14px;
+  padding: 0 15px;
+  text-align: center;
 }
 
 .list-item--perfbutton__center {
-  padding-right: 0;
+  padding: 10px 14px;
+  min-height: 0;
+  height: auto;
+  text-align: center;
+}
+
+.list-item--perfbutton__center .button {
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 0;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  cursor: pointer;
 }
 
 /*~

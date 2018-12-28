@@ -454,7 +454,7 @@ markup: |
           </div>
 
           <div class="list-item__right list-item--chevron__right list-item--perfdetail__right">
-            <div class="list-item__label list-item--perfdetail__label">218 €/t</div>
+            <div class="list-item__label list-item--perfdetail__label list-item--perfdetail__label__base">Base: 30 €/t</div>
           </div>
         </li>
 
