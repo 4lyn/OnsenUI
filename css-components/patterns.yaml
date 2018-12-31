@@ -929,3 +929,379 @@ markup: |
       </label>
     </div>
   </div>
+---
+name: Perfarmer Onglet Alertes Empty
+markup: |
+  <div class="page">
+
+    <div class="toolbar toolbar--noshadow toolbar--perfdetail">
+      <div class="toolbar__left toolbar--perfdetail__left">
+        <span class="toolbar-button toolbar-button--perfdetail">
+          <i class="fa fa-chevron-left"></i>
+        </span>
+      </div>
+      <div class="toolbar__center toolbar__title toolbar--perfdetail__center">
+        Blé tendre - Améliorant
+      </div>
+    </div>
+
+    <div class="tabbar tabbar--top tabbar--perfdetail">
+      <label class="tabbar__item tabbar--top__item tabbar--perfdetail__item">
+        <input type="radio" name="tabbar-perfarmer-a">
+        <button class="tabbar__button tabbar--top-border__button tabbar--top__button tabbar--perfdetail__button">
+          <div class="tabbar__label tabbar--top__label tabbar--perfdetail__label">Cours</div>
+        </button>
+      </label>
+
+      <label class="tabbar__item tabbar--top__item tabbar--perfdetail__item">
+        <input type="radio" name="tabbar-perfarmer-a" checked="checked">
+        <button class="tabbar__button tabbar--top-border__button tabbar--top__button tabbar--perfdetail__button">
+          <div class="tabbar__label tabbar--top__label tabbar--perfdetail__label">Stratégie</div>
+        </button>
+      </label>
+
+      <label class="tabbar__item tabbar--top__item tabbar--perfdetail__item">
+        <input type="radio" name="tabbar-perfarmer-a">
+        <button class="tabbar__button tabbar--top-border__button tabbar--top__button tabbar--perfdetail__button">
+          <div class="tabbar__label tabbar--top__label tabbar--perfdetail__label">Ventes</div>
+        </button>
+      </label>
+    </div>
+
+    <div>
+
+      <img src="https://www.beta.perfarmer.com/landing/assets/icon_alert_bg.png"><br/>
+      <h3>Créez votre alerte de prix</h3>
+      <p>
+        Le détail apparaitra ici !
+      </p>
+
+      <section style="padding: 20px; position: absolute; width: -webkit-fill-available; bottom: 0;">
+        <button class="button button--large button--perfcta">Créer mon alerte de prix</button>
+      </section>
+    
+    </div>
+
+  </div>
+---
+name: Perfarmer Onglet Alertes
+markup: |
+  <div class="page">
+
+    <div class="toolbar toolbar--noshadow toolbar--perfdetail">
+      <div class="toolbar__left toolbar--perfdetail__left">
+        <span class="toolbar-button toolbar-button--perfdetail">
+          <i class="fa fa-chevron-left"></i>
+        </span>
+      </div>
+      <div class="toolbar__center toolbar__title toolbar--perfdetail__center">
+        Blé tendre - Améliorant
+      </div>
+    </div>
+
+    <div class="tabbar tabbar--top tabbar--perfdetail">
+      <label class="tabbar__item tabbar--top__item tabbar--perfdetail__item">
+        <input type="radio" name="tabbar-perfarmer-a">
+        <button class="tabbar__button tabbar--top-border__button tabbar--top__button tabbar--perfdetail__button">
+          <div class="tabbar__label tabbar--top__label tabbar--perfdetail__label">Cours</div>
+        </button>
+      </label>
+
+      <label class="tabbar__item tabbar--top__item tabbar--perfdetail__item">
+        <input type="radio" name="tabbar-perfarmer-a" checked="checked">
+        <button class="tabbar__button tabbar--top-border__button tabbar--top__button tabbar--perfdetail__button">
+          <div class="tabbar__label tabbar--top__label tabbar--perfdetail__label">Stratégie</div>
+        </button>
+      </label>
+
+      <label class="tabbar__item tabbar--top__item tabbar--perfdetail__item">
+        <input type="radio" name="tabbar-perfarmer-a">
+        <button class="tabbar__button tabbar--top-border__button tabbar--top__button tabbar--perfdetail__button">
+          <div class="tabbar__label tabbar--top__label tabbar--perfdetail__label">Ventes</div>
+        </button>
+      </label>
+    </div>
+
+    <div>
+
+      <ul class="list list--noborder list--perflist">
+
+        <li class="list-item list-item--perfcol">
+          <div class="list-item__center list-item--perfcol__center">
+            <ons-row>
+              <ons-col>
+                <p>Alerte Euronext</p>
+                <h3>180 €/t</h3>
+              </ons-col>
+              <ons-col>
+                <p>Base</p>
+                <h3>+30 €/t</h3>
+              </ons-col>
+              <ons-col>
+                <p>Prix objectif</p>
+                <h3>210 €/t</h3>
+              </ons-col>
+            </ons-row>
+          </div>
+        </li>
+
+        <li class="list-item list-item--perfbutton">
+          <div class="list-item__center list-item--perfbutton__center">
+            <button class="button button--quiet button--perflist">Modifier</button>
+          </div>
+        </li>
+
+      </ul>
+
+    </div>
+
+  </div>
+---
+name: Perfarmer Workflow Alerte Objectif
+markup: |
+  <div class="page">
+
+    <div class="toolbar toolbar--noshadow toolbar--perfdetail">
+      <div class="toolbar__left toolbar--perfdetail__left">
+        <span class="toolbar-button toolbar-button--perfdetail">
+          <i class="fa fa-chevron-left"></i>
+        </span>
+      </div>
+      <div class="toolbar__center toolbar__title toolbar--perfdetail__center">
+        Mon prix objectif
+      </div>
+    </div>
+
+    <div style="background-color: white">
+
+      <p>
+        À quel prix net (ou «prix rendu») souhaitez-vous vendre votre
+        Blé tendre - Améliorant&nbsp;?
+      </p>
+      <button class="button button--perfaide">Je n'ai pas d'objectif en tête</button>
+
+      <ul class="list list--noborder">
+        <li class="list-item list-item--nodivider">
+          <div class="list-item__center list-item--nodivider__center">Label 1</div>
+        </li>
+        <li class="list-item list-item--longdivider list-item--input">
+          <div class="list-item__center list-item--longdivider__center list-item--input__center">
+            <input type="text" class="text-input text-input--underbar" placeholder="Placeholder 1" value="">
+          </div>
+        </li>
+      </ul>
+
+      <section style="padding: 20px; position: absolute; width: -webkit-fill-available; bottom: 0;">
+        <button class="button button--large button--perfcta">Suivant</button>
+      </section>
+
+    </div>
+
+  </div>
+---
+name: Perfarmer Workflow Alerte Cours
+markup: |
+  <div class="page">
+
+    <div class="toolbar toolbar--noshadow toolbar--perfdetail">
+      <div class="toolbar__left toolbar--perfdetail__left">
+        <span class="toolbar-button toolbar-button--perfdetail">
+          <i class="fa fa-chevron-left"></i>
+        </span>
+      </div>
+      <div class="toolbar__center toolbar__title toolbar--perfdetail__center">
+        Mon alerte
+      </div>
+    </div>
+
+    <div>
+
+      <ons-row style="background-color: white; text-align:center; margin-bottom: 10px;">
+        <ons-col>
+          <p>Base</p>
+          <h3>+30 €/t</h3>
+        </ons-col>
+        <ons-col>
+          <p>Prix objectif</p>
+          <h3>210 €/t</h3>
+        </ons-col>
+      </ons-row>
+
+      <section style="background-color: white; text-align:center; margin-bottom: 10px;">
+      
+        <p>Mon alerte Euronext</p>
+        <h2>180 €/t</h2>
+        
+        <div class="range range--perfarmer">
+          <input type="range" class="range__input range--perfarmer__input">
+          <input type="range" class="range__focus-ring range--perfarmer__focus-ring">
+        </div>
+
+        <p>Ce cours Euronext a été atteint en&nbsp;:</p>
+        <ons-row>
+          <ons-col>
+            <img src="https://www.beta.perfarmer.com/landing/assets/recolte-active.png">
+            <br />
+            2013
+          </ons-col>
+          <ons-col>
+            <img src="https://www.beta.perfarmer.com/landing/assets/recolte-inactive.png">
+            <br />
+            2014
+          </ons-col>
+          <ons-col>
+            <img src="https://www.beta.perfarmer.com/landing/assets/recolte-active.png">
+            <br />
+            2015
+          </ons-col>
+          <ons-col>
+            <img src="https://www.beta.perfarmer.com/landing/assets/recolte-active.png">
+            <br />
+            2016
+          </ons-col>
+          <ons-col>
+            <img src="https://www.beta.perfarmer.com/landing/assets/recolte-inactive.png">
+            <br />
+            2017
+          </ons-col>
+        </v-ons-row>
+      </section>
+
+      <section style="padding: 20px;">
+        <button class="button button--large button--perfcta">Suivant</button>
+      </section>
+
+    </div>
+
+  </div>
+---
+name: Perfarmer Workflow Alerte SMS
+markup: |
+  <div class="page">
+
+    <div class="toolbar toolbar--noshadow toolbar--perfdetail">
+      <div class="toolbar__left toolbar--perfdetail__left">
+        <span class="toolbar-button toolbar-button--perfdetail">
+          <i class="fa fa-chevron-left"></i>
+        </span>
+      </div>
+      <div class="toolbar__center toolbar__title toolbar--perfdetail__center">
+        Mes SMS
+      </div>
+    </div>
+
+    <div>
+
+      <section style="background-color: white">
+
+        <img src="https://www.beta.perfarmer.com/landing/assets/icon_alert.png">
+        <p>
+          Quels SMS souhaitez-vous recevoir&nbsp;?
+        </p>
+
+        <ul class="list list--inset list--perfinset">
+          <li class="list-item list-item-perfswitch">
+            <div class="list-item__center list-item-perfswitch__center">
+              Recevoir un SMS quand le cours passe au dessus de mon alerte&nbsp;: 180€/t
+            </div>
+            <div class="list-item__right list-item-perfswitch__right">
+              <label class="switch switch--perfarmer">
+                <input type="checkbox" class="switch__input switch--perfarmer__input">
+                <div class="switch__toggle switch--perfarmer__toggle">
+                  <div class="switch__handle switch--perfarmer__handle"></div>
+                </div>
+              </label>
+            </div>
+          </li>
+        </ul>
+
+        <ul class="list list--inset list--perfinset">
+          <li class="list-item list-item-perfswitch">
+            <div class="list-item__center list-item-perfswitch__center">
+              Recevoir un SMS si le cours repasse en dessous de mon alerte&nbsp;: 180€/t
+            </div>
+            <div class="list-item__right list-item-perfswitch__right">
+              <label class="switch switch--perfarmer">
+                <input type="checkbox" class="switch__input switch--perfarmer__input" checked>
+                <div class="switch__toggle switch--perfarmer__toggle">
+                  <div class="switch__handle switch--perfarmer__handle"></div>
+                </div>
+              </label>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section style="padding: 20px;">
+        <button class="button button--large button--perfcta">Terminer</button>
+      </section>
+
+    </div>
+
+  </div>
+---
+name: Perfarmer Popup Badge
+markup: |
+  <div class="page">
+
+    <div class="toolbar toolbar--noshadow toolbar--perfhome">
+      <div class="toolbar__left">
+      </div>
+      <div class="toolbar__center toolbar__title toolbar--perfhome__center">
+        <button class="toolbar-button toolbar-button--perfrecolte">
+          Récolte 2018
+          <i class="fa fa-chevron down"></i>
+        </button>
+      </div>
+      <div class="toolbar__right toolbar--perfhome__right">
+        <span class="toolbar-button toolbar-button--perfhome">
+          <img src="https://www.beta.perfarmer.com/landing/assets/icon_cog.png">
+        </span>
+      </div>
+    </div>
+
+    <div></div>
+
+    <div class="tabbar tabbar--perfhome">
+      <label class="tabbar__item tabbar--perfhome__item">
+        <input type="radio" name="tabbar-perfarmer-b" checked="checked">
+        <button class="tabbar__button tabbar--perfhome__button">
+          <div class="tabbar__icon tabbar--perfhome__icon">
+            <i class="fa fa-chart-line"></i>
+          </div>
+          <div class="tabbar__label tabbar--perfhome__label">Commercialisation</div>
+        </button>
+      </label>
+
+      <label class="tabbar__item tabbar--perfhome__item">
+        <input type="radio" name="tabbar-perfarmer-b">
+        <button class="tabbar__button tabbar--perfhome__button">
+          <div class="tabbar__icon tabbar--perfhome__icon">
+            <i class="fa fa-leaf"></i>
+          </div>
+          <div class="tabbar__label tabbar--perfhome__label">Mes cultures</div>
+        </button>
+      </label>
+    </div>
+
+  </div>
+
+  <div class="alert-dialog-mask alert-dialog-mask--perfalert"></div>
+  <div class="alert-dialog alert-dialog--perfalert">
+    <div class="alert-dialog-container alert-dialog-container--perfalert">
+
+      <div class="alert-dialog-title alert-dialog-title--perfalert">
+        <img src="https://www.beta.perfarmer.com/landing/assets/badge_1feuille.png"><br/>
+        Bravo !
+      </div>
+
+      <div class="alert-dialog-content alert-dialog-content--perfalert">
+        Vous venez de créer votre première alerte, vous gagnez votre «Première feuille»
+      </div>
+
+      <div class="alert-dialog-footer alert-dialog-footer--perfalert">
+        <button class="alert-dialog-button">Merci Perfarmer</button>
+      </div>
+
+    </div>
+  </div>
