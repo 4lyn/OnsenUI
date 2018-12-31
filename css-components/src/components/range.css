@@ -243,3 +243,15 @@
   background-image: -moz-radial-gradient(circle farthest-corner, var(--material-range-disabled-thumb-color) 0%, var(--material-range-disabled-thumb-color) 4px, var(--material-range-disabled-thumb-border-color) 4.4px, var(--material-range-disabled-thumb-border-color) calc(var(--material-range-thumb-radius) + 0.6px), transparent calc(var(--material-range-thumb-radius) + 0.6px)); /* stylelint-disable-line */
   transition: none;
 }
+
+/*~
+  name: Perfarmer Range
+  category: Range
+  elements: ons-range
+  markup: |
+    <!-- custom class: range--perfarmer range--perfarmer__input range--perfarmer__focus-ring -->
+    <div class="range range--perfarmer">
+      <input type="range" class="range__input range--perfarmer__input">
+      <input type="range" class="range__focus-ring range--perfarmer__focus-ring">
+    </div>
+*/
