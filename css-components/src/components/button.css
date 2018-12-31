@@ -452,3 +452,12 @@
     <!-- custom class: button--perfalert -->
     <button class="button button--perfalert">Button</button>
 */
+
+/*~
+  name: Perfarmer Aide Button
+  category: Button
+  elements: ons-button
+  markup: |
+    <!-- custom class: button--perfaide -->
+    <button class="button button--perfaide">Button</button>
+*/
