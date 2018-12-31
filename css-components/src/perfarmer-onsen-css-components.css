@@ -3,6 +3,7 @@
 @import url('./perfarmer-theme.css');
 @import url('./components/index.css');
 @import url('./iphonex-support/index.css');
+@import url('../../core/css/grid.css');
 
 @font-face {
   font-family: 'Rubik';
