@@ -338,12 +338,16 @@
       <div class="alert-dialog-container alert-dialog-container--perfalert">
 
         <div class="alert-dialog-title alert-dialog-title--perfalert">
-          <img src="https://www.beta.perfarmer.com/landing/assets/badge_0feuille.png"><br/>
+          <img src="https://www.beta.perfarmer.com/landing/assets/icon_alert.png"><br/>
           Alert
         </div>
 
         <div class="alert-dialog-content alert-dialog-content--perfalert">
           Hello World!
+        </div>
+
+        <div class="alert-dialog-footer alert-dialog-footer--perfalert">
+          <button class="alert-dialog-button">OK</button>
         </div>
 
       </div>
