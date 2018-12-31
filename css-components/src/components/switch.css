@@ -222,3 +222,29 @@
   left: -15px;
   right: -15px;
 }
+
+/*~
+  name: Perfarmer Switch
+  category: Switch
+  elements: ons-switch
+  markup: |
+    <!-- custom class: switch--perfarmer switch--perfarmer__* -->
+    <label class="switch switch--perfarmer">
+      <input type="checkbox" class="switch__input switch--perfarmer__input">
+      <div class="switch__toggle switch--perfarmer__toggle">
+        <div class="switch__handle switch--perfarmer__handle"></div>
+      </div>
+    </label>
+    <label class="switch switch--perfarmer">
+      <input type="checkbox" class="switch__input switch--perfarmer__input" checked>
+      <div class="switch__toggle switch--perfarmer__toggle">
+        <div class="switch__handle switch--perfarmer__handle"></div>
+      </div>
+    </label>
+    <label class="switch switch--perfarmer">
+      <input type="checkbox" class="switch__input switch--perfarmer__input" disabled>
+      <div class="switch__toggle switch--perfarmer__toggle">
+        <div class="switch__handle switch--perfarmer__handle"></div>
+      </div>
+    </label>
+*/
