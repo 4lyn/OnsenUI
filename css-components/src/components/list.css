@@ -1,7 +1,7 @@
 :root {
   --list-item-color: var(--text-color);
   --list-item-active-background-color: var(--list-tap-active-background-color);
-  --list-item-separator-color: var(--border-color);
+  --list-item-separator-color: var(--background-color);
   --list-border: 1px solid var(--list-item-separator-color);
   --list-item-min-height: 44px;
   --list-item-margin: 0 0 -1px 0;
@@ -1052,13 +1052,17 @@
       <li class="list-item list-item--nodivider list-item--label">
         <div class="list-item__center list-item--nodivider__center list-item--label__center">Label 1</div>
       </li>
-      <li class="list-item list-item--longdivider list-item--input">
-        <div class="list-item__center list-item--longdivider__center list-item--input__center">
+      <li class="list-item list-item--input">
+        <div class="list-item__center list-item--input__center">
           <input type="text" class="text-input text-input--underbar" placeholder="Placeholder 1" value="">
         </div>
       </li>
     </ul>
  */
+
+.list-item--label__center {
+  font-size: 15px;
+}
 
 .list-item--input__center {
   padding-right: 16px;
@@ -1073,12 +1077,12 @@
   category: List
   markup: |
     <ul class="list list--noborder list--input">
-      <li class="list-item list-item--nodivider">
-        <div class="list-item__center list-item--nodivider__center">Label 1</div>
+      <li class="list-item list-item--nodivider list-item--label">
+        <div class="list-item__center list-item--nodivider__center list-item--label__center">Label 1</div>
       </li>
-      <li class="list-item list-item--longdivider list-item--input">
-        <div class="list-item__center list-item--longdivider__center list-item--input__center">
-          <select class="select-input select-input--underbar select-input--placeholder" value=""">
+      <li class="list-item list-item--input">
+        <div class="list-item__center list-item--input__center">
+          <select class="select-input select-input--underbar select-input--placeholder" value="">
             <option value="" hidden>Choose ...</option>
             <option>Option 1</option>
             <option>Option 2</option>
@@ -1097,7 +1101,7 @@
   name: Perfarmer Detail List
   category: List
   markup: |
-    <!-- custom class: *--perflist *--perflist__* *--perfdetail *--perfdetail__* -->
+    <!-- custom class: list-title--perflist list-title--perflist__right list--perflist list-item--perfdetail list-item--perfdetail__* -->
     <div class="list-title list-title--perflist">
       Ventes enregistrées
       <span class="list-title--perflist__right">Prix moyen : 215 €/t</span>
@@ -1196,7 +1200,7 @@
           Euronext - Déc 18
         </div>
 
-        <div class="list-item__center list-item--perfcours__right">
+        <div class="list-item__right list-item--perfcours__right">
           -2,77
           <span class="badge-black">179,56</span>
         </div>
@@ -1291,8 +1295,8 @@
       </li>
     </ul>
  */
- 
- /*~
+
+/*~
   name: Perfarmer Inset List
   category: List
   elements: ons-list ons-list-item
@@ -1300,17 +1304,33 @@
     <!-- custom class: list--perfinset -->
     <ul class="list list--inset list--perfinset">
       <li class="list-item">
-        <div class="list-item__center">Inset List Item</div>
+        <div class="list-item__center">Inset List Item with Switch</div>
+        <div class="list-item__right">
+          <label class="switch switch--perfarmer">
+            <input type="checkbox" class="switch__input switch--perfarmer__input" checked>
+            <div class="switch__toggle switch--perfarmer__toggle">
+              <div class="switch__handle switch--perfarmer__handle"></div>
+            </div>
+          </label>
+        </div>
       </li>
     </ul>
     <ul class="list list--inset list--perfinset">
       <li class="list-item">
-        <div class="list-item__center">Inset List Item</div>
+        <div class="list-item__center">Inset List Item with Switch</div>
+        <div class="list-item__right">
+          <label class="switch switch--perfarmer">
+            <input type="checkbox" class="switch__input switch--perfarmer__input" checked>
+            <div class="switch__toggle switch--perfarmer__toggle">
+              <div class="switch__handle switch--perfarmer__handle"></div>
+            </div>
+          </label>
+        </div>
       </li>
     </ul>
  */
- 
- /*~
+
+/*~
   name: Perfarmer Switch List
   category: List
   elements: ons-list ons-list-item
@@ -1332,23 +1352,89 @@
       </li>
     </ul>
  */
- 
+
 /*~
   name: Perfarmer Chevron List
   category: List
   elements: ons-list ons-list-item
   markup: |
-    <!-- custom class: list-item-perfchevron list-item-perfchevron__center list-item-perfchevron__right -->
+    <!-- custom class: list-item--perfchevron list-item--perfchevron__center list-item--perfchevron__right -->
     <ul class="list list--noborder list--perflist">
       <li class="list-item list-item--chevron list-item--perfchevron">
         <div class="list-item__center list-item--perfchevron__center">Item A</div>
       </li>
       <li class="list-item list-item--chevron list-item--perfchevron">
-        <div class="list-item__center">Item B</div>
+        <div class="list-item__center list-item--perfchevron">Item B</div>
         <div class="list-item__right list-item--chevron__right list-item--perfchevron__right">
           <div class="list-item__label">Label</div>
         </div>
       </li>
     </ul>
  */
- 
+
+/*~
+  name: Perfarmer Simple List
+  category: List
+  elements: ons-list ons-list-item
+  markup: |
+    <!-- custom class: list-item--perfsimple list-item--perfsimple__center -->
+    <ul class="list list--noborder list--perflist">
+      <li class="list-item list-item--perfsimple">
+        <div class="list-item__center list-item--perfsimple__center">Item A</div>
+      </li>
+      <li class="list-item list-item--chevron list-item--perfsimple">
+        <div class="list-item__center list-item--perfsimple__center">Item B</div>
+      </li>
+    </ul>
+ */
+
+/*~
+  name: Perfarmer Badge List
+  category: List
+  elements: ons-list ons-list-item
+  markup: |
+    <!-- custom class: list--perfbadge -->
+    <ul class="list list--inset list--perfbadge">
+      <li class="list-item list-item--chevron">
+        <div class="list-item__center">
+          <div class="list-item__title">
+            Title
+          </div>
+          <div class="list-item__subtitle">
+            Subtitle
+          </div>
+        </div>
+      </li>
+    </ul>
+ */
+
+/*~
+  name: Perfarmer Segment Button List
+  category: List
+  markup: |
+    <!-- custom class: list--perflist list-item--perfbutton list-item--perfbutton__center -->
+    <ul class="list list--noborder list--perflist">
+      <li class="list-item list-item--perfbutton">
+        <div class="list-item__center list-item--perfbutton__center">
+          <div class="segment segment--perfarmer">
+            <div class="segment__item segment--perfarmer__item">
+              <input type="radio" class="segment__input segment--perfarmer__input" name="segment-c" checked>
+              <div class="segment__button segment--perfarmer__button">One</div>
+            </div>
+            <div class="segment__item segment--perfarmer__item">
+              <input type="radio" class="segment__input segment--perfarmer__input" name="segment-c">
+              <div class="segment__button segment--perfarmer__button">Two</div>
+            </div>
+            <div class="segment__item segment--perfarmer__item">
+              <input type="radio" class="segment__input segment--perfarmer__input" name="segment-c">
+              <div class="segment__button segment--perfarmer__button">Three</div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+ */
+
+.list-item--perfbutton__center .segment--perfarmer {
+  width: 100%;
+}
