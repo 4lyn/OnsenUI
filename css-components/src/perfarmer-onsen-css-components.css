@@ -19,7 +19,13 @@
 }
 @font-face {
   font-family: 'Rubik';
-  font-style: italic;
+  font-style: normal;
+  font-weight: 500;
+  src: url('./font/Rubik-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: bold;
   font-weight: 700;
   src: url('./font/Rubik-Bold.ttf') format('truetype');
 }
