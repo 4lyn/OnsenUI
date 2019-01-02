@@ -1,9 +1,9 @@
 
 :root {
-  --text-input-font-size: 16px;
-  --text-input-height: 31px;
+  --text-input-font-size: var(--font-size);
+  --text-input-height: 29px;
   --text-input-border-color: var(--input-border-color);
-  --material-text-input-font-size: 16px;
+  --material-text-input-font-size: var(--font-size);
   --material-text-input-color: var(--material-text-input-text-color);
 
   --text-input: {
@@ -12,12 +12,12 @@
     letter-spacing: 0;
     box-shadow: none;
     color: var(--input-text-color);
-    padding: 0;
+    padding: 0 0 8px;
     margin: 0;
     width: auto;
     font-size: var(--text-input-font-size);
     height: var(--text-input-height);
-    font-weight: var(--font-weight);
+    font-weight: var(--font-weight--large);
     box-sizing: border-box;
   }
 
@@ -73,6 +73,7 @@
 
 .text-input::placeholder {
   color: var(--input-placeholder-color);
+  font-weight: var(--font-weight);
 }
 
 .text-input:disabled::placeholder {
@@ -193,12 +194,12 @@
   category: Text Input
   elements: ons-input
   markup: |
-    <div><label class="label-invalid">Label</div>
+    <div><label class="label--invalid">Label</div>
     <div><input type="number" class="text-input text-input--underbar" placeholder="Type 'eee'" value=""></div>
 */
 
-.label-invalid {
-  color: var(--input-invalid-text-color);
+.label--invalid {
+  color: var(--input-invalid-border-color);
 }
 
 /*~
@@ -206,7 +207,7 @@
   category: Text Input
   elements: ons-input
   markup: |
-    <div><label class="label-invalid">Label</div>
+    <div><label class="label--invalid">Label</div>
     <div><input type="number" class="text-input text-input--material text-input--underbar" placeholder="Type 'eee'" value=""></div>
 */
 

@@ -4,8 +4,8 @@
   --input-border-color: var(--border-color);
   --input-text-color: var(--text-color);
   --input-placeholder-color: var(--sub-text-color);
-  --input-invalid-border-color: #e8612d;
-  --input-invalid-text-color: #e8612d;
+  --input-invalid-border-color: var(--notification-background-color);
+  --input-invalid-text-color: black;
   --input-border: 1px solid var(--input-border-color);
   --alpha-lighten: 70%;
   --font-size: 17px;

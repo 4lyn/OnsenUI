@@ -16,11 +16,11 @@
 
   /* variables for iOS components */
   --background-color: var(--perfarmer-gris-bg);
-  --text-color: #202222;
-  --sub-text-color: #999;
+  --text-color: black;
+  --sub-text-color: var(--perfarmer-gris-placeholder);
   --highlight-color: var(--perfarmer-vert);
   --second-highlight-color: var(--perfarmer-jaune);
-  --border-color: #ccc;
+  --border-color: var(--perfarmer-gris-ligne);
   --button-background-color: var(--highlight-color);
   --button-cta-background-color: var(--perfarmer-vert);
   --toolbar-background-color: var(--perfarmer-vert);

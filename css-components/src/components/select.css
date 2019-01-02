@@ -1,9 +1,9 @@
 
 :root {
   --select-input-font-size: var(--font-size);
-  --select-input-height: 32px;
+  --select-input-height: 29px;
 
-  --material-select-input-font-size: 15px;
+  --material-select-input-font-size: var(--font-size);
 
   --select-input: {
     @apply(--input);
@@ -12,6 +12,7 @@
     font-size: var(--select-input-font-size);
     height: var(--select-input-height);
     line-height: var(--select-input-height);
+    font-weight: var(--font-weight--large);
     border-color: var(--select-input-border-color);
     color: var(--select-input-color);
     appearance: none;
@@ -215,6 +216,7 @@
 
 .select-input--placeholder, .select-input--placeholder:invalid {
   color: var(--input-placeholder-color);
+  font-weight: var(--font-weight);
 }
 
 .select-input--placeholder option, .select-input--placeholder optgroup {
