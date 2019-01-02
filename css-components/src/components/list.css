@@ -1047,8 +1047,8 @@
   name: Perfarmer Input List
   category: List
   markup: |
-    <!-- custom class: list-item--label list-item--label__center list-item--input list-item--input__center -->
-    <ul class="list">
+    <!-- custom class: list--input list-item--label list-item--label__center list-item--input list-item--input__center -->
+    <ul class="list list--input">
       <li class="list-item list-item--nodivider list-item--label">
         <div class="list-item__center list-item--nodivider__center list-item--label__center">Label 1</div>
       </li>

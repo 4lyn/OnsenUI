@@ -1080,13 +1080,15 @@ markup: |
       </p>
       <button class="button button--perfaide">Je n'ai pas d'objectif en tête</button>
 
-      <ul class="list list--noborder">
+      <ul class="list list--noborder list--input">
         <li class="list-item list-item--nodivider">
-          <div class="list-item__center list-item--nodivider__center">Label 1</div>
+          <div class="list-item__center list-item--nodivider__center">
+            Prix objectif (€/t)
+          </div>
         </li>
         <li class="list-item list-item--longdivider list-item--input">
           <div class="list-item__center list-item--longdivider__center list-item--input__center">
-            <input type="text" class="text-input text-input--underbar" placeholder="Placeholder 1" value="">
+            <input type="text" class="text-input text-input--underbar" placeholder="Entrez un prix" value="">
           </div>
         </li>
       </ul>
@@ -1116,19 +1118,29 @@ markup: |
 
     <div>
 
-      <ons-row style="background-color: white; text-align:center; margin-bottom: 10px;">
-        <ons-col>
-          <p>Base</p>
-          <h3>+30 €/t</h3>
-        </ons-col>
-        <ons-col>
-          <p>Prix objectif</p>
-          <h3>210 €/t</h3>
-        </ons-col>
-      </ons-row>
+      <ul class="list list--noborder list--perflist">
+
+        <li class="list-item list-item--perfcol">
+          <div class="list-item__center list-item--perfcol__center">
+
+            <ons-row>
+              <ons-col>
+                <p>Base</p>
+                <h3>+30 €/t</h3>
+              </ons-col>
+              <ons-col>
+                <p>Prix objectif</p>
+                <h3>210 €/t</h3>
+              </ons-col>
+            </ons-row>
+
+          </div>
+        </li>
+        
+      </ul>
 
       <section style="background-color: white; text-align:center; margin-bottom: 10px;">
-      
+
         <p>Mon alerte Euronext</p>
         <h2>180 €/t</h2>
         
