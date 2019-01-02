@@ -1048,7 +1048,7 @@
   category: List
   markup: |
     <!-- custom class: list--input list-item--label list-item--label__center list-item--input list-item--input__center -->
-    <ul class="list list--input">
+    <ul class="list list--noborder list--input">
       <li class="list-item list-item--nodivider list-item--label">
         <div class="list-item__center list-item--nodivider__center list-item--label__center">Label 1</div>
       </li>
@@ -1072,7 +1072,7 @@
   name: List with select
   category: List
   markup: |
-    <ul class="list">
+    <ul class="list list--noborder list--input">
       <li class="list-item list-item--nodivider">
         <div class="list-item__center list-item--nodivider__center">Label 1</div>
       </li>
@@ -1303,6 +1303,11 @@
         <div class="list-item__center">Inset List Item</div>
       </li>
     </ul>
+    <ul class="list list--inset list--perfinset">
+      <li class="list-item">
+        <div class="list-item__center">Inset List Item</div>
+      </li>
+    </ul>
  */
  
  /*~
@@ -1311,7 +1316,7 @@
   elements: ons-list ons-list-item
   markup: |
     <!-- custom class: list-item-perfswitch list-item-perfswitch__center list-item-perfswitch__right -->
-    <ul class="list">
+    <ul class="list list--noborder list--perflist">
       <li class="list-item list-item-perfswitch">
         <div class="list-item__center list-item-perfswitch__center">
           List Item with Switch
@@ -1323,6 +1328,25 @@
               <div class="switch__handle switch--perfarmer__handle"></div>
             </div>
           </label>
+        </div>
+      </li>
+    </ul>
+ */
+ 
+/*~
+  name: Perfarmer Chevron List
+  category: List
+  elements: ons-list ons-list-item
+  markup: |
+    <!-- custom class: list-item-perfchevron list-item-perfchevron__center list-item-perfchevron__right -->
+    <ul class="list list--noborder list--perflist">
+      <li class="list-item list-item--chevron list-item--perfchevron">
+        <div class="list-item__center list-item--perfchevron__center">Item A</div>
+      </li>
+      <li class="list-item list-item--chevron list-item--perfchevron">
+        <div class="list-item__center">Item B</div>
+        <div class="list-item__right list-item--chevron__right list-item--perfchevron__right">
+          <div class="list-item__label">Label</div>
         </div>
       </li>
     </ul>

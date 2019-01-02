@@ -1136,7 +1136,7 @@ markup: |
 
           </div>
         </li>
-        
+
       </ul>
 
       <section style="background-color: white; text-align:center; margin-bottom: 10px;">
@@ -1316,4 +1316,57 @@ markup: |
       </div>
 
     </div>
+  </div>
+---
+name: Perfarmer Tonnes Edit
+markup: |
+  <div class="page">
+
+    <div class="toolbar toolbar--noshadow toolbar--perfdetail">
+      <div class="toolbar__left toolbar--perfdetail__left">
+        <span class="toolbar-button toolbar-button--perfdetail">
+          <i class="fa fa-chevron-left"></i>
+        </span>
+      </div>
+      <div class="toolbar__center toolbar__title toolbar--perfdetail__center">
+        Tonnes à vendre
+      </div>
+    </div>
+
+    <div>
+
+      <ul class="list list--noborder list--perflist">
+
+        <li class="list-item list-item--chevron list-item--perfchevron">
+          <div class="list-item__center">
+            Rendement prévisionnel
+          </div>
+          <div class="list-item__right list-item--chevron__right list-item--perfchevron__right">
+            <div class="list-item__label">6,9 t/ha</div>
+          </div>
+        </li>
+
+        <li class="list-item list-item--perfcol">
+          <div class="list-item__center list-item--perfcol__center">
+
+            <ons-row>
+              <ons-col>
+                <p>Tonnes à vendre (prévionnelles)</p>
+                <h3>180 t</h3>
+              </ons-col>
+            </ons-row>
+
+          </div>
+        </li>
+
+        <li class="list-item list-item--perfbutton">
+          <div class="list-item__center list-item--perfbutton__center">
+            <button class="button button--quiet button--perflist">Ajouter mon rendement définitif</button>
+          </div>
+        </li>
+
+      </ul>
+
+    </div>
+
   </div>
