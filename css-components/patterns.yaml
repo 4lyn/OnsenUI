@@ -1081,16 +1081,19 @@ markup: |
       <button class="button button--perfaide">Je n'ai pas d'objectif en tête</button>
 
       <ul class="list list--noborder list--input">
-        <li class="list-item list-item--nodivider">
-          <div class="list-item__center list-item--nodivider__center">
+
+        <li class="list-item list-item--nodivider list-item--label">
+          <div class="list-item__center list-item--nodivider__center list-item--label__center">
             Prix objectif (€/t)
           </div>
         </li>
+
         <li class="list-item list-item--longdivider list-item--input">
           <div class="list-item__center list-item--longdivider__center list-item--input__center">
             <input type="text" class="text-input text-input--underbar" placeholder="Entrez un prix" value="">
           </div>
         </li>
+
       </ul>
 
       <section style="padding: 20px; position: absolute; width: -webkit-fill-available; bottom: 0;">
@@ -1366,6 +1369,83 @@ markup: |
         </li>
 
       </ul>
+
+    </div>
+
+  </div>
+---
+name: Perfarmer Params
+markup: |
+  <div class="page">
+
+    <div class="toolbar toolbar--noshadow toolbar--perfparams">
+      <div class="toolbar__left toolbar--perfparams__left">
+        <span class="toolbar-button toolbar-button--perfdetail">
+          <i class="fa fa-chevron-left"></i>
+        </span>
+      </div>
+      <div class="toolbar__center toolbar__title toolbar--perfparams__center">
+        Ferme Kelleg
+      </div>
+      <div class="toolbar__right">
+      </div>
+    </div>
+
+    <div>
+
+      <section style="background-color: #0c3c2b">
+
+        <img src="https://www.beta.perfarmer.com/landing/assets/badge_0feuille.png">
+
+        <ul class="list list--inset list--perfbadge">
+          <li class="list-item list-item--chevron">
+            <div class="list-item__center">
+              <div class="list-item__title">
+                Zéro feuille
+              </div>
+              <div class="list-item__subtitle">
+                Créez votre première alerte
+              </div>
+            </div>
+          </li>
+        </ul>
+
+      </section>
+
+      <ul class="list list--noborder list--perflist">
+
+        <li class="list-item list-item--chevron list-item--perfsimple">
+          <div class="list-item__center list-item--perfsimple__center">Ma ferme</div>
+        </li>
+        
+        <li class="list-item list-item--chevron list-item--perfsimple">
+          <div class="list-item__center list-item--perfsimple__center">Mes informations personnelles</div>
+        </li>
+
+        <li class="list-item list-item--chevron list-item--perfsimple">
+          <div class="list-item__center list-item--perfsimple__center">Donner 5 étoiles à Perfarmer</div>
+        </li>
+
+      </ul>
+
+      <div class="list-title list-title--perflist">
+        Besoin d'aide ?
+      </div>
+      <ul class="list list--noborder list--perflist">
+
+        <li class="list-item list-item--perfsimple">
+          <div class="list-item__center list-item--perfsimple__center">Chatter avec Perfarmer</div>
+        </li>
+
+        <li class="list-item list-item--perfsimple">
+          <div class="list-item__center list-item--perfsimple__center">Appeler Perfarmer</div>
+        </li>
+
+      </ul>
+
+      <p>
+        <a href="#donotclick">Se déconnecter</a>
+      </p>
 
     </div>
 
