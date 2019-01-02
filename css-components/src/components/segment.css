@@ -174,3 +174,23 @@
   border-width: 0;
 }
 
+/*~
+  name: Perfarmer Segment
+  category: Segment
+  markup: |
+    <!-- custom class: segment--perfarmer segment--perfarmer__* -->
+    <div class="segment segment--perfarmer" style="width: 280px; margin: 0 auto;">
+      <div class="segment__item segment--perfarmer__item">
+        <input type="radio" class="segment__input segment--perfarmer__input" name="segment-c" checked>
+        <div class="segment__button segment--perfarmer__button">One</div>
+      </div>
+      <div class="segment__item segment--perfarmer__item">
+        <input type="radio" class="segment__input segment--perfarmer__input" name="segment-c">
+        <div class="segment__button segment--perfarmer__button">Two</div>
+      </div>
+      <div class="segment__item segment--perfarmer__item">
+        <input type="radio" class="segment__input segment--perfarmer__input" name="segment-c">
+        <div class="segment__button segment--perfarmer__button">Three</div>
+      </div>
+    </div>
+*/
