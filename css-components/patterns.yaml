@@ -415,14 +415,16 @@ markup: |
 
     <div>
 
-      <p>
-        200 t<br/>
-        sur 375 t à vendre
-      </p>
+      <div class="perfmain__content">
+        <p>
+          200 t<br/>
+          sur 375 t à vendre
+        </p>
 
-      <p>
-        <a href="#donotclick">Modifier mes tonnes à vendre</a>
-      </p>
+        <p class="center">
+          <a href="#donotclick">Modifier mes tonnes à vendre</a>
+        </p>
+      </main>
 
       <div class="list-title list-title--perflist">
         Ventes enregistrées
@@ -480,7 +482,7 @@ markup: |
         <p>Créez votre première alerte en moins de 5min</p>
       </section>
 
-      <section style="padding: 20px; background-color: white; position: absolute; width: -webkit-fill-available; bottom: 0; text-align: center">
+      <section style="padding: 38px; background-color: white; position: absolute; width: -webkit-fill-available; bottom: 0; text-align: center">
         <p>
           <button class="button button--perfcta">S'inscrire</button>
         </p>

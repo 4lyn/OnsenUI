@@ -25,6 +25,10 @@ a:hover {
 }
 */
 
+.center {
+  text-align: center;
+}
+
 .pv-content {
   padding-left: 140px;
   width: 100%;

@@ -1202,6 +1202,9 @@
 }
 
 .list-item--perfdetail__label__base {
+  padding: 1px 5px;
+  font-size: 15px;
+  line-height: 18px;
   color: #ffffff;
   background: #ff9e3e;
   border-radius: 3px;

@@ -444,6 +444,22 @@
     <button class="button button--perfcta">Button</button>
 */
 
+.button--perfcta { /* stylelint-disable-line */
+  @apply(--button);
+  min-height: 60px;
+  width: 100%;
+  line-height: 18px;
+  padding: 21px 16px;
+  text-align: center;
+  font-size: 16px;
+  transform: translate3d(0, 0, 0);
+  background-color: #1B3B2C;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 5px;
+  transition: background-color 0.25s linear;
+}
+
 /*~
   name: Perfarmer Alert Button
   category: Button
