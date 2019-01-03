@@ -9,8 +9,8 @@
   --perfarmer-gris-title: #333333;
   --perfarmer-gris-bg: #f2f4f8;
   --perfarmer-gris-font: #808080;
-  --perfarmer-gris-unselected: #999999;
-  --perfarmer-gris-border: #d5d5d5;
+  --perfarmer-gris-unselected: #d5d5d5;
+  --perfarmer-gris-border: #999999;
   --perfarmer-gris-placeholder: #bbbec3;
   --perfarmer-gris-ligne: #979797;
 
@@ -49,8 +49,8 @@
   --tabbar-highlight-text-color: white;
   --tabbar-border-color: white;
   --switch-highlight-color: var(--perfarmer-jaune);
-  --switch-border-color: #e5e5e5;
-  --switch-background-color: white;
+  --switch-border-color: #var(--perfarmer-gris-border);
+  --switch-background-color: var(--perfarmer-gris-unselected);
   --range-track-background-color: #d8d8d8;
   --range-track-background-color-active: #d8d8d8;
   --range-thumb-background-color: var(--perfarmer-vert);
@@ -115,11 +115,11 @@
   --material-list-item-separator-color: #eee;
   --material-list-header-text-color: var(--perfarmer-vert);
   --material-checkbox-active-color: var(--second-highlight-color);
-  --material-checkbox-inactive-color: var(--second-highlight-color);
+  --material-checkbox-inactive-color: var(--perfarmer-gris-border);
   --material-checkbox-checkmark-color: white;
   --material-radio-button-active-color: var(--perfarmer-jaune);
-  --material-radio-button-inactive-color: #717171;
-  --material-radio-button-disabled-color: #afafaf;
+  --material-radio-button-inactive-color: var(--perfarmer-gris-border);
+  --material-radio-button-disabled-color: var(--perfarmer-gris-border);
   --material-text-input-text-color: var(--perfarmer-vert);
   --material-text-input-active-color: var(--perfarmer-vert);
   --material-text-input-inactive-color: #afafaf;

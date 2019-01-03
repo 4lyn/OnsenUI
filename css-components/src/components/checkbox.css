@@ -334,6 +334,7 @@
   category: Checkbox
   elements: ons-input
   markup: |
+    <!-- custom class: checkbox--perfarmer checkbox--perfarmer__* -->
     <label class="checkbox checkbox--material checkbox--perfarmer">
       <input type="checkbox" class="checkbox__input checkbox--material__input checkbox--perfarmer__input">
       <div class="checkbox__checkmark checkbox--material__checkmark checkbox--perfarmer__checkmark"></div>

@@ -1485,25 +1485,12 @@ markup: |
         </li>
 
         <li class="list-item list-item--nodivider list-item--label">
-          <div class="list-item__center list-item--nodivider__center list-item--label__center">
-            Quantité (t)
-          </div>
-        </li>
-
-        <li class="list-item list-item--nodivider list-item--input">
-          <div class="list-item__center list-item--nodivider__center list-item--input__center">
-            <input type="number" class="text-input text-input--underbar" placeholder="Entrez une quantité" value="100">
-          </div>
-        </li>
-
-        <li class="list-item list-item--nodivider list-item--label">
           <div class="list-item__center list-item--nodivider__center list-item--label__center">Échéance</div>
         </li>
 
         <li class="list-item list-item--input">
           <div class="list-item__center list-item--input__center">
-            <select class="select-input select-input--underbar select-input--placeholder" value="Mars 2018">
-              <option value="" hidden>Renseignez une échéance</option>
+            <select class="select-input select-input--underbar" value="">
               <option>Septembre 2017</option>
               <option>Décembre 2017</option>
               <option>Mars 2018</option>
@@ -1632,7 +1619,7 @@ markup: |
             List Item with Checkbox
           </div>
         </li>
-        
+
       </ul>
 
       <ul class="list list--noborder list--input">
@@ -1640,7 +1627,7 @@ markup: |
         <li class="list-item list-item--nodivider list-item--perfradio">
           <div class="list-item__left list-item--nodivider__left list-item--perfradio__left">
             <label class="radio-button radio-button--material radio-button--perfarmer">
-              <input type="radio" class="radio-button__input radio-button--material__input radio-button--perfarmer__input" name="r">
+              <input type="radio" class="radio-button__input radio-button--material__input radio-button--perfarmer__input" name="r" checked="checked">
               <div class="radio-button__checkmark radio-button--material__checkmark radio-button--perfarmer__checkmark"></div>
             </label>
           </div>
@@ -1664,7 +1651,7 @@ markup: |
         <li class="list-item list-item--nodivider list-item--perfradio">
           <div class="list-item__left list-item--nodivider__left list-item--perfradio__left">
             <label class="radio-button radio-button--material radio-button--perfarmer">
-              <input type="radio" class="radio-button__input radio-button--material__input radio-button--perfarmer__input" name="r" checked="checked">
+              <input type="radio" class="radio-button__input radio-button--material__input radio-button--perfarmer__input" name="r">
               <div class="radio-button__checkmark radio-button--material__checkmark radio-button--perfarmer__checkmark"></div>
             </label>
           </div>
