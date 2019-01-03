@@ -1090,8 +1090,8 @@ markup: |
           </div>
         </li>
 
-        <li class="list-item list-item--longdivider list-item--input">
-          <div class="list-item__center list-item--longdivider__center list-item--input__center">
+        <li class="list-item list-item--input">
+          <div class="list-item__center list-item--input__center">
             <input type="text" class="text-input text-input--underbar" placeholder="Entrez un prix" value="">
           </div>
         </li>
@@ -1217,11 +1217,11 @@ markup: |
         </p>
 
         <ul class="list list--inset list--perfinset">
-          <li class="list-item list-item-perfswitch">
-            <div class="list-item__center list-item-perfswitch__center">
+          <li class="list-item">
+            <div class="list-item__center">
               Recevoir un SMS quand le cours passe au dessus de mon alerte&nbsp;: 180€/t
             </div>
-            <div class="list-item__right list-item-perfswitch__right">
+            <div class="list-item__right">
               <label class="switch switch--perfarmer">
                 <input type="checkbox" class="switch__input switch--perfarmer__input">
                 <div class="switch__toggle switch--perfarmer__toggle">
@@ -1233,11 +1233,11 @@ markup: |
         </ul>
 
         <ul class="list list--inset list--perfinset">
-          <li class="list-item list-item-perfswitch">
-            <div class="list-item__center list-item-perfswitch__center">
+          <li class="list-item">
+            <div class="list-item__center">
               Recevoir un SMS si le cours repasse en dessous de mon alerte&nbsp;: 180€/t
             </div>
-            <div class="list-item__right list-item-perfswitch__right">
+            <div class="list-item__right">
               <label class="switch switch--perfarmer">
                 <input type="checkbox" class="switch__input switch--perfarmer__input" checked>
                 <div class="switch__toggle switch--perfarmer__toggle">
@@ -1448,6 +1448,260 @@ markup: |
       <p>
         <a href="#donotclick">Se déconnecter</a>
       </p>
+
+    </div>
+
+  </div>
+---
+name: Perfarmer Formulaire 1
+markup: |
+  <div class="page">
+
+    <div class="toolbar toolbar--noshadow toolbar--perfdetail">
+      <div class="toolbar__left toolbar--perfdetail__left">
+        <span class="toolbar-button toolbar-button--perfdetail">
+          <i class="fa fa-chevron-left"></i>
+        </span>
+      </div>
+      <div class="toolbar__center toolbar__title toolbar--perfdetail__center">
+        J'ai réalisé une vente
+      </div>
+    </div>
+
+    <div>
+
+      <ul class="list list--noborder list--input">
+
+        <li class="list-item list-item--nodivider list-item--label">
+          <div class="list-item__center list-item--nodivider__center list-item--label__center">
+            Acheteur (coopérative, négoce, ...)
+          </div>
+        </li>
+
+        <li class="list-item list-item--nodivider list-item--input">
+          <div class="list-item__center list-item--nodivider__center list-item--input__center">
+            <input type="text" class="text-input text-input--underbar" placeholder="Entrez un acheteur" value="">
+          </div>
+        </li>
+
+        <li class="list-item list-item--nodivider list-item--label">
+          <div class="list-item__center list-item--nodivider__center list-item--label__center">
+            Quantité (t)
+          </div>
+        </li>
+
+        <li class="list-item list-item--nodivider list-item--input">
+          <div class="list-item__center list-item--nodivider__center list-item--input__center">
+            <input type="number" class="text-input text-input--underbar" placeholder="Entrez une quantité" value="100">
+          </div>
+        </li>
+
+        <li class="list-item list-item--nodivider list-item--label">
+          <div class="list-item__center list-item--nodivider__center list-item--label__center">Échéance</div>
+        </li>
+
+        <li class="list-item list-item--input">
+          <div class="list-item__center list-item--input__center">
+            <select class="select-input select-input--underbar select-input--placeholder" value="Mars 2018">
+              <option value="" hidden>Renseignez une échéance</option>
+              <option>Septembre 2017</option>
+              <option>Décembre 2017</option>
+              <option>Mars 2018</option>
+            </select>
+          </div>
+        </li>
+
+      </ul>
+
+      <ul class="list list--noborder list--input">
+
+        <li class="list-item list-item--nodivider list-item--perfbutton">
+          <div class="list-item__center list-item--nodivider__center list-item--perfbutton__center">
+            <div class="segment segment--perfarmer">
+              <div class="segment__item segment--perfarmer__item">
+                <input type="radio" class="segment__input segment--perfarmer__input" name="segment-c" checked>
+                <div class="segment__button segment--perfarmer__button">Prix net</div>
+              </div>
+              <div class="segment__item segment--perfarmer__item">
+                <input type="radio" class="segment__input segment--perfarmer__input" name="segment-c">
+                <div class="segment__button segment--perfarmer__button">Acompte</div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="list-item list-item--nodivider list-item--label">
+          <div class="list-item__center list-item--nodivider__center list-item--label__center">
+            Prix net (€/t)
+          </div>
+        </li>
+
+        <li class="list-item list-item--longdivider list-item--input">
+          <div class="list-item__center list-item--longdivider__center list-item--input__center">
+            <input type="text" class="text-input text-input--underbar" placeholder="Entrez un prix" value="">
+          </div>
+        </li>
+
+        <li class="list-item list-item--perfbutton">
+          <div class="list-item__center list-item--perfbutton__center">
+            <button class="button button--quiet">Afficher la composition du prix net</button>
+          </div>
+        </li>
+
+      </ul>
+
+      <section style="padding: 20px;">
+        <button class="button button--large button--perfcta">Enregistrer la vente</button>
+      </section>
+      
+    </div>
+
+  </div>
+---
+name: Perfarmer Formulaire 2
+markup: |
+  <div class="page">
+
+    <div class="toolbar toolbar--noshadow toolbar--perfdetail">
+      <div class="toolbar__left toolbar--perfdetail__left">
+        <span class="toolbar-button toolbar-button--perfdetail">
+          <i class="fa fa-chevron-left"></i>
+        </span>
+      </div>
+      <div class="toolbar__center toolbar__title toolbar--perfdetail__center">
+        J'ai réalisé une vente
+      </div>
+    </div>
+
+    <div>
+
+      <ul class="list list--noborder list--input">
+
+        <li class="list-item list-item--longdivider list-item--perfswitch">
+          <div class="list-item__center list-item--longdivider__center list-item--perfswitch__center">
+            Culture biologique
+          </div>
+          <div class="list-item__right list-item--longdivider__right list-item--perfswitch__right">
+            <label class="switch switch--perfarmer">
+              <input type="checkbox" class="switch__input switch--perfarmer__input">
+              <div class="switch__toggle switch--perfarmer__toggle">
+                <div class="switch__handle switch--perfarmer__handle"></div>
+              </div>
+            </label>
+          </div>
+        </li>
+
+        <li class="list-item list-item--perfswitch">
+          <div class="list-item__center list-item--perfswitch__center">
+            Usage de pesticide mortel
+          </div>
+          <div class="list-item__right list-item--perfswitch__right">
+            <label class="switch switch--perfarmer">
+              <input type="checkbox" class="switch__input switch--perfarmer__input" checked>
+              <div class="switch__toggle switch--perfarmer__toggle">
+                <div class="switch__handle switch--perfarmer__handle"></div>
+              </div>
+            </label>
+          </div>
+        </li>
+
+      </ul>
+
+      <ul class="list list--noborder list--input">
+
+        <li class="list-item list-item--nodivider list-item--perfcheck">
+          <div class="list-item__left list-item--nodivider__left list-item--perfcheck__left">
+            <label class="checkbox checkbox--material checkbox--perfarmer">
+              <input type="checkbox" class="checkbox__input checkbox--material__input checkbox--perfarmer__input">
+              <div class="checkbox__checkmark checkbox--material__checkmark checkbox--perfarmer__checkmark"></div>
+            </label>
+          </div>
+          <div class="list-item__center list-item--nodivider__center list-item--perfcheck__center">
+            List Item with Checkbox
+          </div>
+        </li>
+
+        <li class="list-item list-item--nodivider list-item--perfcheck">
+          <div class="list-item__left list-item--nodivider__left list-item--perfcheck__left">
+            <label class="checkbox checkbox--material checkbox--perfarmer">
+              <input type="checkbox" class="checkbox__input checkbox--material__input checkbox--perfarmer__input" checked="checked">
+              <div class="checkbox__checkmark checkbox--material__checkmark checkbox--perfarmer__checkmark"></div>
+            </label>
+          </div>
+          <div class="list-item__center list-item--nodivider__center list-item--perfcheck__center">
+            List Item with Checkbox
+          </div>
+        </li>
+        
+      </ul>
+
+      <ul class="list list--noborder list--input">
+
+        <li class="list-item list-item--nodivider list-item--perfradio">
+          <div class="list-item__left list-item--nodivider__left list-item--perfradio__left">
+            <label class="radio-button radio-button--material radio-button--perfarmer">
+              <input type="radio" class="radio-button__input radio-button--material__input radio-button--perfarmer__input" name="r">
+              <div class="radio-button__checkmark radio-button--material__checkmark radio-button--perfarmer__checkmark"></div>
+            </label>
+          </div>
+          <div class="list-item__center list-item--nodivider__center list-item--perfradio__center">
+            Rendement prévisionnel
+          </div>
+        </li>
+
+        <li class="list-item list-item--nodivider list-item--label">
+          <div class="list-item__center list-item--nodivider__center list-item--label__center">
+            Quantité (t)
+          </div>
+        </li>
+
+        <li class="list-item list-item--nodivider list-item--input">
+          <div class="list-item__center list-item--nodivider__center list-item--input__center">
+            <input type="number" class="text-input text-input--underbar" placeholder="Entrez une quantité" value="100">
+          </div>
+        </li>
+        
+        <li class="list-item list-item--nodivider list-item--perfradio">
+          <div class="list-item__left list-item--nodivider__left list-item--perfradio__left">
+            <label class="radio-button radio-button--material radio-button--perfarmer">
+              <input type="radio" class="radio-button__input radio-button--material__input radio-button--perfarmer__input" name="r" checked="checked">
+              <div class="radio-button__checkmark radio-button--material__checkmark radio-button--perfarmer__checkmark"></div>
+            </label>
+          </div>
+          <div class="list-item__center list-item--nodivider__center list-item--perfradio__center">
+            Rendement définitif
+          </div>
+        </li>
+
+      </ul>
+      
+    </div>
+
+  </div>
+---
+name: Perfarmer Formulaire Error
+markup: |
+  <div class="page">
+
+    <div class="toolbar toolbar--noshadow toolbar--perfdetail">
+      <div class="toolbar__left toolbar--perfdetail__left">
+        <span class="toolbar-button toolbar-button--perfdetail">
+          <i class="fa fa-chevron-left"></i>
+        </span>
+      </div>
+      <div class="toolbar__center toolbar__title toolbar--perfdetail__center">
+        Inscription 1/2
+      </div>
+    </div>
+
+    <div>
+
+      <section style="margin: 20px; padding: 39px 32px 45px; background-color: #e8612d; color: white;">
+        <b>OUPS !</b><br/>
+        - Le nom est obligatoire<br/>
+        - L'email n'a pas un format valide<br/>
+        Un problème ? <a href="#donotclick"><b>Appelez-nous</b></a>
+      </section>
 
     </div>
 
