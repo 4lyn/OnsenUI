@@ -114,8 +114,8 @@
   --material-list-background-color: white;
   --material-list-item-separator-color: #eee;
   --material-list-header-text-color: var(--perfarmer-vert);
-  --material-checkbox-active-color: var(--perfarmer-vert);
-  --material-checkbox-inactive-color: var(--perfarmer-vert);
+  --material-checkbox-active-color: var(--second-highlight-color);
+  --material-checkbox-inactive-color: var(--second-highlight-color);
   --material-checkbox-checkmark-color: white;
   --material-radio-button-active-color: var(--perfarmer-jaune);
   --material-radio-button-inactive-color: #717171;
