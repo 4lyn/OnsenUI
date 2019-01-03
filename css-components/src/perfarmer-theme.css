@@ -49,7 +49,7 @@
   --tabbar-highlight-text-color: white;
   --tabbar-border-color: white;
   --switch-highlight-color: var(--perfarmer-jaune);
-  --switch-border-color: #var(--perfarmer-gris-border);
+  --switch-border-color: var(--perfarmer-gris-border);
   --switch-background-color: var(--perfarmer-gris-unselected);
   --range-track-background-color: #d8d8d8;
   --range-track-background-color-active: #d8d8d8;
