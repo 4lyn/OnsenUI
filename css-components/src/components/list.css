@@ -1061,6 +1061,10 @@
     </ul>
  */
 
+.list--input {
+  margin-bottom: 10px;
+}
+
 .list-item--label__center {
   font-size: 15px;
 }
@@ -1407,7 +1411,7 @@
         <div class="list-item__center">Inset List Item with Switch</div>
         <div class="list-item__right">
           <label class="switch switch--perfarmer">
-            <input type="checkbox" class="switch__input switch--perfarmer__input" checked>
+            <input type="checkbox" class="switch__input switch--perfarmer__input">
             <div class="switch__toggle switch--perfarmer__toggle">
               <div class="switch__handle switch--perfarmer__handle"></div>
             </div>
@@ -1435,13 +1439,26 @@
   category: List
   elements: ons-list ons-list-item
   markup: |
-    <!-- custom class: list-item-perfswitch list-item-perfswitch__center list-item-perfswitch__right -->
-    <ul class="list list--noborder list--perflist">
-      <li class="list-item list-item-perfswitch">
-        <div class="list-item__center list-item-perfswitch__center">
+    <!-- custom class: list-item--perfswitch list-item--perfswitch__center list-item--perfswitch__right -->
+    <ul class="list list--noborder list--input">
+      <li class="list-item list-item--longdivider list-item--perfswitch">
+        <div class="list-item__center list-item--longdivider__center list-item--perfswitch__center">
           List Item with Switch
         </div>
-        <div class="list-item__right list-item-perfswitch__right">
+        <div class="list-item__right list-item--longdivider__right list-item--perfswitch__right">
+          <label class="switch switch--perfarmer">
+            <input type="checkbox" class="switch__input switch--perfarmer__input">
+            <div class="switch__toggle switch--perfarmer__toggle">
+              <div class="switch__handle switch--perfarmer__handle"></div>
+            </div>
+          </label>
+        </div>
+      </li>
+      <li class="list-item list-item--longdivider list-item--perfswitch">
+        <div class="list-item__center list-item--longdivider__center list-item--perfswitch__center">
+          List Item with Switch
+        </div>
+        <div class="list-item__right list-item--longdivider__right list-item--perfswitch__right">
           <label class="switch switch--perfarmer">
             <input type="checkbox" class="switch__input switch--perfarmer__input" checked>
             <div class="switch__toggle switch--perfarmer__toggle">
@@ -1538,3 +1555,56 @@
 .list-item--perfbutton__center .segment--perfarmer {
   width: 100%;
 }
+
+/*~
+  name: Perfarmer Radio List
+  category: List
+  elements: ons-list ons-list-item
+  markup: |
+    <!-- custom class: list-item--perfradio list-item--perfradio__center list-item--perfradio__left -->
+    <ul class="list list--noborder list--input">
+      <li class="list-item list-item--nodivider list-item--perfradio">
+        <div class="list-item__left list-item--nodivider__left list-item--perfradio__left">
+          <label class="radio-button radio-button--material radio-button--perfarmer">
+            <input type="radio" class="radio-button__input radio-button--material__input radio-button--perfarmer__input" name="r">
+            <div class="radio-button__checkmark radio-button--material__checkmark radio-button--perfarmer__checkmark"></div>
+          </label>
+        </div>
+        <div class="list-item__center list-item--nodivider__center list-item--perfradio__center">
+          List Item with Radio
+        </div>
+      </li>
+      <li class="list-item list-item--nodivider list-item--perfradio">
+        <div class="list-item__left list-item--nodivider__left list-item--perfradio__left">
+          <label class="radio-button radio-button--material radio-button--perfarmer">
+            <input type="radio" class="radio-button__input radio-button--material__input radio-button--perfarmer__input" name="r" checked="checked">
+            <div class="radio-button__checkmark radio-button--material__checkmark radio-button--perfarmer__checkmark"></div>
+          </label>
+        </div>
+        <div class="list-item__center list-item--nodivider__center list-item--perfradio__center">
+          List Item with Radio
+        </div>
+      </li>
+    </ul>
+ */
+
+/*~
+  name: Perfarmer Checkbox List
+  category: List
+  elements: ons-list ons-list-item
+  markup: |
+    <!-- custom class: list-item--perfcheck list-item--perfcheck__center list-item--perfcheck__left -->
+    <ul class="list list--noborder list--input">
+      <li class="list-item list-item--nodivider list-item--perfcheck">
+        <div class="list-item__left list-item--nodivider__left list-item--perfcheck__left">
+          <label class="checkbox checkbox--material checkbox--perfarmer">
+            <input type="checkbox" class="checkbox__input checkbox--material__input checkbox--perfarmer__input" checked="checked">
+            <div class="checkbox__checkmark checkbox--material__checkmark checkbox--perfarmer__checkmark"></div>
+          </label>
+        </div>
+        <div class="list-item__center list-item--nodivider__center list-item--perfcheck__center">
+          List Item with Checkbox
+        </div>
+      </li>
+    </ul>
+ */
