@@ -244,3 +244,29 @@
   border-color: var(--material-radio-button-disabled-color);
 }
 
+/*~
+  name: Perfarmer Material Radio Button
+  category: Radio Button
+  elements: ons-input
+  markup: |
+    <label class="radio-button radio-button--material radio-button--perfarmer">
+      <input type="radio" class="radio-button__input radio-button--material__input radio-button--perfarmer__input" name="r" checked="checked">
+      <div class="radio-button__checkmark radio-button--material__checkmark radio-button--perfarmer__checkmark"></div>
+      Label
+    </label>
+    <label class="radio-button radio-button--material radio-button--perfarmer">
+      <input type="radio" class="radio-button__input radio-button--material__input radio-button--perfarmer__input" name="r">
+      <div class="radio-button__checkmark radio-button--material__checkmark radio-button--perfarmer__checkmark"></div>
+      Label
+    </label>
+    <label class="radio-button radio-button--material radio-button--perfarmer">
+      <input type="radio" class="radio-button__input radio-button--material__input radio-button--perfarmer__input" name="s" disabled checked>
+      <div class="radio-button__checkmark radio-button--material__checkmark radio-button--perfarmer__checkmark"></div>
+      Label
+    </label>
+    <label class="radio-button radio-button--material radio-button--perfarmer">
+      <input type="radio" class="radio-button__input radio-button--material__input radio-button--perfarmer__input" name="s" disabled>
+      <div class="radio-button__checkmark radio-button--material__checkmark radio-button--perfarmer__checkmark"></div>
+      Label
+    </label>
+*/
