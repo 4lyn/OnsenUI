@@ -598,13 +598,57 @@
 */
 
 .tabbar--perfhome {
+  height: 55px;
   background-color: white;
 }
 
 .tabbar__button.tabbar--perfhome__button {
-  color: rgba(0, 0, 0, 0.4);
+  height: auto;
+  opacity: 0.4;
+}
+
+.tabbar__label.tabbar--perfhome__label {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+  color: #000;
+}
+
+.tabbar__icon.tabbar--perfhome__icon {
+  height: 30px;
+}
+
+.tabbar__icon.tabbar--perfhome__icon .fa.fa-chart-line {
+  width: 26px;
+  height: 26px;
+  margin: 0 auto;
+  background: url('https://www.beta.perfarmer.com/landing/assets/icon_chart.png') bottom center no-repeat;
+}
+.tabbar__icon.tabbar--perfhome__icon .fa.fa-chart-line::before {
+  content: none;
+}
+:checked + .tabbar__button.tabbar--perfhome__button .tabbar__icon.tabbar--perfhome__icon .fa.fa-chart-line {
+  background-image: url('https://www.beta.perfarmer.com/landing/assets/icon_chart_active.png');
+}
+
+.tabbar__icon.tabbar--perfhome__icon .fa.fa-leaf {
+  width: 26px;
+  height: 26px;
+  margin: 0 auto;
+  background: url('https://www.beta.perfarmer.com/landing/assets/icon_leaf.png') bottom center no-repeat;
+}
+.tabbar__icon.tabbar--perfhome__icon .fa.fa-leaf::before {
+  content: none;
+}
+:checked + .tabbar__button.tabbar--perfhome__button .tabbar__icon.tabbar--perfhome__icon .fa.fa-leaf {
+  background-image: url('https://www.beta.perfarmer.com/landing/assets/icon_leaf_active.png');
 }
 
 :checked + .tabbar__button.tabbar--perfhome__button {
+  opacity: 1;
+}
+
+:checked + .tabbar__label.tabbar--perfhome__label {
   color: #0c3c2b;
 }
