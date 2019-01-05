@@ -508,7 +508,7 @@ markup: |
       <div class="toolbar__center toolbar__title toolbar--perfhome__center">
         <button class="toolbar-button toolbar-button--perfrecolte">
           Récolte 2018
-          <i class="fa fa-chevron down"></i>
+          <i class="fa fa-angle-down"></i>
         </button>
       </div>
       <div class="toolbar__right toolbar--perfhome__right">
@@ -571,7 +571,7 @@ markup: |
       <div class="toolbar__center toolbar__title toolbar--perfhome__center">
         <button class="toolbar-button toolbar-button--perfrecolte">
           Récolte 2018
-          <i class="fa fa-chevron down"></i>
+          <i class="fa fa-angle-down"></i>
         </button>
       </div>
       <div class="toolbar__right toolbar--perfhome__right">
@@ -625,7 +625,7 @@ markup: |
       <div class="toolbar__center toolbar__title toolbar--perfhome__center">
         <button class="toolbar-button toolbar-button--perfrecolte">
           Récolte 2018
-          <i class="fa fa-chevron down"></i>
+          <i class="fa fa-angle-down"></i>
         </button>
       </div>
       <div class="toolbar__right toolbar--perfhome__right">
@@ -678,7 +678,7 @@ markup: |
       <div class="toolbar__center toolbar__title toolbar--perfhome__center">
         <button class="toolbar-button toolbar-button--perfrecolte">
           Récolte 2018
-          <i class="fa fa-chevron down"></i>
+          <i class="fa fa-angle-down"></i>
         </button>
       </div>
       <div class="toolbar__right toolbar--perfhome__right">
@@ -756,7 +756,7 @@ markup: |
       <div class="toolbar__center toolbar__title toolbar--perfhome__center">
         <button class="toolbar-button toolbar-button--perfrecolte">
           Récolte 2018
-          <i class="fa fa-chevron down"></i>
+          <i class="fa fa-angle-down"></i>
         </button>
       </div>
       <div class="toolbar__right toolbar--perfhome__right">
@@ -840,7 +840,7 @@ markup: |
       <div class="toolbar__center toolbar__title toolbar--perfhome__center">
         <button class="toolbar-button toolbar-button--perfrecolte">
           Récolte 2018
-          <i class="fa fa-chevron down"></i>
+          <i class="fa fa-angle-down"></i>
         </button>
       </div>
       <div class="toolbar__right toolbar--perfhome__right">
@@ -1267,7 +1267,7 @@ markup: |
       <div class="toolbar__center toolbar__title toolbar--perfhome__center">
         <button class="toolbar-button toolbar-button--perfrecolte">
           Récolte 2018
-          <i class="fa fa-chevron down"></i>
+          <i class="fa fa-angle-down"></i>
         </button>
       </div>
       <div class="toolbar__right toolbar--perfhome__right">

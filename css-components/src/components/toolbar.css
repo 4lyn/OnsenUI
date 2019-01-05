@@ -429,7 +429,7 @@
       <div class="toolbar__center toolbar__title toolbar--perfhome__center">
         <button class="toolbar-button toolbar-button--perfrecolte">
           Récolte 2018
-          <i class="fa fa-chevron down"></i>
+          <i class="fa fa-angle-down"></i>
         </button>
       </div>
       <div class="toolbar__right toolbar--perfhome__right">
@@ -442,6 +442,28 @@
 
 .toolbar--perfhome {
   background-color: #ffffff;
+}
+
+
+.toolbar-button--perfrecolte i.fa {
+  vertical-align: middle;
+}
+
+.toolbar--perfhome__right {
+  padding: 0 20px 0 0;
+}
+
+.toolbar-button.toolbar-button--perfhome {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.toolbar-button.toolbar-button--perfhome img {
+  margin: 0 auto;
 }
 
 /*~
