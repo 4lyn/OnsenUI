@@ -1407,6 +1407,18 @@
     </ul>
  */
 
+ .list-item--perfbutton__center {
+   padding: 10px 0;
+ }
+ .list-item--perfbutton__center .button {
+   min-height: 60px;
+   padding: 21px 20px;
+   border-radius: 5px;
+   font-size: 16px;
+   line-height: 18px;
+   font-weight: 500;
+ }
+
 /*~
   name: Perfarmer Alerte List
   category: List
@@ -1452,6 +1464,14 @@
       </li>
     </ul>
  */
+.list-item--perfbutton__center .button--outline {
+  min-height: 60px;
+  padding: 21px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+}
 
 /*~
   name: Perfarmer Col List
