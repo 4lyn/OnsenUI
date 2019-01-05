@@ -1289,7 +1289,37 @@
  */
 
 .list-item--perfcultbg {
+  height: 138px;
+  padding: 0 20px;
   background-image: url('https://www.beta.perfarmer.com/landing/assets/cultures/ble_tendre_bg.png');
+}
+
+.list-item--perfcultbg::before {
+  top: auto;
+  bottom: 33px;
+  border-color: #FFF;
+}
+
+.list-item--perfcultbg__center {
+  align-content: flex-end;
+  padding: 0 0 33px 0;
+}
+
+.list-item--perfcultbg__title {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 33px;
+  text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  opacity: 1;
+}
+
+.list-item--perfcultbg__subtitle {
+  font-size: 18px;
+  line-height: 24px;
+  text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  opacity: 1;
 }
 
 /*~
