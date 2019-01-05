@@ -766,13 +766,16 @@ markup: |
       </div>
     </div>
 
-    <div>
-
-      <img src="https://www.beta.perfarmer.com/landing/assets/badge_1feuille.png"><br/>
-      <p>
-        Vous n'allez pas attendre janvier pour la deuxième feuille ?<br/>
-        Créez votre <b>deuxième alerte !</b>
-      </p>
+    <div class="content--perfhome">
+      <header>
+        <img src="https://www.beta.perfarmer.com/landing/assets/badge_1feuille.png">
+      </header>
+      <section>
+        <p>
+          Vous n'allez pas attendre janvier pour la deuxième feuille ?<br/>
+          Créez votre <b>deuxième alerte !</b>
+        </p>
+      </section>
 
       <ul class="list list--noborder list--perfhome">
 
