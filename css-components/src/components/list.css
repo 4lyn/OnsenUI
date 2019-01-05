@@ -1340,8 +1340,58 @@
         </div>
 
       </li>
+      <li class="list-item list-item--perfcours">
+
+        <div class="list-item__center list-item--perfcours__center">
+          Euronext - Déc 18
+        </div>
+
+        <div class="list-item__right list-item--perfcours__right">
+          -2,77
+          <span class="badge-black">179,56</span>
+        </div>
+
+      </li>
     </ul>
  */
+
+.list-item--perfcours {
+  min-height: 55px;
+}
+
+.list-item--perfcours::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  right: 0;
+  height: 1px;
+  background-image: linear-gradient(0deg, var(--list-item-separator-color), var(--list-item-separator-color) 100%);
+}
+
+.list-item--perfcours__center {
+  font-size: 14px;
+  letter-spacing: -0.41px;
+  line-height: 22px;
+  color: #000;
+}
+
+.list-item--perfcours__right {
+  font-size: 15px;
+  font-style: italic;
+  line-height: 18px;
+  color: var(--perfarmer-gris-ligne);
+}
+
+.list-item--perfcours__right .badge-black {
+  margin: 0 0 0 13px;
+  padding: 0 8px;
+  font-weight: 500;
+  font-style: normal;
+  color: #fff;
+  background: #000;
+  border-radius: 3px;
+}
 
 /*~
   name: Perfarmer Large Button List
