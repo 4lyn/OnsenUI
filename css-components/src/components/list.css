@@ -1229,12 +1229,12 @@
  */
 
 .list-item--perfbutton {
-  padding: 0 15px;
+  padding: 30px 15px;
   text-align: center;
 }
 
 .list-item--perfbutton__center {
-  padding: 10px 14px;
+  padding: 0 14px;
   min-height: 0;
   height: auto;
   text-align: center;
@@ -1407,9 +1407,6 @@
     </ul>
  */
 
- .list-item--perfbutton__center {
-   padding: 10px 0;
- }
  .list-item--perfbutton__center .button {
    min-height: 60px;
    padding: 21px 20px;
@@ -1450,6 +1447,31 @@
       </li>
     </ul>
  */
+
+.list-item--perfalerte {
+  padding: 25px 15px 0 15px;
+}
+
+.list-item--perfalerte + .list-item--perfalerte {
+  padding-top: 0;
+  padding-bottom: 25px;
+}
+
+.list-item--perfalerte__center {
+  min-height: 25px;
+  padding: 0 5px 0 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+}
+
+.list-item--perfalerte__right {
+  min-height: 25px;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+}
 
 /*~
   name: Perfarmer Outline Button List
