@@ -65,3 +65,9 @@ a {
 .content--perfhome > footer {
   padding: 0 35px;
 }
+
+
+.content--perfdetail {
+  padding: 40px 0 70px 0;
+  text-align: center;
+}

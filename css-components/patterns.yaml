@@ -415,16 +415,20 @@ markup: |
 
     <div>
 
-      <div class="perfmain__content">
-        <p>
-          200 t<br/>
-          sur 375 t à vendre
-        </p>
+      <div class="content--perfdetail">
+        <div class="pie-wrapper">
+          <div class="arc" data-value="30"></div>
+          <p class="perfdetail-score">
+            200 t
+            <br/>
+            <span>sur 375 t à vendre</span>
+          </p>
+        </div>
 
         <p class="center">
           <a href="#donotclick">Modifier mes tonnes à vendre</a>
         </p>
-      </main>
+      </div>
 
       <div class="list-title list-title--perflist">
         Ventes enregistrées
