@@ -635,15 +635,19 @@ markup: |
       </div>
     </div>
 
-    <div>
-      <img src="https://www.beta.perfarmer.com/landing/assets/badge_0feuille.png"><br/>
-      <p>
-        C'est pas joli joli ces 3 feuilles grises. Commencez en ajoutant votre
-        <b>première culture !</b>
-      </p>
-      <p>
+    <div class="content--perfhome content--perfhome__empty">
+      <header>
+        <img src="https://www.beta.perfarmer.com/landing/assets/badge_0feuille.png">
+      </header>
+      <section>
+        <p>
+          C'est pas joli joli ces 3 feuilles grises. Commencez en ajoutant votre
+          <b>première culture !</b>
+        </p>
+      </section>
+      <footer>
         <button class="button button--perfcta">Ajouter une culture</button>
-      </p>
+      </footer>
     </div>
 
     <div class="tabbar tabbar--perfhome">

@@ -35,6 +35,12 @@ a {
   color: var(--highlight-color);
 }
 
+.content--perfhome__empty {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
 .content--perfhome header {
   padding: 30px 0 0 0;
   text-align: center;
@@ -44,10 +50,18 @@ a {
   padding: 0 35px 30px 35px;
 }
 
+.content--perfhome__empty > section {
+  margin: 65px 0;
+}
+
 .content--perfhome > section p {
   margin: 0;
   font-size: 18px;
   line-height: 28px;
   color: var(--perfarmer-vert);
   text-align: center;
+}
+
+.content--perfhome > footer {
+  padding: 0 35px;
 }
