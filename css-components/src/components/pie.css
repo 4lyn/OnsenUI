@@ -60,6 +60,47 @@
   color: #686868;
 }
 
+/* 
+scss code
+
+@for $i from 1 through 100 {
+  .arc[data-value="#{$i}"]{
+    @include transform(rotate(#{$i * 1.8}deg));
+    transition:All 5s ease;
+    border-color: $green;
+  
+    &:after{
+      content: '';
+      position: absolute;
+      left:  -40px;
+      top: 5px;
+    }
+  
+    &::before{
+      background-color: $green;
+    }
+  }
+}
+@for $i from 1 through 50 {
+  .arc[data-value="#{$i}"]{
+    border-color: $red;
+    
+    &::before{
+      background-color: $red;
+    }
+  }
+}
+
+@for $i from 51 through 80 {
+  .arc[data-value="#{$i}"]{
+    border-color: $orange;
+    
+    &::before{
+      background-color: $orange;
+    }
+  }
+}
+*/
 .arc[data-value="1"] {
   transform: rotate(1.8deg);
   transition: All 5s ease;
