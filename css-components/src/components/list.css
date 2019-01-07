@@ -1230,14 +1230,16 @@
  */
 
 .list-item--perfbutton {
-  padding: 30px 15px;
+  padding: 10px 15px;
   text-align: center;
 }
 
 .list-item--perfbutton__center {
+  padding: 0;
   min-height: 0;
   height: auto;
   text-align: center;
+  background: none;
 }
 
 .list-item--perfbutton__center .button--quiet {
