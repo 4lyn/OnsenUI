@@ -20,7 +20,6 @@
   --list-title-font-weight: 500;
   --list-title-line-height: 17px;
   --list-title-padding: 0 15px 16px 15px;
-  --list-item-chevron-color: rgba(128,128,128,1);
   --material-list-item-side-padding: 16px;
   --material-list-item-min-height: 48px;
   --material-list-item-padding: 0 0 0 var(--material-list-item-side-padding);
@@ -1155,7 +1154,7 @@
   @apply(--retina-list-item-border);
   background-position: 15px bottom;
 }
- 
+
 .list-title--perflist {
   display: flex;
   justify-content: space-between;
@@ -1176,7 +1175,7 @@
   padding: 0 15px;
   background: none;
 }
- 
+
 .list-item--perfdetail__title {
   margin-bottom: 3px;
   font-size: 14px;
@@ -1294,10 +1293,10 @@
   background-image: url('https://www.beta.perfarmer.com/landing/assets/cultures/ble_tendre_bg.png');
 }
 
-.list-item--perfcultbg::before {
+.list-item--perfcultbg:before {
   top: auto;
   bottom: 33px;
-  border-color: #FFF;
+  border-color: #fff;
 }
 
 .list-item--perfcultbg__center {
@@ -1359,7 +1358,7 @@
   min-height: 55px;
 }
 
-.list-item--perfcours::after {
+.list-item--perfcours:after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -1380,7 +1379,7 @@
   font-size: 15px;
   font-style: italic;
   line-height: 18px;
-  color: var(--perfarmer-gris-ligne);
+  color: var(--border-color);
 }
 
 .list-item--perfcours__right .badge-black {
@@ -1407,14 +1406,14 @@
     </ul>
  */
 
- .list-item--perfbutton__center .button {
-   min-height: 60px;
-   padding: 21px 20px;
-   border-radius: 5px;
-   font-size: 16px;
-   line-height: 18px;
-   font-weight: 500;
- }
+.list-item--perfbutton__center .button {
+  min-height: 60px;
+  padding: 21px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+}
 
 /*~
   name: Perfarmer Alerte List
@@ -1486,6 +1485,7 @@
       </li>
     </ul>
  */
+
 .list-item--perfbutton__center .button--outline {
   min-height: 60px;
   padding: 21px 20px;

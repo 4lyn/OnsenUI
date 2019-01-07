@@ -444,7 +444,7 @@
     <button class="button button--perfcta">Button</button>
 */
 
-.button--perfcta { /* stylelint-disable-line */
+.button--perfcta {
   @apply(--button);
   min-height: 60px;
   width: 100%;
@@ -453,7 +453,7 @@
   text-align: center;
   font-size: 16px;
   transform: translate3d(0, 0, 0);
-  background-color: #1B3B2C;
+  background-color: var(--button-cta-background-color);
   color: #fff;
   font-weight: 500;
   border-radius: 5px;

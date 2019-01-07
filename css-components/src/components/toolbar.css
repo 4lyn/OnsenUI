@@ -444,8 +444,7 @@
   background-color: #ffffff;
 }
 
-
-.toolbar-button--perfrecolte i.fa {
+.toolbar-button--perfrecolte .fa {
   vertical-align: middle;
 }
 

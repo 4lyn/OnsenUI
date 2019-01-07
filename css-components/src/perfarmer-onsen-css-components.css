@@ -3,7 +3,9 @@
 @import url('./perfarmer-theme.css');
 @import url('./components/index.css');
 @import url('./iphonex-support/index.css');
+
 @import url('../../core/css/grid.css');
+@import './components/pie.css';
 
 @font-face {
   font-family: 'Rubik';
@@ -33,6 +35,10 @@
 a {
   font-weight: 500;
   color: var(--highlight-color);
+}
+
+.center {
+  text-align: center;
 }
 
 .content--perfhome__empty {
@@ -65,7 +71,6 @@ a {
 .content--perfhome > footer {
   padding: 0 35px;
 }
-
 
 .content--perfdetail {
   padding: 40px 0 70px 0;

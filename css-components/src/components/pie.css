@@ -1,4 +1,4 @@
-
+/* stylelint-disable */
 .pie-wrapper {
   position: relative;
   display: flex;
@@ -1940,3 +1940,4 @@
 .arc[data-value="80"]::before {
   background-color: #fcd000;
 }
+/* stylelint-enable */

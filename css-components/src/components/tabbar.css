@@ -306,22 +306,6 @@
   z-index: 0;
 }
 
-.tabbar--perfdetail__item {
-  font-size: 15px;
-  overflow: hidden;
-}
-
-.tabbar--perfdetail__button {
-  height: var(--tabbar-height);
-  padding: 0 5px;
-}
-
-.tabbar--perfdetail__label {
-  font-weight: 500;
-  text-transform: uppercase;
-  vertical-align: top;
-}
-
 /*~
   name: Bordered Top Tabbar
   category: Tabbar
@@ -567,6 +551,22 @@
     </div>
 */
 
+.tabbar--perfdetail__item {
+  font-size: 15px;
+  overflow: hidden;
+}
+
+.tabbar--perfdetail__button {
+  height: var(--tabbar-height);
+  padding: 0 5px;
+}
+
+.tabbar--perfdetail__label {
+  font-weight: 500;
+  text-transform: uppercase;
+  vertical-align: top;
+}
+
 /*~
   name: Perfarmer Home Tabbar
   category: Tabbar
@@ -619,29 +619,33 @@
   height: 30px;
 }
 
-.tabbar__icon.tabbar--perfhome__icon .fa.fa-chart-line {
+.tabbar__icon.tabbar--perfhome__icon .fa-chart-line {
   width: 26px;
   height: 26px;
   margin: 0 auto;
   background: url('https://www.beta.perfarmer.com/landing/assets/icon_chart.png') bottom center no-repeat;
 }
-.tabbar__icon.tabbar--perfhome__icon .fa.fa-chart-line::before {
+
+.tabbar__icon.tabbar--perfhome__icon .fa-chart-line:before {
   content: none;
 }
-:checked + .tabbar__button.tabbar--perfhome__button .tabbar__icon.tabbar--perfhome__icon .fa.fa-chart-line {
+
+:checked + .tabbar__button.tabbar--perfhome__button .tabbar__icon.tabbar--perfhome__icon .fa-chart-line { /* stylelint-disable-line */
   background-image: url('https://www.beta.perfarmer.com/landing/assets/icon_chart_active.png');
 }
 
-.tabbar__icon.tabbar--perfhome__icon .fa.fa-leaf {
+.tabbar__icon.tabbar--perfhome__icon .fa-leaf {
   width: 26px;
   height: 26px;
   margin: 0 auto;
   background: url('https://www.beta.perfarmer.com/landing/assets/icon_leaf.png') bottom center no-repeat;
 }
-.tabbar__icon.tabbar--perfhome__icon .fa.fa-leaf::before {
+
+.tabbar__icon.tabbar--perfhome__icon .fa-leaf:before {
   content: none;
 }
-:checked + .tabbar__button.tabbar--perfhome__button .tabbar__icon.tabbar--perfhome__icon .fa.fa-leaf {
+
+:checked + .tabbar__button.tabbar--perfhome__button .tabbar__icon.tabbar--perfhome__icon .fa-leaf { /* stylelint-disable-line */
   background-image: url('https://www.beta.perfarmer.com/landing/assets/icon_leaf_active.png');
 }
 
