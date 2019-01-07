@@ -1452,12 +1452,12 @@
  */
 
 .list-item--perfalerte {
-  padding: 25px 15px 0 15px;
+  padding: 23px 15px 0 15px;
 }
 
 .list-item--perfalerte + .list-item--perfalerte {
-  padding-top: 0;
-  padding-bottom: 25px;
+  padding-top: 16px;
+  padding-bottom: 23px;
 }
 
 .list-item--perfalerte__center {
