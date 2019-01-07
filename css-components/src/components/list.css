@@ -1239,7 +1239,7 @@
   text-align: center;
 }
 
-.list-item--perfbutton__center .button {
+.list-item--perfbutton__center .button--quiet {
   margin: 0 auto;
   padding: 10px;
   border-radius: 0;
@@ -1406,7 +1406,7 @@
     </ul>
  */
 
-.list-item--perfbutton__center .button {
+.list-item--perfbutton__center .button--large {
   min-height: 60px;
   padding: 21px 20px;
   border-radius: 5px;
