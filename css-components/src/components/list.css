@@ -1233,7 +1233,6 @@
 }
 
 .list-item--perfbutton__center {
-  padding: 0 14px;
   min-height: 0;
   height: auto;
   text-align: center;
@@ -1384,8 +1383,9 @@
 
 .list-item--perfcours__right .badge-black {
   margin: 0 0 0 13px;
-  padding: 0 8px;
+  padding: 0 10px;
   font-weight: 500;
+  line-height: 22px;
   font-style: normal;
   color: #fff;
   background: #000;
