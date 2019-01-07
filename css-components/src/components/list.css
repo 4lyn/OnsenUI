@@ -1194,19 +1194,21 @@
 }
 
 .list-title--perflist__right {
+  font-size: 15px;
   color: #000;
 }
 
 .list-item--perfdetail__label {
   opacity: 1;
   white-space: nowrap;
+  font-size: 16px;
   font-weight: 500;
   color: #000;
 }
 
 .list-item--perfdetail__label__base {
   padding: 1px 5px;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 18px;
   color: #ffffff;
   background: #ff9e3e;
