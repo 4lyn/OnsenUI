@@ -1297,7 +1297,7 @@
   markup: |
     <!-- custom class: list--perfhome *--perfcultbg *--perfcultbg__* -->
     <ul class="list list--noborder list--perfhome">
-      <li class="list-item list-item--chevron list-item--nodivider list-item--perfcultbg">
+      <li class="list-item list-item--chevron list-item--nodivider list-item--perfcultbg" style="background-image: url('https://www.beta.perfarmer.com/landing/assets/cultures/ble_tendre_bg.png');">
 
         <div class="list-item__center list-item--nodivider__center list-item--perfcultbg__center">
           <div class="list-item__title list-item--perfcultbg__title">Blé tendre</div>
@@ -1311,7 +1311,6 @@
 .list-item--perfcultbg {
   height: 138px;
   padding: 0 20px;
-  background-image: url('https://www.beta.perfarmer.com/landing/assets/cultures/ble_tendre_bg.png');
 }
 
 .list-item--perfcultbg:before {
