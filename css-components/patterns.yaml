@@ -425,14 +425,17 @@ markup: |
           </p>
         </div>
 
-        <p class="center">
+        <p class="perfcenter">
           <a href="#donotclick">Modifier mes tonnes à vendre</a>
         </p>
       </div>
 
       <div class="list-title list-title--perflist">
         Ventes enregistrées
-        <span class="list-title--perflist__right">Prix moyen : 215 €/t</span>
+        <span class="list-title--perflist__right">
+          <span style="font-weight: normal;">Prix moyen :</span>
+          215 €/t
+        </span>
       </div>
       <ul class="list list--noborder list--perflist">
         <li class="list-item list-item--chevron list-item--perfdetail">
@@ -460,7 +463,9 @@ markup: |
           </div>
 
           <div class="list-item__right list-item--chevron__right list-item--perfdetail__right">
-            <div class="list-item__label list-item--perfdetail__label list-item--perfdetail__label__base">Base: 30 €/t</div>
+            <div class="list-item__label list-item--perfdetail__label">
+              <span class="badge-orange">Base: 30 €/t</span<
+            </div>
           </div>
         </li>
 

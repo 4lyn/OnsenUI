@@ -1126,21 +1126,6 @@
         </div>
       </li>
 
-      <li class="list-item list-item--chevron list-item--perfdetail">
-        <div class="list-item__left list-item--perfdetail__left">
-          <img class="list-item__thumbnail list-item--perfdetail__thumbnail" src="https://www.beta.perfarmer.com/landing/assets/cultures/ble_tendre_icon.png">
-        </div>
-
-        <div class="list-item__center list-item--perfdetail__center">
-          <div class="list-item__title list-item--perfdetail__title">100t | Auxbonsgrains</div>
-          <div class="list-item__subtitle list-item--perfdetail__subtitle">10 mai 2018</div>
-        </div>
-
-        <div class="list-item__right list-item--chevron__right list-item--perfdetail__right">
-          <div class="list-item__label list-item--perfdetail__label list-item--perfdetail__label__base">Base: 30 €/t</div>
-        </div>
-      </li>
-
       <li class="list-item list-item--perfbutton">
         <div class="list-item__center list-item--perfbutton__center">
           <button class="button button--quiet button--perflist">Enregistrer une vente</button>
@@ -1204,15 +1189,6 @@
   font-size: 16px;
   font-weight: 500;
   color: #000;
-}
-
-.list-item--perfdetail__label__base {
-  padding: 1px 5px;
-  font-size: 16px;
-  line-height: 18px;
-  color: #ffffff;
-  background: #ff9e3e;
-  border-radius: 3px;
 }
 
 /*~
@@ -1601,7 +1577,7 @@
   category: List
   elements: ons-list ons-list-item
   markup: |
-    <!-- custom class: list-item--perfchevron list-item--perfchevron__center list-item--perfchevron__right -->
+    <!-- custom class: list-item--perfchevron list-item--perfchevron__center list-item--perfchevron__right list-item--perfchevron__label -->
     <ul class="list list--noborder list--perflist">
       <li class="list-item list-item--chevron list-item--perfchevron">
         <div class="list-item__center list-item--perfchevron__center">Item A</div>
@@ -1609,7 +1585,7 @@
       <li class="list-item list-item--chevron list-item--perfchevron">
         <div class="list-item__center list-item--perfchevron">Item B</div>
         <div class="list-item__right list-item--chevron__right list-item--perfchevron__right">
-          <div class="list-item__label">Label</div>
+          <div class="list-item__label list-item--perfchevron__label">Label</div>
         </div>
       </li>
     </ul>

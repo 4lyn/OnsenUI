@@ -190,7 +190,7 @@
 }
 
 .tabbar__label:first-child {
-  font-size: 13px;
+  font-size: 16px;
   line-height: var(--tabbar-button-line-height);
   margin: 0;
   padding: 0;
@@ -565,6 +565,10 @@
   font-weight: 500;
   text-transform: uppercase;
   vertical-align: top;
+}
+
+.tabbar__label.tabbar--perfdetail__label:first-child {
+  font-size: 13px;
 }
 
 /*~
