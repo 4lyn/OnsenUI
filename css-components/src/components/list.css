@@ -1248,6 +1248,48 @@
       </li>
     </ul>
  */
+.list-item--perfcult::after {
+  content: '';
+  position: absolute;
+  height: 1px;
+  bottom: 0;
+  left: 15px;
+  right: 0;
+  background-image: linear-gradient(0deg, var(--list-item-separator-color), var(--list-item-separator-color) 100%);
+}
+
+.list-item--perfcult__left {
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.list-item--perfcult__thumbnail {
+  width: 56px;
+  height: 56px;
+}
+
+.list-item--perfcult__center {
+  padding: 30px 40px 30px 0;
+  background-image: none;
+  overflow: hidden;
+}
+
+.list-item--perfcult__title {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.12px;
+  line-height: 22px;
+  color: var(--perfarmer-vert);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.list-item--perfcult__subtitle {
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  line-height: 19px;
+  color: var(--perfarmer-gris-font);
+}
 
 /*~
   name: Perfarmer Culture Background List
