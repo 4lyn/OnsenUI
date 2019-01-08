@@ -533,20 +533,20 @@ markup: |
       <label class="tabbar__item tabbar--perfhome__item">
         <input type="radio" name="tabbar-perfarmer-b" checked="checked">
         <button class="tabbar__button tabbar--perfhome__button">
-          <div class="tabbar__icon tabbar--perfhome__icon">
+          <div class="tabbar__icon">
             <i class="fa fa-chart-line"></i>
           </div>
-          <div class="tabbar__label tabbar--perfhome__label">Commercialisation</div>
+          <div class="tabbar__label">Commercialisation</div>
         </button>
       </label>
 
       <label class="tabbar__item tabbar--perfhome__item">
         <input type="radio" name="tabbar-perfarmer-b">
         <button class="tabbar__button tabbar--perfhome__button">
-          <div class="tabbar__icon tabbar--perfhome__icon">
+          <div class="tabbar__icon">
             <i class="fa fa-leaf"></i>
           </div>
-          <div class="tabbar__label tabbar--perfhome__label">Mes cultures</div>
+          <div class="tabbar__label">Mes cultures</div>
         </button>
       </label>
     </div>
@@ -596,20 +596,20 @@ markup: |
       <label class="tabbar__item tabbar--perfhome__item">
         <input type="radio" name="tabbar-perfarmer-b" checked="checked">
         <button class="tabbar__button tabbar--perfhome__button">
-          <div class="tabbar__icon tabbar--perfhome__icon">
+          <div class="tabbar__icon">
             <i class="fa fa-chart-line"></i>
           </div>
-          <div class="tabbar__label tabbar--perfhome__label">Commercialisation</div>
+          <div class="tabbar__label">Commercialisation</div>
         </button>
       </label>
 
       <label class="tabbar__item tabbar--perfhome__item">
         <input type="radio" name="tabbar-perfarmer-b">
         <button class="tabbar__button tabbar--perfhome__button">
-          <div class="tabbar__icon tabbar--perfhome__icon">
+          <div class="tabbar__icon">
             <i class="fa fa-leaf"></i>
           </div>
-          <div class="tabbar__label tabbar--perfhome__label">Mes cultures</div>
+          <div class="tabbar__label">Mes cultures</div>
         </button>
       </label>
     </div>
@@ -663,23 +663,24 @@ markup: |
       <label class="tabbar__item tabbar--perfhome__item">
         <input type="radio" name="tabbar-perfarmer-b" checked="checked">
         <button class="tabbar__button tabbar--perfhome__button">
-          <div class="tabbar__icon tabbar--perfhome__icon">
+          <div class="tabbar__icon">
             <i class="fa fa-chart-line"></i>
           </div>
-          <div class="tabbar__label tabbar--perfhome__label">Commercialisation</div>
+          <div class="tabbar__label">Commercialisation</div>
         </button>
       </label>
 
       <label class="tabbar__item tabbar--perfhome__item">
         <input type="radio" name="tabbar-perfarmer-b">
         <button class="tabbar__button tabbar--perfhome__button">
-          <div class="tabbar__icon tabbar--perfhome__icon">
+          <div class="tabbar__icon">
             <i class="fa fa-leaf"></i>
           </div>
-          <div class="tabbar__label tabbar--perfhome__label">Mes cultures</div>
+          <div class="tabbar__label">Mes cultures</div>
         </button>
       </label>
     </div>
+
   </div>
 ---
 name: Perfarmer Home Cultures
@@ -741,23 +742,24 @@ markup: |
       <label class="tabbar__item tabbar--perfhome__item">
         <input type="radio" name="tabbar-perfarmer-b">
         <button class="tabbar__button tabbar--perfhome__button">
-          <div class="tabbar__icon tabbar--perfhome__icon">
+          <div class="tabbar__icon">
             <i class="fa fa-chart-line"></i>
           </div>
-          <div class="tabbar__label tabbar--perfhome__label">Commercialisation</div>
+          <div class="tabbar__label">Commercialisation</div>
         </button>
       </label>
 
       <label class="tabbar__item tabbar--perfhome__item">
         <input type="radio" name="tabbar-perfarmer-b" checked="checked">
         <button class="tabbar__button tabbar--perfhome__button">
-          <div class="tabbar__icon tabbar--perfhome__icon">
+          <div class="tabbar__icon">
             <i class="fa fa-leaf"></i>
           </div>
-          <div class="tabbar__label tabbar--perfhome__label">Mes cultures</div>
+          <div class="tabbar__label">Mes cultures</div>
         </button>
       </label>
     </div>
+
   </div>
 ---
 name: Perfarmer Home Commercialisation
@@ -828,23 +830,24 @@ markup: |
       <label class="tabbar__item tabbar--perfhome__item">
         <input type="radio" name="tabbar-perfarmer-b" checked="checked">
         <button class="tabbar__button tabbar--perfhome__button">
-          <div class="tabbar__icon tabbar--perfhome__icon">
+          <div class="tabbar__icon">
             <i class="fa fa-chart-line"></i>
           </div>
-          <div class="tabbar__label tabbar--perfhome__label">Commercialisation</div>
+          <div class="tabbar__label">Commercialisation</div>
         </button>
       </label>
 
       <label class="tabbar__item tabbar--perfhome__item">
         <input type="radio" name="tabbar-perfarmer-b">
         <button class="tabbar__button tabbar--perfhome__button">
-          <div class="tabbar__icon tabbar--perfhome__icon">
+          <div class="tabbar__icon">
             <i class="fa fa-leaf"></i>
           </div>
-          <div class="tabbar__label tabbar--perfhome__label">Mes cultures</div>
+          <div class="tabbar__label">Mes cultures</div>
         </button>
       </label>
     </div>
+
   </div>
 ---
 name: Perfarmer Home Commercialisation bis
@@ -986,23 +989,24 @@ markup: |
       <label class="tabbar__item tabbar--perfhome__item">
         <input type="radio" name="tabbar-perfarmer-b" checked="checked">
         <button class="tabbar__button tabbar--perfhome__button">
-          <div class="tabbar__icon tabbar--perfhome__icon">
+          <div class="tabbar__icon">
             <i class="fa fa-chart-line"></i>
           </div>
-          <div class="tabbar__label tabbar--perfhome__label">Commercialisation</div>
+          <div class="tabbar__label">Commercialisation</div>
         </button>
       </label>
 
       <label class="tabbar__item tabbar--perfhome__item">
         <input type="radio" name="tabbar-perfarmer-b">
         <button class="tabbar__button tabbar--perfhome__button">
-          <div class="tabbar__icon tabbar--perfhome__icon">
+          <div class="tabbar__icon">
             <i class="fa fa-leaf"></i>
           </div>
-          <div class="tabbar__label tabbar--perfhome__label">Mes cultures</div>
+          <div class="tabbar__label">Mes cultures</div>
         </button>
       </label>
     </div>
+
   </div>
 ---
 name: Perfarmer Onglet Alertes Empty
@@ -1356,20 +1360,20 @@ markup: |
       <label class="tabbar__item tabbar--perfhome__item">
         <input type="radio" name="tabbar-perfarmer-b" checked="checked">
         <button class="tabbar__button tabbar--perfhome__button">
-          <div class="tabbar__icon tabbar--perfhome__icon">
+          <div class="tabbar__icon">
             <i class="fa fa-chart-line"></i>
           </div>
-          <div class="tabbar__label tabbar--perfhome__label">Commercialisation</div>
+          <div class="tabbar__label">Commercialisation</div>
         </button>
       </label>
 
       <label class="tabbar__item tabbar--perfhome__item">
         <input type="radio" name="tabbar-perfarmer-b">
         <button class="tabbar__button tabbar--perfhome__button">
-          <div class="tabbar__icon tabbar--perfhome__icon">
+          <div class="tabbar__icon">
             <i class="fa fa-leaf"></i>
           </div>
-          <div class="tabbar__label tabbar--perfhome__label">Mes cultures</div>
+          <div class="tabbar__label">Mes cultures</div>
         </button>
       </label>
     </div>

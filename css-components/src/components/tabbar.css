@@ -562,13 +562,10 @@
 }
 
 .tabbar--perfdetail__button .tabbar__label {
+  font-size: 13px;
   font-weight: 500;
   text-transform: uppercase;
   vertical-align: top;
-}
-
-.tabbar--perfdetail__button .tabbar__label:first-child {
-  font-size: 13px;
 }
 
 /*~
@@ -576,26 +573,26 @@
   category: Tabbar
   elements: ons-tabbar ons-tab
   markup: |
-    <!-- custom class: tabbar--perfhome tabbar--perfhome__item tabbar--perfhome__button tabbar--perfhome__icon tabbar--perfhome__label -->
+    <!-- custom class: tabbar--perfhome tabbar--perfhome__item tabbar--perfhome__button -->
     <!-- Prerequisite=This example use font-awesome(http://fortawesome.github.io/Font-Awesome/) to display icons. -->
     <div class="tabbar tabbar--perfhome">
       <label class="tabbar__item tabbar--perfhome__item">
         <input type="radio" name="tabbar-perfarmer-b" checked="checked">
         <button class="tabbar__button tabbar--perfhome__button">
-          <div class="tabbar__icon tabbar--perfhome__icon">
+          <div class="tabbar__icon">
             <i class="fa fa-chart-line"></i>
           </div>
-          <div class="tabbar__label tabbar--perfhome__label">Commercialisation</div>
+          <div class="tabbar__label">Commercialisation</div>
         </button>
       </label>
 
       <label class="tabbar__item tabbar--perfhome__item">
         <input type="radio" name="tabbar-perfarmer-b">
         <button class="tabbar__button tabbar--perfhome__button">
-          <div class="tabbar__icon tabbar--perfhome__icon">
+          <div class="tabbar__icon">
             <i class="fa fa-leaf"></i>
           </div>
-          <div class="tabbar__label tabbar--perfhome__label">Mes cultures</div>
+          <div class="tabbar__label">Mes cultures</div>
         </button>
       </label>
     </div>
@@ -606,12 +603,12 @@
   background-color: white;
 }
 
-.tabbar__button.tabbar--perfhome__button {
+.tabbar--perfhome__button {
   height: auto;
   opacity: 0.4;
 }
 
-.tabbar__label.tabbar--perfhome__label {
+.tabbar--perfhome__button .tabbar__label {
   font-size: 14px;
   line-height: 17px;
   font-weight: 500;
@@ -619,44 +616,23 @@
   color: #000;
 }
 
-.tabbar__icon.tabbar--perfhome__icon {
+.tabbar--perfhome__button .tabbar__icon {
   height: 30px;
+  color: var(--second-highlight-color);
 }
 
-.tabbar__icon.tabbar--perfhome__icon .fa-chart-line {
+.tabbar--perfhome__button .tabbar__icon .fa {
   width: 26px;
   height: 26px;
   margin: 0 auto;
-  background: url('https://www.beta.perfarmer.com/landing/assets/icon_chart.png') bottom center no-repeat;
+  background-position: bottom center;
+  background-repeat: no-repeat;
 }
 
-.tabbar__icon.tabbar--perfhome__icon .fa-chart-line:before {
-  content: none;
-}
-
-:checked + .tabbar__button.tabbar--perfhome__button .tabbar__icon.tabbar--perfhome__icon .fa-chart-line { /* stylelint-disable-line */
-  background-image: url('https://www.beta.perfarmer.com/landing/assets/icon_chart_active.png');
-}
-
-.tabbar__icon.tabbar--perfhome__icon .fa-leaf {
-  width: 26px;
-  height: 26px;
-  margin: 0 auto;
-  background: url('https://www.beta.perfarmer.com/landing/assets/icon_leaf.png') bottom center no-repeat;
-}
-
-.tabbar__icon.tabbar--perfhome__icon .fa-leaf:before {
-  content: none;
-}
-
-:checked + .tabbar__button.tabbar--perfhome__button .tabbar__icon.tabbar--perfhome__icon .fa-leaf { /* stylelint-disable-line */
-  background-image: url('https://www.beta.perfarmer.com/landing/assets/icon_leaf_active.png');
-}
-
-:checked + .tabbar__button.tabbar--perfhome__button {
+:checked + .tabbar--perfhome__button {
   opacity: 1;
 }
 
-:checked + .tabbar__label.tabbar--perfhome__label {
-  color: #0c3c2b;
+:checked + .tabbar--perfhome__button .tabbar__label {
+  color: var(--highlight-color);
 }
