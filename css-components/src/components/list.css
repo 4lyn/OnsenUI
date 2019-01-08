@@ -1211,6 +1211,7 @@
 }
 
 .list-item--perfbutton__center {
+  margin-bottom: 30px;
   padding: 0;
   min-height: 0;
   height: auto;
@@ -1308,6 +1309,10 @@
     </ul>
  */
 
+ .list--perfhome {
+   margin-bottom: 10px;
+ }
+ 
 .list-item--perfcultbg {
   height: 138px;
   padding: 0 20px;
@@ -1473,7 +1478,7 @@
 }
 
 .list-item--perfalerte + .list-item--perfalerte {
-  padding-top: 16px;
+  padding-top: 12px;
   padding-bottom: 23px;
 }
 
