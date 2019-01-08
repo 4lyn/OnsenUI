@@ -394,21 +394,21 @@ markup: |
       <label class="tabbar__item tabbar--top__item tabbar--perfdetail__item">
         <input type="radio" name="tabbar-perfarmer-a" checked="checked">
         <button class="tabbar__button tabbar--top-border__button tabbar--top__button tabbar--perfdetail__button">
-          <div class="tabbar__label tabbar--top__label tabbar--perfdetail__label">Cours</div>
+          <div class="tabbar__label tabbar--top__label">Cours</div>
         </button>
       </label>
 
       <label class="tabbar__item tabbar--top__item tabbar--perfdetail__item">
         <input type="radio" name="tabbar-perfarmer-a">
         <button class="tabbar__button tabbar--top-border__button tabbar--top__button tabbar--perfdetail__button">
-          <div class="tabbar__label tabbar--top__label tabbar--perfdetail__label">Stratégie</div>
+          <div class="tabbar__label tabbar--top__label">Stratégie</div>
         </button>
       </label>
 
       <label class="tabbar__item tabbar--top__item tabbar--perfdetail__item">
         <input type="radio" name="tabbar-perfarmer-a">
         <button class="tabbar__button tabbar--top-border__button tabbar--top__button tabbar--perfdetail__button">
-          <div class="tabbar__label tabbar--top__label tabbar--perfdetail__label">Ventes</div>
+          <div class="tabbar__label tabbar--top__label">Ventes</div>
         </button>
       </label>
     </div>
@@ -1024,21 +1024,21 @@ markup: |
       <label class="tabbar__item tabbar--top__item tabbar--perfdetail__item">
         <input type="radio" name="tabbar-perfarmer-a">
         <button class="tabbar__button tabbar--top-border__button tabbar--top__button tabbar--perfdetail__button">
-          <div class="tabbar__label tabbar--top__label tabbar--perfdetail__label">Cours</div>
+          <div class="tabbar__label tabbar--top__label">Cours</div>
         </button>
       </label>
 
       <label class="tabbar__item tabbar--top__item tabbar--perfdetail__item">
         <input type="radio" name="tabbar-perfarmer-a" checked="checked">
         <button class="tabbar__button tabbar--top-border__button tabbar--top__button tabbar--perfdetail__button">
-          <div class="tabbar__label tabbar--top__label tabbar--perfdetail__label">Stratégie</div>
+          <div class="tabbar__label tabbar--top__label">Stratégie</div>
         </button>
       </label>
 
       <label class="tabbar__item tabbar--top__item tabbar--perfdetail__item">
         <input type="radio" name="tabbar-perfarmer-a">
         <button class="tabbar__button tabbar--top-border__button tabbar--top__button tabbar--perfdetail__button">
-          <div class="tabbar__label tabbar--top__label tabbar--perfdetail__label">Ventes</div>
+          <div class="tabbar__label tabbar--top__label">Ventes</div>
         </button>
       </label>
     </div>
@@ -1078,21 +1078,21 @@ markup: |
       <label class="tabbar__item tabbar--top__item tabbar--perfdetail__item">
         <input type="radio" name="tabbar-perfarmer-a">
         <button class="tabbar__button tabbar--top-border__button tabbar--top__button tabbar--perfdetail__button">
-          <div class="tabbar__label tabbar--top__label tabbar--perfdetail__label">Cours</div>
+          <div class="tabbar__label tabbar--top__label">Cours</div>
         </button>
       </label>
 
       <label class="tabbar__item tabbar--top__item tabbar--perfdetail__item">
         <input type="radio" name="tabbar-perfarmer-a" checked="checked">
         <button class="tabbar__button tabbar--top-border__button tabbar--top__button tabbar--perfdetail__button">
-          <div class="tabbar__label tabbar--top__label tabbar--perfdetail__label">Stratégie</div>
+          <div class="tabbar__label tabbar--top__label">Stratégie</div>
         </button>
       </label>
 
       <label class="tabbar__item tabbar--top__item tabbar--perfdetail__item">
         <input type="radio" name="tabbar-perfarmer-a">
         <button class="tabbar__button tabbar--top-border__button tabbar--top__button tabbar--perfdetail__button">
-          <div class="tabbar__label tabbar--top__label tabbar--perfdetail__label">Ventes</div>
+          <div class="tabbar__label tabbar--top__label">Ventes</div>
         </button>
       </label>
     </div>

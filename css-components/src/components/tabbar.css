@@ -526,26 +526,26 @@
   category: Tabbar
   elements: ons-tabbar ons-tab
   markup: |
-    <!-- custom class: tabbar--perfdetail tabbar--perfdetail__item tabbar--perfdetail__button tabbar--perfdetail__label -->
+    <!-- custom class: tabbar--perfdetail tabbar--perfdetail__item tabbar--perfdetail__button -->
     <div class="tabbar tabbar--top tabbar--perfdetail">
       <label class="tabbar__item tabbar--top__item tabbar--perfdetail__item">
         <input type="radio" name="tabbar-perfarmer-a" checked="checked">
         <button class="tabbar__button tabbar--top-border__button tabbar--top__button tabbar--perfdetail__button">
-          <div class="tabbar__label tabbar--top__label tabbar--perfdetail__label">Cours</div>
+          <div class="tabbar__label tabbar--top__label">Cours</div>
         </button>
       </label>
 
       <label class="tabbar__item tabbar--top__item tabbar--perfdetail__item">
         <input type="radio" name="tabbar-perfarmer-a">
         <button class="tabbar__button tabbar--top-border__button tabbar--top__button tabbar--perfdetail__button">
-          <div class="tabbar__label tabbar--top__label tabbar--perfdetail__label">Stratégie</div>
+          <div class="tabbar__label tabbar--top__label">Stratégie</div>
         </button>
       </label>
 
       <label class="tabbar__item tabbar--top__item tabbar--perfdetail__item">
         <input type="radio" name="tabbar-perfarmer-a">
         <button class="tabbar__button tabbar--top-border__button tabbar--top__button tabbar--perfdetail__button">
-          <div class="tabbar__label tabbar--top__label tabbar--perfdetail__label">Ventes</div>
+          <div class="tabbar__label tabbar--top__label">Ventes</div>
         </button>
       </label>
     </div>
@@ -561,13 +561,13 @@
   padding: 0 5px;
 }
 
-.tabbar--perfdetail__label {
+.tabbar--perfdetail__button .tabbar__label {
   font-weight: 500;
   text-transform: uppercase;
   vertical-align: top;
 }
 
-.tabbar__label.tabbar--perfdetail__label:first-child {
+.tabbar--perfdetail__button .tabbar__label:first-child {
   font-size: 13px;
 }
 
