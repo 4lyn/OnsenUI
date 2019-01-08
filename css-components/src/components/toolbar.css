@@ -444,6 +444,10 @@
   background-color: #ffffff;
 }
 
+.toolbar--perfhome__left .toolbar-button {
+  color: var(--highlight-color);
+}
+
 .toolbar-button--perfrecolte .fa {
   vertical-align: middle;
 }
