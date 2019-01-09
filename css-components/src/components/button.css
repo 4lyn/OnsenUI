@@ -436,29 +436,31 @@
 }
 
 /*~
-  name: Perfarmer Call To Action Button
+  name: Perfarmer Large Call To Action Button
   category: Button
   elements: ons-button
   markup: |
-    <!-- custom class: button--perfcta -->
-    <button class="button button--perfcta">Button</button>
+    <!-- custom class: button--perflarge -->
+    <button class="button button--large--cta button--perflarge" style="width: 95%; margin: 0 auto;">Button</button>
 */
 
-.button--perfcta {
-  @apply(--button);
+.button--perflarge {
   min-height: 60px;
-  width: 100%;
   line-height: 18px;
   padding: 21px 16px;
-  text-align: center;
-  font-size: 16px;
-  transform: translate3d(0, 0, 0);
-  background-color: var(--button-cta-background-color);
-  color: #fff;
-  font-weight: 500;
   border-radius: 5px;
-  transition: background-color 0.25s linear;
+  font-weight: 500;
+  width: 100%;
 }
+
+/*~
+  name: Perfarmer Large Outline Button
+  category: Button
+  elements: ons-button
+  markup: |
+    <!-- custom class: button--perflarge -->
+    <button class="button button--outline button--perflarge" style="width: 95%; margin: 0 auto;">Button</button>
+*/
 
 /*~
   name: Perfarmer Alert Button

@@ -493,7 +493,7 @@ markup: |
 
       <section style="padding: 38px; background-color: white; position: absolute; width: -webkit-fill-available; bottom: 0; text-align: center">
         <p>
-          <button class="button button--perfcta">S'inscrire</button>
+          <button class="button button--large--cta button--perflarge">S'inscrire</button>
         </p>
         <p>
           <small>Vous avez déjà un compte Perfarmer ?
@@ -655,7 +655,7 @@ markup: |
         </p>
       </section>
       <footer>
-        <button class="button button--perfcta">Ajouter une culture</button>
+        <button class="button button--large--cta button--perflarge">Ajouter une culture</button>
       </footer>
     </div>
 
@@ -818,7 +818,7 @@ markup: |
 
         <li class="list-item list-item--perfbutton">
           <div class="list-item__center list-item--perfbutton__center">
-            <button class="button button--large button--perfcta">Créer mon alerte de prix</button>
+            <button class="button button--large--cta button--perflarge">Créer mon alerte de prix</button>
           </div>
         </li>
 
@@ -919,7 +919,7 @@ markup: |
 
         <li class="list-item list-item--perfbutton">
           <div class="list-item__center list-item--perfbutton__center">
-            <button class="button button--large button--outline">Voir le détail</button>
+            <button class="button button--outline button--perflarge">Voir le détail</button>
           </div>
         </li>
 
@@ -977,7 +977,7 @@ markup: |
 
         <li class="list-item list-item--perfbutton">
           <div class="list-item__center list-item--perfbutton__center">
-            <button class="button button--large button--outline">Voir le détail</button>
+            <button class="button button--outline button--perflarge">Voir le détail</button>
           </div>
         </li>
 
@@ -1056,7 +1056,7 @@ markup: |
       </p>
 
       <section style="padding: 20px; position: absolute; width: -webkit-fill-available; bottom: 0;">
-        <button class="button button--large button--perfcta">Créer mon alerte de prix</button>
+        <button class="button button--large--cta button--perflarge">Créer mon alerte de prix</button>
       </section>
     
     </div>
@@ -1176,7 +1176,7 @@ markup: |
       </ul>
 
       <section style="padding: 20px; position: absolute; width: -webkit-fill-available; bottom: 0;">
-        <button class="button button--large button--perfcta">Suivant</button>
+        <button class="button button--large--cta button--perflarge">Suivant</button>
       </section>
 
     </div>
@@ -1262,7 +1262,7 @@ markup: |
       </section>
 
       <section style="padding: 20px;">
-        <button class="button button--large button--perfcta">Suivant</button>
+        <button class="button button--large--cta button--perflarge">Suivant</button>
       </section>
 
     </div>
@@ -1327,7 +1327,7 @@ markup: |
       </section>
 
       <section style="padding: 20px;">
-        <button class="button button--large button--perfcta">Terminer</button>
+        <button class="button button--large--cta button--perflarge">Terminer</button>
       </section>
 
     </div>
@@ -1615,7 +1615,7 @@ markup: |
       </ul>
 
       <section style="padding: 20px;">
-        <button class="button button--large button--perfcta">Enregistrer la vente</button>
+        <button class="button button--large--cta button--perflarge">Enregistrer la vente</button>
       </section>
       
     </div>

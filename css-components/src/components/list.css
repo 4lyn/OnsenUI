@@ -1211,7 +1211,6 @@
 }
 
 .list-item--perfbutton__center {
-  margin-bottom: 30px;
   padding: 0;
   min-height: 0;
   height: auto;
@@ -1426,11 +1425,15 @@
     <ul class="list list--noborder list--perflist">
       <li class="list-item list-item--perfbutton">
         <div class="list-item__center list-item--perfbutton__center">
-          <button class="button button--large button--perfcta">Créer mon alerte de prix</button>
+          <button class="button button--large--cta button--perflarge">Créer mon alerte de prix</button>
         </div>
       </li>
     </ul>
  */
+
+.list-item--perfbutton__center .button--perflarge {
+  margin: 20px 0;
+}
 
 /*~
   name: Perfarmer Alerte List
@@ -1470,7 +1473,6 @@
 
 .list-item--perfalerte + .list-item--perfalerte {
   padding-top: 12px;
-  padding-bottom: 23px;
 }
 
 .list-item--perfalerte__center {
@@ -1497,20 +1499,11 @@
     <ul class="list list--noborder list--perflist">
       <li class="list-item list-item--perfbutton">
         <div class="list-item__center list-item--perfbutton__center">
-          <button class="button button--large button--outline">Voir le détail</button>
+          <button class="button button--outline button--perflarge">Voir le détail</button>
         </div>
       </li>
     </ul>
  */
-
-.list-item--perfbutton__center .button--outline {
-  min-height: 60px;
-  padding: 21px 20px;
-  border-radius: 5px;
-  font-size: 16px;
-  line-height: 18px;
-  font-weight: 500;
-}
 
 /*~
   name: Perfarmer Col List
