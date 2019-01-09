@@ -1322,6 +1322,8 @@
 .list-item--perfcultbg {
   height: 138px;
   padding: 0 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .list-item--perfcultbg:before {
