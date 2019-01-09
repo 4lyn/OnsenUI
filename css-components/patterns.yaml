@@ -471,7 +471,7 @@ markup: |
 
         <li class="list-item list-item--perfbutton">
           <div class="list-item__center list-item--perfbutton__center">
-            <button class="button button--quiet button--perflist">Enregistrer une vente</button>
+            <button class="button button--quiet">Enregistrer une vente</button>
           </div>
         </li>
       </ul>
@@ -713,7 +713,7 @@ markup: |
 
           <div class="list-item__center list-item--perfcult__center">
             <div class="list-item__title list-item--perfcult__title">Blé tendre - Améliorant</div>
-            <div class="list-item__subtitle list-item--perfcult__subtitle">50 ha - 7 t/ha</div>
+            <div class="list-item__subtitle list-item--perfcult__subtitle">50 ha • 7 t/ha</div>
           </div>
 
         </li>
@@ -724,15 +724,18 @@ markup: |
           </div>
 
           <div class="list-item__center list-item--perfcult__center">
-            <div class="list-item__title list-item--perfcult__title">Tournesol - Olélélélélélélélé</div>
-            <div class="list-item__subtitle list-item--perfcult__subtitle">40 ha - 2,5 t/ha</div>
+            <div class="list-item__title list-item--perfcult__title">Pois Chiche - Consommation</div>
+            <div class="list-item__subtitle list-item--perfcult__subtitle">
+              40 ha • 2,5 t/ha
+              <img v-if="culture.is_bio" src="https://www.beta.perfarmer.com/landing/assets/bio_carre.png">
+            </div>
           </div>
 
         </li>
 
         <li class="list-item list-item--perfbutton">
           <div class="list-item__center list-item--perfbutton__center">
-            <button class="button button--quiet button--perflist">Ajouter une culture</button>
+            <button class="button button--quiet">Ajouter une culture</button>
           </div>
         </li>
       </ul>
@@ -1126,7 +1129,7 @@ markup: |
 
         <li class="list-item list-item--perfbutton">
           <div class="list-item__center list-item--perfbutton__center">
-            <button class="button button--quiet button--perflist">Modifier</button>
+            <button class="button button--quiet">Modifier</button>
           </div>
         </li>
 
@@ -1443,7 +1446,7 @@ markup: |
 
         <li class="list-item list-item--perfbutton">
           <div class="list-item__center list-item--perfbutton__center">
-            <button class="button button--quiet button--perflist">Ajouter mon rendement définitif</button>
+            <button class="button button--quiet">Ajouter mon rendement définitif</button>
           </div>
         </li>
 

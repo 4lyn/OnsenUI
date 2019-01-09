@@ -1128,7 +1128,7 @@
 
       <li class="list-item list-item--perfbutton">
         <div class="list-item__center list-item--perfbutton__center">
-          <button class="button button--quiet button--perflist">Enregistrer une vente</button>
+          <button class="button button--quiet">Enregistrer une vente</button>
         </div>
       </li>
     </ul>
@@ -1248,7 +1248,8 @@
       </li>
     </ul>
  */
-.list-item--perfcult::after {
+
+.list-item--perfcult:after {
   content: '';
   position: absolute;
   height: 1px;
@@ -1279,16 +1280,22 @@
   font-weight: 500;
   letter-spacing: 0.12px;
   line-height: 22px;
-  color: var(--perfarmer-vert);
+  color: var(--highlight-color);
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
 }
+
 .list-item--perfcult__subtitle {
   font-size: 16px;
   letter-spacing: 0.1px;
   line-height: 19px;
-  color: var(--perfarmer-gris-font);
+  color: var(--list-item-chevron-color);
+}
+
+.list-item--perfcult__subtitle img {
+  height: 16px;
+  vertical-align: top;
 }
 
 /*~
@@ -1308,10 +1315,10 @@
     </ul>
  */
 
- .list--perfhome {
-   margin-bottom: 10px;
- }
- 
+.list--perfhome {
+  margin-bottom: 10px;
+}
+
 .list-item--perfcultbg {
   height: 138px;
   padding: 0 20px;

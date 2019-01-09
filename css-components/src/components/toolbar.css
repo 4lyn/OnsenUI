@@ -444,7 +444,7 @@
   background-color: #ffffff;
 }
 
-.toolbar--perfhome::after {
+.toolbar--perfhome:after {
   content: '';
   position: absolute;
   height: 1px;
