@@ -603,6 +603,10 @@
   background-color: white;
 }
 
+.tabbar--perfhome__content {
+  bottom: 55px;
+}
+
 .tabbar--perfhome__button {
   height: auto;
   opacity: 0.4;
