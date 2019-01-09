@@ -1154,9 +1154,8 @@ markup: |
       </div>
     </div>
 
-    <div style="background-color: white">
-
-      <p>
+    <div class="content--perfalert">
+      <p class="title--perfalert">
         À quel prix net (ou «prix rendu») souhaitez-vous vendre votre
         Blé tendre - Améliorant&nbsp;?
       </p>
@@ -1178,7 +1177,7 @@ markup: |
 
       </ul>
 
-      <section style="padding: 20px; position: absolute; width: -webkit-fill-available; bottom: 0;">
+      <section style="padding: 20px; position: absolute; width: -webkit-fill-available; bottom: 0; left: 0;">
         <button class="button button--large--cta button--perflarge">Suivant</button>
       </section>
 

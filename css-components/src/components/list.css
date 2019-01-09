@@ -1064,16 +1064,40 @@
   margin-bottom: 10px;
 }
 
+.list-item--label {
+  margin: 0;
+  padding: 0;
+}
+
+.list-item--input {
+  margin: 0;
+  padding: 0;
+}
+
 .list-item--label__center {
+  margin: 0;
+  padding: 0;
   font-size: 15px;
+  line-height: 27px;
 }
 
 .list-item--input__center {
-  padding-right: 16px;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  line-height: 27px;
 }
 
 .list-item--input__center input {
   width: 100%;
+  font-size: 15px;
+  line-height: 27px;
+}
+
+.list-item--input__center input::placeholder {
+  font-size: 15px;
+  line-height: 27px;
+  color: rgba(0, 0,0, 0.5);
 }
 
 /*~

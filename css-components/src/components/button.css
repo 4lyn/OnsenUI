@@ -479,3 +479,15 @@
     <!-- custom class: button--perfaide -->
     <button class="button button--perfaide">Button</button>
 */
+.button--perfaide {
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: center;
+  color: var(--perfarmer-jaune);
+  border: 1px solid var(--perfarmer-jaune);
+  border-radius: 14px;
+  background: rgba(255, 201, 67, 0.2);
+}
