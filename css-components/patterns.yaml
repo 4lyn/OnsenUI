@@ -704,7 +704,7 @@ markup: |
 
     <div>
     
-      <ul class="list list--noborder list--perflist">
+      <ul class="list list--noborder list--perfhome">
         <li class="list-item list-item--chevron list-item--perfcult">
         
           <div class="list-item__left list-item--perfcult__left">
