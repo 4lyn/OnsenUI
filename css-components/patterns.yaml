@@ -818,7 +818,7 @@ markup: |
 
         <li class="list-item list-item--perfbutton">
           <div class="list-item__center list-item--perfbutton__center">
-            <button class="button button--large">Créer mon alerte de prix</button>
+            <button class="button button--large button--perfcta">Créer mon alerte de prix</button>
           </div>
         </li>
 

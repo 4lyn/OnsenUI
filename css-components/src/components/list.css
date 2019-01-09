@@ -1426,20 +1426,11 @@
     <ul class="list list--noborder list--perflist">
       <li class="list-item list-item--perfbutton">
         <div class="list-item__center list-item--perfbutton__center">
-          <button class="button button--large">Créer mon alerte de prix</button>
+          <button class="button button--large button--perfcta">Créer mon alerte de prix</button>
         </div>
       </li>
     </ul>
  */
-
-.list-item--perfbutton__center .button--large {
-  min-height: 60px;
-  padding: 21px 20px;
-  border-radius: 5px;
-  font-size: 16px;
-  line-height: 18px;
-  font-weight: 500;
-}
 
 /*~
   name: Perfarmer Alerte List
