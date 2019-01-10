@@ -1066,12 +1066,12 @@
 
 .list-item--label {
   margin: 0;
-  padding: 4px 0 0;
+  padding: 4px 15px 0;
 }
 
 .list-item--input {
   margin: 0 0 25px;
-  padding: 13px 0 0;
+  padding: 13px 15px 0;
 }
 
 .list-item--label__center {

@@ -86,15 +86,14 @@ a {
 }
 
 .content--perfalert {
-  padding: 0 16px;
   background: #fff;
   text-align: center;
 }
 
 .title--perfalert {
   display: inline-block;
-  margin: 43px 0 10px 0;
-  padding: 0 25px;
+  margin: 43px 0 10px;
+  padding: 0 42px;
   font-size: 16px;
   font-weight: 500;
   line-height: 25px;
@@ -105,7 +104,7 @@ a {
 }
 
 .footer--perfbutton {
-  padding: 20px;
+  padding: 15px;
   position: absolute;
   width: -webkit-fill-available;
   bottom: 0;
