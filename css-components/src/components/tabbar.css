@@ -551,6 +551,10 @@
     </div>
 */
 
+.tabbar--perfdetail {
+  border-top-width: 0;
+}
+
 .tabbar--perfdetail__item {
   font-size: 15px;
   overflow: hidden;
@@ -601,6 +605,17 @@
 .tabbar--perfhome {
   height: 55px;
   background-color: white;
+  border-top-width: 0;
+}
+
+.tabbar--perfhome:before {
+  content: '';
+  position: absolute;
+  height: 1px;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(0deg, var(--tabbar-border-color), var(--tabbar-border-color) 100%);
 }
 
 .tabbar--perfhome__content {
@@ -609,7 +624,7 @@
 
 .tabbar--perfhome__button {
   height: auto;
-  opacity: 0.4;
+  color: var(--border-color);
 }
 
 .tabbar--perfhome__button .tabbar__label {
@@ -617,12 +632,10 @@
   line-height: 17px;
   font-weight: 500;
   letter-spacing: 0.1px;
-  color: #000;
 }
 
 .tabbar--perfhome__button .tabbar__icon {
   height: 30px;
-  color: var(--second-highlight-color);
 }
 
 .tabbar--perfhome__button .tabbar__icon .fa {
@@ -633,10 +646,10 @@
   background-repeat: no-repeat;
 }
 
-:checked + .tabbar--perfhome__button {
-  opacity: 1;
-}
-
 :checked + .tabbar--perfhome__button .tabbar__label {
   color: var(--highlight-color);
+}
+
+:checked + .tabbar--perfhome__button .tabbar__icon {
+  color: var(--second-highlight-color);
 }
