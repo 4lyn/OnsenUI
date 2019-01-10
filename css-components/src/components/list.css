@@ -1623,6 +1623,41 @@
     </ul>
  */
 
+.list--perfinset {
+  margin: 0 15px;
+  padding: 23px 20px 23px 28px;
+  border-color: var(--perfarmer-gris-light);
+}
+
+.list--perfinset + .list--perfinset {
+  margin-top: 9px;
+}
+
+.list--perfinset .list-item {
+  margin: 0;
+  padding: 0;
+}
+
+.list--perfinset .list-item__center {
+  display: initial;
+  margin: 0;
+  padding: 0 39px 0 0;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 20px;
+  background: none;
+}
+
+.list--perfinset .list-item__center strong {
+  font-weight: 500;
+}
+
+.list--perfinset .list-item__right {
+  margin: 0;
+  padding: 0;
+  background: none;
+}
+
 /*~
   name: Perfarmer Switch List
   category: List

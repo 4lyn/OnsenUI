@@ -158,3 +158,20 @@ a {
 .result--perfarmer ons-col.result--perfarmer__active {
   color: var(--perfarmer-vert);
 }
+
+.content--perfinset {
+  padding: 0 0 40px 0;
+  background: #fff;
+}
+
+.content--perfinset > header {
+  padding: 46px;
+  text-align: center;
+}
+
+.content--perfinset > header h2 {
+  margin: 20px 0 0 0;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 23px;
+}

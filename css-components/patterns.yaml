@@ -1302,17 +1302,17 @@ markup: |
 
     <div>
 
-      <section style="background-color: white">
-
-        <img src="https://www.beta.perfarmer.com/landing/assets/icon_alert.png">
-        <p>
-          Quels SMS souhaitez-vous recevoir&nbsp;?
-        </p>
+      <section class="content--perfinset">
+        <header>
+          <img src="https://www.beta.perfarmer.com/landing/assets/icon_alert.png">
+          <h2>Quels SMS souhaitez-vous recevoir&nbsp;?</h2>
+        </header>
+        
 
         <ul class="list list--inset list--perfinset">
           <li class="list-item">
             <div class="list-item__center">
-              Recevoir un SMS quand le cours passe au dessus de mon alerte&nbsp;: 180€/t
+              Recevoir un SMS quand le cours passe au dessus de mon alerte&nbsp;: <strong>180€/t</strong>
             </div>
             <div class="list-item__right">
               <label class="switch switch--perfarmer">
@@ -1328,7 +1328,7 @@ markup: |
         <ul class="list list--inset list--perfinset">
           <li class="list-item">
             <div class="list-item__center">
-              Recevoir un SMS si le cours repasse en dessous de mon alerte&nbsp;: 180€/t
+              Recevoir un SMS si le cours repasse en dessous de mon alerte&nbsp;: <strong>180€/t</strong>
             </div>
             <div class="list-item__right">
               <label class="switch switch--perfarmer">
