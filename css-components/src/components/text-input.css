@@ -1,6 +1,6 @@
 
 :root {
-  --text-input-font-size: var(--font-size);
+  --text-input-font-size: 17px;
   --text-input-height: 29px;
   --text-input-border-color: var(--input-border-color);
   --material-text-input-font-size: var(--font-size);

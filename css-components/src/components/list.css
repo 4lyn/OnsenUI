@@ -1066,39 +1066,31 @@
 
 .list-item--label {
   margin: 0;
-  padding: 0;
+  padding: 4px 0 0;
 }
 
 .list-item--input {
-  margin: 0;
-  padding: 0;
+  margin: 0 0 25px;
+  padding: 13px 0 0;
 }
 
 .list-item--label__center {
   margin: 0;
   padding: 0;
   font-size: 15px;
-  line-height: 27px;
+  min-height: 27px;
 }
 
 .list-item--input__center {
   margin: 0;
   padding: 0;
-  font-size: 15px;
-  line-height: 27px;
+  min-height: unset;
 }
 
 .list-item--input__center input {
   width: 100%;
-  font-size: 15px;
-  line-height: 27px;
 }
 
-.list-item--input__center input::placeholder {
-  font-size: 15px;
-  line-height: 27px;
-  color: rgba(0, 0,0, 0.5);
-}
 
 /*~
   name: List with select
