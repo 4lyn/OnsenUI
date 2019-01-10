@@ -486,8 +486,8 @@
   font-weight: 500;
   line-height: 27px;
   text-align: center;
-  color: var(--perfarmer-jaune);
-  border: 1px solid var(--perfarmer-jaune);
+  color: var(--second-highlight-color);
+  border: 1px solid var(--second-highlight-color);
   border-radius: 14px;
   background: rgba(255, 201, 67, 0.2);
 }
