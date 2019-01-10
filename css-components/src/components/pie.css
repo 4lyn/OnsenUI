@@ -20,7 +20,7 @@
 }
 
 .pie-wrapper::before {
-  border: 15px solid var(--perfarmer-gris-pie);
+  border: 15px solid var(--perfarmer-gris-very-light);
   border-bottom: none;
   top: 0;
   z-index: 1;
@@ -49,7 +49,7 @@
   font-size: 25px;
   font-weight: bold;
   line-height: 29px;
-  color: var(--perfarmer-gris-title)
+  color: var(--perfarmer-gris-very-dark)
 }
 
 .pie-wrapper .perfdetail-score span {
