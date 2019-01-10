@@ -476,6 +476,8 @@
 }
 
 .toolbar-button.toolbar-button--perfhome img {
+  height: 22px;
+  width: 22px;
   margin: 0 auto;
 }
 
