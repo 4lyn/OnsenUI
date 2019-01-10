@@ -1556,9 +1556,6 @@
     </ul>
  */
 
-.list--perflist {
-}
-
 .list-item--perfcol {
   margin: 0;
   padding: 0;
@@ -1571,7 +1568,7 @@
 }
 
 .list-item--perfcol__center ons-col + ons-col {
-  border-left: 1px solid var(--perfarmer-gris-bg);
+  border-left: 1px solid var(--perfarmer-gris-light);
 }
 
 .list-item--perfcol__center p {
