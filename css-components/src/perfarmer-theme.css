@@ -6,21 +6,24 @@
   --perfarmer-jaune: #ffc943;
   --perfarmer-orange: #ff9e3e;
   --perfarmer-rouge: #e8612d;
+
+  --perfarmer-gris-background: #f2f4f8;
+  --perfarmer-gris-bleu-dark: #bbbec3;
+
+  --perfarmer-gris-dark: #808080;
+  --perfarmer-gris-normal: #979797;
+  --perfarmer-gris-light: #d5d5d5;
+
   --perfarmer-gris-title: #333333;
-  --perfarmer-gris-bg: #f2f4f8;
-  --perfarmer-gris-font: #808080;
-  --perfarmer-gris-unselected: #d5d5d5;
-  --perfarmer-gris-border: #999999;
-  --perfarmer-gris-placeholder: #bbbec3;
-  --perfarmer-gris-ligne: #979797;
+  --perfarmer-gris-pie: #e8e8e8;
 
   /* variables for iOS components */
-  --background-color: var(--perfarmer-gris-bg);
+  --background-color: var(--perfarmer-gris-background);
   --text-color: black;
-  --sub-text-color: var(--perfarmer-gris-placeholder);
+  --sub-text-color: var(--perfarmer-gris-bleu-dark);
   --highlight-color: var(--perfarmer-vert);
   --second-highlight-color: var(--perfarmer-jaune);
-  --border-color: var(--perfarmer-gris-ligne);
+  --border-color: var(--perfarmer-gris-normal);
   --button-background-color: var(--highlight-color);
   --button-cta-background-color: var(--perfarmer-vert);
   --toolbar-background-color: var(--perfarmer-vert);
@@ -37,7 +40,7 @@
   --list-background-color: white;
   --list-header-background-color: var(--perfarmer-jaune);
   --list-tap-active-background-color: #d9d9d9;
-  --list-item-chevron-color: var(--perfarmer-gris-font);
+  --list-item-chevron-color: var(--perfarmer-gris-dark);
   --progress-bar-color: var(--highlight-color);
   --progress-bar-secondary-color: var(--perfarmer-jaune);
   --progress-bar-background-color: transparent;
@@ -49,8 +52,8 @@
   --tabbar-highlight-text-color: white;
   --tabbar-border-color: white;
   --switch-highlight-color: var(--perfarmer-jaune);
-  --switch-border-color: var(--perfarmer-gris-border);
-  --switch-background-color: var(--perfarmer-gris-unselected);
+  --switch-border-color: var(--perfarmer-gris-normal);
+  --switch-background-color: var(--perfarmer-gris-light);
   --range-track-background-color: #d8d8d8;
   --range-track-background-color-active: #d8d8d8;
   --range-thumb-background-color: var(--perfarmer-vert);
@@ -86,14 +89,14 @@
   --select-input-border-color: var(--border-color);
 
   /* variables for Material Design components */
-  --material-background-color: var(--perfarmer-gris-bg);
+  --material-background-color: var(--perfarmer-gris-background);
   --material-text-color: var(--text-color);
   --material-notification-background-color: var(--perfarmer-rouge);
   --material-notification-color: white;
   --material-switch-active-thumb-color: var(--perfarmer-jaune);
-  --material-switch-active-background-color: rgba(255, 201, 67, 0.33);
-  --material-switch-inactive-thumb-color: #f1f1f1;
-  --material-switch-inactive-background-color: #b0afaf;
+  --material-switch-active-background-color: color(var(--perfarmer-jaune) a(0.33));
+  --material-switch-inactive-thumb-color: var(--perfarmer-gris-background);
+  --material-switch-inactive-background-color: var(--perfarmer-gris-normal);
   --material-range-track-color: #d8d8d8;
   --material-range-thumb-color: var(--perfarmer-vert);
   --material-range-disabled-thumb-color: #b0b0b0;
@@ -115,11 +118,11 @@
   --material-list-item-separator-color: #eee;
   --material-list-header-text-color: var(--perfarmer-vert);
   --material-checkbox-active-color: var(--second-highlight-color);
-  --material-checkbox-inactive-color: var(--perfarmer-gris-border);
+  --material-checkbox-inactive-color: var(--perfarmer-gris-normal);
   --material-checkbox-checkmark-color: white;
   --material-radio-button-active-color: var(--perfarmer-jaune);
-  --material-radio-button-inactive-color: var(--perfarmer-gris-border);
-  --material-radio-button-disabled-color: var(--perfarmer-gris-border);
+  --material-radio-button-inactive-color: var(--perfarmer-gris-normal);
+  --material-radio-button-disabled-color: var(--perfarmer-gris-normal);
   --material-text-input-text-color: var(--perfarmer-vert);
   --material-text-input-active-color: var(--perfarmer-vert);
   --material-text-input-inactive-color: #afafaf;

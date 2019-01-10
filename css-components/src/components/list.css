@@ -1186,7 +1186,7 @@
 .list-item--perfdetail__subtitle {
   font-size: 14px;
   line-height: 17px;
-  color: #808080;
+  color: var(--list-item-chevron-color);
 }
 
 .list-item--perfdetail__right {

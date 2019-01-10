@@ -20,7 +20,7 @@
 }
 
 .pie-wrapper::before {
-  border: 15px solid #e8e8e8;
+  border: 15px solid var(--perfarmer-gris-pie);
   border-bottom: none;
   top: 0;
   z-index: 1;
@@ -57,7 +57,7 @@
   font-weight: normal;
   font-style: italic;
   line-height: 18px;
-  color: #686868;
+  color: var(--list-item-chevron-color);
 }
 
 /* 
