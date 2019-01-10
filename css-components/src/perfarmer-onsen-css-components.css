@@ -32,6 +32,11 @@
   src: url('./font/Rubik-Bold.ttf') format('truetype');
 }
 
+.button--large--cta.button--perflarge:active { /* stylelint-disable-line */
+  background-color: var(--perfarmer-vert-dark);
+  opacity: 1;
+}
+
 a {
   font-weight: 500;
   color: var(--highlight-color);

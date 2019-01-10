@@ -453,11 +453,6 @@
   width: 100%;
 }
 
-.button--large--cta.button--perflarge:active {
-  background-color: var(--perfarmer-vert-dark);
-  opacity: 1;
-}
-
 /*~
   name: Perfarmer Large Outline Button
   category: Button
