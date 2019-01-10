@@ -1234,44 +1234,45 @@ markup: |
 
       </ul>
 
-      <section style="background-color: white; text-align:center; margin-bottom: 10px;">
-
-        <p>Mon alerte Euronext</p>
-        <h2>180 €/t</h2>
+      <section class="content--perfsimul">
+        <h2>Mon alerte Euronext</h2>
+        <h3>180 €/t</h3>
         
         <div class="range range--perfarmer">
           <input type="range" class="range__input range--perfarmer__input">
           <input type="range" class="range__focus-ring range--perfarmer__focus-ring">
         </div>
 
-        <p>Ce cours Euronext a été atteint en&nbsp;:</p>
-        <ons-row>
-          <ons-col>
-            <img src="https://www.beta.perfarmer.com/landing/assets/recolte-active.png">
-            <br />
-            2013
-          </ons-col>
-          <ons-col>
-            <img src="https://www.beta.perfarmer.com/landing/assets/recolte-inactive.png">
-            <br />
-            2014
-          </ons-col>
-          <ons-col>
-            <img src="https://www.beta.perfarmer.com/landing/assets/recolte-active.png">
-            <br />
-            2015
-          </ons-col>
-          <ons-col>
-            <img src="https://www.beta.perfarmer.com/landing/assets/recolte-active.png">
-            <br />
-            2016
-          </ons-col>
-          <ons-col>
-            <img src="https://www.beta.perfarmer.com/landing/assets/recolte-inactive.png">
-            <br />
-            2017
-          </ons-col>
-        </v-ons-row>
+        <div class="result--perfarmer">
+          <p>Ce cours Euronext a été atteint en&nbsp;:</p>
+          <ons-row>
+            <ons-col class="result--perfarmer__active">
+              <img src="https://www.beta.perfarmer.com/landing/assets/recolte-active.png">
+              <br />
+              2013
+            </ons-col>
+            <ons-col>
+              <img src="https://www.beta.perfarmer.com/landing/assets/recolte-inactive.png">
+              <br />
+              2014
+            </ons-col>
+            <ons-col class="result--perfarmer__active">
+              <img src="https://www.beta.perfarmer.com/landing/assets/recolte-active.png">
+              <br />
+              2015
+            </ons-col>
+            <ons-col class="result--perfarmer__active">
+              <img src="https://www.beta.perfarmer.com/landing/assets/recolte-active.png">
+              <br />
+              2016
+            </ons-col>
+            <ons-col>
+              <img src="https://www.beta.perfarmer.com/landing/assets/recolte-inactive.png">
+              <br />
+              2017
+            </ons-col>
+          </v-ons-row>
+        </div>
       </section>
 
       <section style="padding: 20px;">

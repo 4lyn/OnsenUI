@@ -1556,6 +1556,39 @@
     </ul>
  */
 
+.list--perflist {
+}
+
+.list-item--perfcol {
+  margin: 0;
+  padding: 0;
+}
+
+.list-item--perfcol__center {
+  margin: 0;
+  padding: 34px 0;
+  text-align: center;
+}
+
+.list-item--perfcol__center ons-col + ons-col {
+  border-left: 1px solid var(--perfarmer-gris-bg);
+}
+
+.list-item--perfcol__center p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.list-item--perfcol__center h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0.32px;
+}
+
+
 /*~
   name: Perfarmer Inset List
   category: List

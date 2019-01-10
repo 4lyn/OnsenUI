@@ -115,3 +115,65 @@ a {
   bottom: 0;
   left: 0;
 }
+
+.content--perfalert {
+  padding: 0 16px;
+  background: #fff;
+  text-align: center;
+}
+
+.title--perfalert {
+  display: inline-block;
+  margin: 43px 0 10px 0;
+  padding: 0 25px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.content--perfalert .list--input {
+  margin-top: 55px;
+}
+
+.content--perfsimul {
+  padding: 35px 15px;
+  background: #fff;
+  text-align: center;
+}
+
+.content--perfsimul h2 {
+  margin: 5px 0;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 22px;
+}
+
+.content--perfsimul h3 {
+  margin: 0 0 18px 0;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0.44px;
+  line-height: 27px;
+}
+
+.result--perfarmer {
+  padding: 40px 0 35px 0;
+  text-align: center;
+}
+
+.result--perfarmer p {
+  font-size: 15px;
+  line-height: 23px;
+  color: var(--perfarmer-gris-dark);
+}
+
+.result--perfarmer ons-col {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 23px;
+  color: var(--perfarmer-gris-normal);
+}
+
+.result--perfarmer ons-col.result--perfarmer__active {
+  color: var(--perfarmer-vert);
+}
