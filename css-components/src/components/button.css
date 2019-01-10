@@ -499,5 +499,9 @@
   color: var(--second-highlight-color);
   border: 1px solid var(--second-highlight-color);
   border-radius: 14px;
-  background: rgba(255, 201, 67, 0.2);
+  background: color(var(--second-highlight-color) a(0.2));
+}
+
+.button--perfaide:active {
+  background: white;
 }
