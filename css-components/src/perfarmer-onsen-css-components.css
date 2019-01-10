@@ -103,3 +103,11 @@ a {
 .content--perfalert .list--input {
   margin-top: 55px;
 }
+
+.footer--perfbutton {
+  padding: 20px;
+  position: absolute;
+  width: -webkit-fill-available;
+  bottom: 0;
+  left: 0;
+}

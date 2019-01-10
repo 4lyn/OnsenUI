@@ -388,6 +388,8 @@ markup: |
       <div class="toolbar__center toolbar__title toolbar--perfdetail__center">
         Blé tendre - Améliorant
       </div>
+      <div class="toolbar__right toolbar--perfdetail__right">
+      </div>
     </div>
 
     <div class="tabbar tabbar--top tabbar--perfdetail">
@@ -1025,6 +1027,8 @@ markup: |
       <div class="toolbar__center toolbar__title toolbar--perfdetail__center">
         Blé tendre - Améliorant
       </div>
+      <div class="toolbar__right toolbar--perfdetail__right">
+      </div>
     </div>
 
     <div class="tabbar tabbar--top tabbar--perfdetail">
@@ -1058,7 +1062,7 @@ markup: |
         Le détail apparaitra ici !
       </p>
 
-      <section style="padding: 20px; position: absolute; width: -webkit-fill-available; bottom: 0;">
+      <section class="footer--perfbutton">
         <button class="button button--large--cta button--perflarge">Créer mon alerte de prix</button>
       </section>
     
@@ -1078,6 +1082,8 @@ markup: |
       </div>
       <div class="toolbar__center toolbar__title toolbar--perfdetail__center">
         Blé tendre - Améliorant
+      </div>
+      <div class="toolbar__right toolbar--perfdetail__right">
       </div>
     </div>
 
@@ -1152,9 +1158,12 @@ markup: |
       <div class="toolbar__center toolbar__title toolbar--perfdetail__center">
         Mon prix objectif
       </div>
+      <div class="toolbar__right toolbar--perfdetail__right">
+      </div>
     </div>
 
     <div class="content--perfalert">
+
       <p class="title--perfalert">
         À quel prix net (ou «prix rendu») souhaitez-vous vendre votre
         Blé tendre - Améliorant&nbsp;?
@@ -1177,7 +1186,7 @@ markup: |
 
       </ul>
 
-      <section style="padding: 20px; position: absolute; width: -webkit-fill-available; bottom: 0; left: 0;">
+      <section class="footer--perfbutton">
         <button class="button button--large--cta button--perflarge">Suivant</button>
       </section>
 
@@ -1197,6 +1206,8 @@ markup: |
       </div>
       <div class="toolbar__center toolbar__title toolbar--perfdetail__center">
         Mon alerte
+      </div>
+      <div class="toolbar__right toolbar--perfdetail__right">
       </div>
     </div>
 
@@ -1283,6 +1294,8 @@ markup: |
       </div>
       <div class="toolbar__center toolbar__title toolbar--perfdetail__center">
         Mes SMS
+      </div>
+      <div class="toolbar__right toolbar--perfdetail__right">
       </div>
     </div>
 
@@ -1415,6 +1428,8 @@ markup: |
       <div class="toolbar__center toolbar__title toolbar--perfdetail__center">
         Tonnes à vendre
       </div>
+      <div class="toolbar__right toolbar--perfdetail__right">
+      </div>
     </div>
 
     <div>
@@ -1545,6 +1560,8 @@ markup: |
       <div class="toolbar__center toolbar__title toolbar--perfdetail__center">
         J'ai réalisé une vente
       </div>
+      <div class="toolbar__right toolbar--perfdetail__right">
+      </div>
     </div>
 
     <div>
@@ -1636,6 +1653,8 @@ markup: |
       </div>
       <div class="toolbar__center toolbar__title toolbar--perfdetail__center">
         J'ai réalisé une vente
+      </div>
+      <div class="toolbar__right toolbar--perfdetail__right">
       </div>
     </div>
 
@@ -1757,6 +1776,8 @@ markup: |
       </div>
       <div class="toolbar__center toolbar__title toolbar--perfdetail__center">
         Inscription 1/2
+      </div>
+      <div class="toolbar__right toolbar--perfdetail__right">
       </div>
     </div>
 
