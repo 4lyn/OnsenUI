@@ -462,6 +462,15 @@
     <button class="button button--outline button--perflarge" style="width: 95%; margin: 0 auto;">Button</button>
 */
 
+.button--outline.button--perflarge {
+  border: 1px solid var(--border-color);
+  color: var(--button-light-color);
+}
+
+.button--outline.button--perflarge:active {
+  background-color: var(--background-color);
+}
+
 /*~
   name: Perfarmer Alert Button
   category: Button
@@ -479,6 +488,7 @@
     <!-- custom class: button--perfaide -->
     <button class="button button--perfaide">Button</button>
 */
+
 .button--perfaide {
   display: inline-block;
   padding: 0 15px;

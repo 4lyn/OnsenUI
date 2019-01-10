@@ -30,7 +30,7 @@
   --button-bar-color: var(--highlight-color);
   --button-bar-active-text-color: white;
   --button-bar-active-background-color: color(var(--button-bar-color) tint(70%));
-  --button-light-color: var(--perfarmer-vert);
+  --button-light-color: var(--perfarmer-gris-title);
   --segment-color: var(--highlight-color);
   --segment-active-text-color: white;
   --segment-active-background-color: color(var(--segment-color) tint(70%));
