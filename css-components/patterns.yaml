@@ -1179,10 +1179,8 @@ markup: |
 
     </div>
 
-    <div class="bottom-bar">
-      <div class="bottom-bar__line-height bottom-bar--button" style="text-align:center">
-        <button class="button button--large--cta button--perflarge">Suivant</button>
-      </div>
+    <div class="bottom-bar bottom-bar--transparent bottom-bar--button">
+      <button class="button button--large--cta button--perflarge">Suivant</button>
     </div>
 
   </div>

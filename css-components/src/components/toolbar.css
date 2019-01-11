@@ -495,10 +495,8 @@
   category: Toolbar
   elements: ons-bottom-toolbar
   markup: |
-    <div class="bottom-bar bottom-bar--button">
-      <div class="bottom-bar__line-height" style="text-align:center">
-        <button class="button button--large--cta button--perflarge">Suivant</button>
-      </div>
+    <div class="bottom-bar bottom-bar--transparent bottom-bar--button">
+      <button class="button button--large--cta button--perflarge">Suivant</button>
     </div>
 */
 
