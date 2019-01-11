@@ -1066,12 +1066,12 @@
 
 .list-item--label {
   margin: 0;
-  padding: 4px 15px 0;
+  padding: 4px 15px 13px;
 }
 
 .list-item--input {
   margin: 0 0 25px;
-  padding: 13px 15px 0;
+  padding: 0 15px;
 }
 
 .list-item--label__center {
@@ -1803,6 +1803,10 @@
       </li>
     </ul>
  */
+
+.list-item--perfradio__center {
+  font-weight: 500;
+}
 
 /*~
   name: Perfarmer Checkbox List
