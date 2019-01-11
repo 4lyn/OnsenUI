@@ -138,8 +138,7 @@ a {
 }
 
 .result--perfarmer {
-  padding: 40px 0 35px 0;
-  text-align: center;
+  padding-top: 40px;
 }
 
 .result--perfarmer p { /* stylelint-disable-line */
