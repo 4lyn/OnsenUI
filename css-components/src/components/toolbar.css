@@ -227,17 +227,6 @@
   border: none;
 }
 
-.bottom-bar--button {
-  text-align: center;
-}
-
-.bottom-bar--button .button {
-  height: var(--toolbar-height);
-  border-radius: 0;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
 /*~
   name: Toolbar with Segment
   category: Toolbar
@@ -499,4 +488,28 @@
 
 .toolbar--perfparams__center {
   color: var(--second-highlight-color);
+}
+
+/*~
+  name: Perfarmer Button Bottom Bar
+  category: Toolbar
+  elements: ons-bottom-toolbar
+  markup: |
+    <div class="bottom-bar bottom-bar--button">
+      <div class="bottom-bar__line-height" style="text-align:center">
+        <button class="button button--large--cta button--perflarge">Suivant</button>
+      </div>
+    </div>
+*/
+
+.bottom-bar--button {
+  text-align: center;
+}
+
+.bottom-bar--button .button--perflarge {
+  height: var(--toolbar-height);
+  border-radius: 0;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  min-height: unset;
 }

@@ -97,7 +97,7 @@ a {
 
 .title--perfalert {
   display: inline-block;
-  margin: 43px 0 10px;
+  margin: 20px 0 10px;
   padding: 0 42px;
   font-size: 16px;
   font-weight: 500;
@@ -105,7 +105,7 @@ a {
 }
 
 .content--perfalert .list--perflist {
-  margin-top: 25px;
+  margin-top: 30px;
 }
 
 .footer--perfbutton {
@@ -217,8 +217,5 @@ a {
   text-align: center;
   font-size: 14px;
   line-height: 22px;
-}
-
-.content--perfwelcome section p + p {
-  margin-top: 18px;
+  margin-bottom: 18px;
 }

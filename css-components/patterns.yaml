@@ -1169,12 +1169,6 @@ markup: |
 
       <ul class="list list--noborder list--perflist">
 
-        <li class="list-item list-item--nodivider list-item--label">
-          <div class="list-item__center list-item--nodivider__center list-item--label__center">
-            Prix objectif (€/t)
-          </div>
-        </li>
-
         <li class="list-item list-item--input">
           <div class="list-item__center list-item--input__center">
             <input type="text" class="text-input text-input--underbar" placeholder="Entrez un prix" value="">
@@ -1183,10 +1177,12 @@ markup: |
 
       </ul>
 
-      <section class="footer--perfbutton">
-        <button class="button button--large--cta button--perflarge">Suivant</button>
-      </section>
+    </div>
 
+    <div class="bottom-bar">
+      <div class="bottom-bar__line-height bottom-bar--button" style="text-align:center">
+        <button class="button button--large--cta button--perflarge">Suivant</button>
+      </div>
     </div>
 
   </div>
