@@ -21,7 +21,6 @@
   --perfarmer-gris-light: #d5d5d5;
   --perfarmer-gris-very-light: #e6e8e8;
 
-
   /* variables for iOS components */
   --background-color: var(--perfarmer-gris-background);
   --text-color: black;
@@ -44,7 +43,7 @@
   --segment-active-background-color: color(var(--segment-color) tint(70%));
   --list-background-color: white;
   --list-header-background-color: var(--perfarmer-jaune);
-  --list-tap-active-background-color: #d9d9d9;
+  --list-tap-active-background-color: var(--perfarmer-gris-light);
   --list-item-chevron-color: var(--perfarmer-gris-dark);
   --progress-bar-color: var(--highlight-color);
   --progress-bar-secondary-color: var(--perfarmer-jaune);

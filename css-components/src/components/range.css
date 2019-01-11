@@ -263,19 +263,17 @@
   background-size: 100% 5px;
 }
 
-input[type=range].range--perfarmer__input::-webkit-slider-runnable-track {
+.range--perfarmer__input::-webkit-slider-runnable-track {
   height: 26px;
   border: none;
   border-radius: 0;
   background: none;
 }
 
-input[type=range].range--perfarmer__input::-webkit-slider-thumb {
+.range--perfarmer__input::-webkit-slider-thumb {
   -webkit-appearance: none;
   height: 26px;
   width: 26px;
-  border-radius: 50%;
-  background: var(--perfarmer-vert);
   box-shadow: none;
   border: 4px solid #fff;
 }

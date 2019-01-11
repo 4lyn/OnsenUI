@@ -1087,7 +1087,7 @@
   min-height: unset;
 }
 
-.list-item--input__center input {
+.list-item--input__center input, .list-item--input__center ons-input, .list-item--input__center ons-select { /* stylelint-disable-line */
   width: 100%;
 }
 
@@ -1567,8 +1567,8 @@
   text-align: center;
 }
 
-.list-item--perfcol__center ons-col + ons-col {
-  border-left: 1px solid var(--perfarmer-gris-light);
+.list-item--perfcol__center ons-col + ons-col { /* stylelint-disable-line */
+  border-left: 1px solid var(--list-item-active-background-color);
 }
 
 .list-item--perfcol__center p {
@@ -1584,7 +1584,6 @@
   line-height: 19px;
   letter-spacing: 0.32px;
 }
-
 
 /*~
   name: Perfarmer Inset List
@@ -1623,7 +1622,7 @@
 .list--perfinset {
   margin: 0 15px;
   padding: 23px 20px 23px 28px;
-  border-color: var(--perfarmer-gris-light);
+  border-color: var(--list-item-active-background-color);
 }
 
 .list--perfinset + .list--perfinset {
@@ -1640,7 +1639,7 @@
   margin: 0;
   padding: 0 39px 0 0;
   font-size: 15px;
-  font-weight: normal;
+  font-weight: 400;
   line-height: 20px;
   background: none;
 }

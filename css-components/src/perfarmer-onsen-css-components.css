@@ -125,7 +125,7 @@ a {
 .content--perfsimul h2 {
   margin: 5px 0;
   font-size: 18px;
-  font-weight: normal;
+  font-weight: 400;
   line-height: 22px;
 }
 
@@ -142,20 +142,20 @@ a {
   text-align: center;
 }
 
-.result--perfarmer p {
+.result--perfarmer p { /* stylelint-disable-line */
   font-size: 15px;
   line-height: 23px;
   color: var(--perfarmer-gris-dark);
 }
 
-.result--perfarmer ons-col {
+.result--perfarmer ons-col { /* stylelint-disable-line */
   font-size: 12px;
   font-weight: 500;
   line-height: 23px;
   color: var(--perfarmer-gris-normal);
 }
 
-.result--perfarmer ons-col.result--perfarmer__active {
+.result--perfarmer ons-col.result--perfarmer__active { /* stylelint-disable-line */
   color: var(--perfarmer-vert);
 }
 
@@ -176,7 +176,6 @@ a {
   line-height: 23px;
 }
 
-
 .content--perfwelcome {
   height: 100%;
   display: flex;
@@ -196,7 +195,7 @@ a {
 .content--perfwelcome header h1 {
   margin: 0 0 20px 0;
   font-size: 28px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 35px;
   color: #fff;
 }
@@ -220,6 +219,6 @@ a {
   line-height: 22px;
 }
 
-.content--perfwelcome section p button {
+.content--perfwelcome section button {
   margin-bottom: 18px;
 }
