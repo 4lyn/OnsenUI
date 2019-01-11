@@ -486,8 +486,8 @@ name: Perfarmer Accueil
 markup: |
   <div class="page">
 
-    <div class="content--perfwelcome">
-      <header>
+    <div class="content--perfwelcome" style="height: 100%;">
+      <header style="background-image: url('https://www.beta.perfarmer.com/landing/assets/accueil_bg.png')">
         <img src="https://www.beta.perfarmer.com/landing/assets/logo_app.png" />
         <h1>Vendez vos céréales au bon prix</h1>
         <p>Créez votre première alerte en moins de 5min</p>
