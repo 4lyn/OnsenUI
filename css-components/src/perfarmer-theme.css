@@ -55,7 +55,7 @@
   --tabbar-background-color: var(--perfarmer-vert);
   --tabbar-text-color: rgba(255, 255, 255, 0.5);
   --tabbar-highlight-text-color: white;
-  --tabbar-border-color: var(--perfarmer-gris-light);
+  --tabbar-border-color: var(--perfarmer-gris-very-light);
   --switch-highlight-color: var(--perfarmer-jaune);
   --switch-border-color: var(--perfarmer-gris-normal);
   --switch-background-color: var(--perfarmer-gris-light);
