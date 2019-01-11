@@ -12,9 +12,7 @@
   --perfarmer-jaune-light: #fff8e6;
   --perfarmer-bleu: #9ebcdf;
   --perfarmer-gris-bleu-dark: #bbbec3;
-
-  --perfarmer-gris-background: #f2f4f8;
-
+  --perfarmer-gris-bleu-light: #f2f4f8;
   --perfarmer-gris-very-dark: #333333;
   --perfarmer-gris-dark: #808080;
   --perfarmer-gris-normal: #979797;
@@ -22,7 +20,7 @@
   --perfarmer-gris-very-light: #e6e8e8;
 
   /* variables for iOS components */
-  --background-color: var(--perfarmer-gris-background);
+  --background-color: var(--perfarmer-gris-bleu-light);
   --text-color: black;
   --sub-text-color: var(--perfarmer-gris-bleu-dark);
   --highlight-color: var(--perfarmer-vert);
@@ -56,8 +54,8 @@
   --tabbar-highlight-text-color: white;
   --tabbar-border-color: var(--perfarmer-gris-very-light);
   --switch-highlight-color: var(--perfarmer-jaune);
-  --switch-border-color: var(--perfarmer-gris-normal);
-  --switch-background-color: var(--perfarmer-gris-light);
+  --switch-border-color: var(--perfarmer-gris-light);
+  --switch-background-color: var(--perfarmer-gris-very-light);
   --range-track-background-color: #d8d8d8;
   --range-track-background-color-active: #d8d8d8;
   --range-thumb-background-color: var(--perfarmer-vert);
@@ -93,13 +91,13 @@
   --select-input-border-color: var(--border-color);
 
   /* variables for Material Design components */
-  --material-background-color: var(--perfarmer-gris-background);
+  --material-background-color: var(--perfarmer-gris-bleu-light);
   --material-text-color: var(--text-color);
   --material-notification-background-color: var(--perfarmer-rouge);
   --material-notification-color: white;
   --material-switch-active-thumb-color: var(--perfarmer-jaune);
   --material-switch-active-background-color: color(var(--perfarmer-jaune) a(0.33));
-  --material-switch-inactive-thumb-color: var(--perfarmer-gris-background);
+  --material-switch-inactive-thumb-color: var(--perfarmer-gris-bleu-light);
   --material-switch-inactive-background-color: var(--perfarmer-gris-normal);
   --material-range-track-color: #d8d8d8;
   --material-range-thumb-color: var(--perfarmer-vert);
@@ -122,10 +120,10 @@
   --material-list-item-separator-color: #eee;
   --material-list-header-text-color: var(--perfarmer-vert);
   --material-checkbox-active-color: var(--second-highlight-color);
-  --material-checkbox-inactive-color: var(--perfarmer-gris-normal);
+  --material-checkbox-inactive-color: var(--perfarmer-gris-dark);
   --material-checkbox-checkmark-color: white;
   --material-radio-button-active-color: var(--perfarmer-jaune);
-  --material-radio-button-inactive-color: var(--perfarmer-gris-normal);
+  --material-radio-button-inactive-color: var(--perfarmer-gris-dark);
   --material-radio-button-disabled-color: var(--perfarmer-gris-light);
   --material-text-input-text-color: var(--perfarmer-vert);
   --material-text-input-active-color: var(--perfarmer-vert);
