@@ -260,14 +260,18 @@
       <div class="radio-button__checkmark radio-button--material__checkmark radio-button--perfarmer__checkmark"></div>
       Label
     </label>
-    <label class="radio-button radio-button--material radio-button--perfarmer">
+    <label class="radio-button radio-button--material radio-button--perfarmer radio-button--disabled">
       <input type="radio" class="radio-button__input radio-button--material__input radio-button--perfarmer__input" name="s" disabled checked>
       <div class="radio-button__checkmark radio-button--material__checkmark radio-button--perfarmer__checkmark"></div>
       Label
     </label>
-    <label class="radio-button radio-button--material radio-button--perfarmer">
+    <label class="radio-button radio-button--material radio-button--perfarmer radio-button--disabled">
       <input type="radio" class="radio-button__input radio-button--material__input radio-button--perfarmer__input" name="s" disabled>
       <div class="radio-button__checkmark radio-button--material__checkmark radio-button--perfarmer__checkmark"></div>
       Label
     </label>
 */
+
+.radio-button--disabled {
+  color: var(--border-color);
+}
