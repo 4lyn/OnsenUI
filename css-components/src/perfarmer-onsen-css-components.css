@@ -105,11 +105,11 @@ a {
 }
 
 .content--perfalert .list--perflist {
-  margin-top: 55px;
+  margin-top: 25px;
 }
 
 .footer--perfbutton {
-  padding: 15px;
+  padding: 5px 15px;
   position: absolute;
   width: -webkit-fill-available;
   bottom: 0;
