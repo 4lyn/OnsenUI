@@ -170,22 +170,6 @@
 }
 
 /*~
-  name: Perfarmer Detail Toolbar Button
-  category: Toolbar Button
-  elements: ons-toolbar-button
-  markup: |
-    <!-- custom class: toolbar-button--perfdetail -->
-    <!-- Prerequisite=This example use font-awesome(http://fortawesome.github.io/Font-Awesome/) to display icons. -->
-    <button class="toolbar-button toolbar-button--perfdetail">
-      <i class="fa fa-bell"></i>
-    </button>
-
-    <button class="toolbar-button toolbar-button--perfdetail">
-      Label
-    </button>
-*/
-
-/*~
   name: Perfarmer Recolte Toolbar Button
   category: Toolbar Button
   elements: ons-toolbar-button

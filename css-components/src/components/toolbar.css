@@ -404,7 +404,7 @@
     <!-- custom class: toolbar--perfdetail toolbar--perfdetail__left toolbar--perfdetail__center -->
     <div class="toolbar toolbar--noshadow toolbar--perfdetail">
       <div class="toolbar__left toolbar--perfdetail__left">
-        <span class="toolbar-button toolbar-button--perfdetail">
+        <span class="toolbar-button">
           <i class="fa fa-chevron-left"></i>
         </span>
       </div>
@@ -432,7 +432,7 @@
         </button>
       </div>
       <div class="toolbar__right toolbar--perfhome__right">
-        <span class="toolbar-button toolbar-button--perfhome">
+        <span class="toolbar-button">
           <img src="https://www.beta.perfarmer.com/landing/assets/icon_cog.png">
         </span>
       </div>
@@ -458,15 +458,11 @@
   color: var(--highlight-color);
 }
 
-.toolbar-button--perfrecolte .fa {
-  vertical-align: middle;
-}
-
 .toolbar--perfhome__right {
   padding: 0 20px 0 0;
 }
 
-.toolbar-button.toolbar-button--perfhome {
+.toolbar--perfhome__right .toolbar-button {
   width: 30px;
   height: 30px;
   padding: 0;
@@ -475,7 +471,7 @@
   text-align: center;
 }
 
-.toolbar-button.toolbar-button--perfhome img {
+.toolbar--perfhome__right .toolbar-button img {
   height: 22px;
   width: 22px;
   margin: 0 auto;
@@ -489,7 +485,7 @@
     <!-- custom class: toolbar--perfparams toolbar--perfparams__left toolbar--perfparams__center -->
     <div class="toolbar toolbar--noshadow toolbar--perfparams">
       <div class="toolbar__left toolbar--perfparams__left">
-        <span class="toolbar-button toolbar-button--perfdetail">
+        <span class="toolbar-button">
           <i class="fa fa-chevron-down"></i>
         </span>
       </div>

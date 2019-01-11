@@ -1047,8 +1047,8 @@
   name: Perfarmer Input List
   category: List
   markup: |
-    <!-- custom class: list--input list-item--label list-item--label__center list-item--input list-item--input__center -->
-    <ul class="list list--noborder list--input">
+    <!-- custom class: list--perflist list-item--label list-item--label__center list-item--input list-item--input__center -->
+    <ul class="list list--noborder list--perflist">
       <li class="list-item list-item--nodivider list-item--label">
         <div class="list-item__center list-item--nodivider__center list-item--label__center">Label 1</div>
       </li>
@@ -1060,7 +1060,7 @@
     </ul>
  */
 
-.list--input {
+.list--perflist {
   margin-bottom: 10px;
 }
 
@@ -1095,7 +1095,7 @@
   name: List with select
   category: List
   markup: |
-    <ul class="list list--noborder list--input">
+    <ul class="list list--noborder list--perflist">
       <li class="list-item list-item--nodivider list-item--label">
         <div class="list-item__center list-item--nodivider__center list-item--label__center">Label 1</div>
       </li>
@@ -1120,12 +1120,12 @@
   name: Perfarmer Detail List
   category: List
   markup: |
-    <!-- custom class: list-title--perflist list-title--perflist__right list--perflist list-item--perfdetail list-item--perfdetail__* -->
+    <!-- custom class: list-title--perflist list-title--perflist__right list-item--perfdetail list-item--perfdetail__* -->
     <div class="list-title list-title--perflist">
       Ventes enregistrées
       <span class="list-title--perflist__right">Prix moyen : <strong>215 €/t</strong></span>
     </div>
-    <ul class="list list--noborder list--perflist">
+    <ul class="list list--noborder">
       <li class="list-item list-item--chevron list-item--perfdetail">
         <div class="list-item__left list-item--perfdetail__left">
           <img class="list-item__thumbnail list-item--perfdetail__thumbnail" src="https://www.beta.perfarmer.com/landing/assets/cultures/ble_tendre_icon.png">
@@ -1210,8 +1210,8 @@
   name: Perfarmer Quiet Button List
   category: List
   markup: |
-    <!-- custom class: list--perflist list-item--perfbutton list-item--perfbutton__center -->
-    <ul class="list list--noborder list--perflist">
+    <!-- custom class: list-item--perfbutton list-item--perfbutton__center -->
+    <ul class="list list--noborder">
       <li class="list-item list-item--perfbutton">
         <div class="list-item__center list-item--perfbutton__center">
           <button class="button button--quiet">Enregistrer une vente</button>
@@ -1247,8 +1247,8 @@
   name: Perfarmer Culture List
   category: List
   markup: |
-    <!-- custom class: list--perflist *--perfcult *--perfcult__* -->
-    <ul class="list list--noborder list--perflist">
+    <!-- custom class: *--perfcult *--perfcult__* -->
+    <ul class="list list--noborder">
       <li class="list-item list-item--chevron list-item--perfcult">
 
         <div class="list-item__left list-item--perfcult__left">
@@ -1317,8 +1317,8 @@
   name: Perfarmer Culture Background List
   category: List
   markup: |
-    <!-- custom class: list--perfhome *--perfcultbg *--perfcultbg__* -->
-    <ul class="list list--noborder list--perfhome">
+    <!-- custom class: *--perfcultbg *--perfcultbg__* -->
+    <ul class="list list--noborder">
       <li class="list-item list-item--chevron list-item--nodivider list-item--perfcultbg" style="background-image: url('https://www.beta.perfarmer.com/landing/assets/cultures/ble_tendre_bg.png');">
 
         <div class="list-item__center list-item--nodivider__center list-item--perfcultbg__center">
@@ -1329,10 +1329,6 @@
       </li>
     </ul>
  */
-
-.list--perfhome {
-  margin-bottom: 10px;
-}
 
 .list-item--perfcultbg {
   height: 138px;
@@ -1373,8 +1369,8 @@
   name: Perfarmer Cours List
   category: List
   markup: |
-    <!-- custom class: list--perfhome *--perfcours *--perfcours__* -->
-    <ul class="list list--noborder list--perfhome">
+    <!-- custom class: *--perfcours *--perfcours__* -->
+    <ul class="list list--noborder">
       <li class="list-item list-item--perfcours">
 
         <div class="list-item__center list-item--perfcours__center">
@@ -1445,8 +1441,8 @@
   name: Perfarmer Large Button List
   category: List
   markup: |
-    <!-- custom class: list--perflist list-item--perfbutton list-item--perfbutton__center -->
-    <ul class="list list--noborder list--perflist">
+    <!-- custom class: list-item--perfbutton list-item--perfbutton__center -->
+    <ul class="list list--noborder">
       <li class="list-item list-item--perfbutton">
         <div class="list-item__center list-item--perfbutton__center">
           <button class="button button--large--cta button--perflarge">Créer mon alerte de prix</button>
@@ -1463,8 +1459,8 @@
   name: Perfarmer Alerte List
   category: List
   markup: |
-    <!-- custom class: list--perfhome *--perfalerte *--perfalerte__* -->
-    <ul class="list list--noborder list--perfhome">
+    <!-- custom class: *--perfalerte *--perfalerte__* -->
+    <ul class="list list--noborder">
       <li class="list-item list-item--nodivider list-item--perfalerte">
 
         <div class="list-item__center list-item--nodivider__center list-item--perfalerte__center">
@@ -1519,8 +1515,8 @@
   name: Perfarmer Outline Button List
   category: List
   markup: |
-    <!-- custom class: list--perflist list-item--perfbutton list-item--perfbutton__center -->
-    <ul class="list list--noborder list--perflist">
+    <!-- custom class: list-item--perfbutton list-item--perfbutton__center -->
+    <ul class="list list--noborder">
       <li class="list-item list-item--perfbutton">
         <div class="list-item__center list-item--perfbutton__center">
           <button class="button button--outline button--perflarge">Voir le détail</button>
@@ -1533,8 +1529,8 @@
   name: Perfarmer Col List
   category: List
   markup: |
-    <!-- custom class: list--perflist list-item--perfcol list-item--perfcol__center -->
-    <ul class="list list--noborder list--perflist">
+    <!-- custom class: list-item--perfcol list-item--perfcol__center -->
+    <ul class="list list--noborder">
       <li class="list-item list-item--perfcol">
         <div class="list-item__center list-item--perfcol__center">
           <ons-row>
@@ -1660,7 +1656,7 @@
   elements: ons-list ons-list-item
   markup: |
     <!-- custom class: list-item--perfswitch list-item--perfswitch__center list-item--perfswitch__right -->
-    <ul class="list list--noborder list--input">
+    <ul class="list list--noborder list--perflist">
       <li class="list-item list-item--longdivider list-item--perfswitch">
         <div class="list-item__center list-item--longdivider__center list-item--perfswitch__center">
           List Item with Switch
@@ -1696,7 +1692,7 @@
   elements: ons-list ons-list-item
   markup: |
     <!-- custom class: list-item--perfchevron list-item--perfchevron__center list-item--perfchevron__right list-item--perfchevron__label -->
-    <ul class="list list--noborder list--perflist">
+    <ul class="list list--noborder">
       <li class="list-item list-item--chevron list-item--perfchevron">
         <div class="list-item__center list-item--perfchevron__center">Item A</div>
       </li>
@@ -1715,7 +1711,7 @@
   elements: ons-list ons-list-item
   markup: |
     <!-- custom class: list-item--perfsimple list-item--perfsimple__center -->
-    <ul class="list list--noborder list--perflist">
+    <ul class="list list--noborder">
       <li class="list-item list-item--perfsimple">
         <div class="list-item__center list-item--perfsimple__center">Item A</div>
       </li>
@@ -1749,8 +1745,8 @@
   name: Perfarmer Segment Button List
   category: List
   markup: |
-    <!-- custom class: list--perflist list-item--perfbutton list-item--perfbutton__center -->
-    <ul class="list list--noborder list--perflist">
+    <!-- custom class: list-item--perfbutton list-item--perfbutton__center -->
+    <ul class="list list--noborder">
       <li class="list-item list-item--perfbutton">
         <div class="list-item__center list-item--perfbutton__center">
           <div class="segment segment--perfarmer">
@@ -1782,7 +1778,7 @@
   elements: ons-list ons-list-item
   markup: |
     <!-- custom class: list-item--perfradio list-item--perfradio__center list-item--perfradio__left -->
-    <ul class="list list--noborder list--input">
+    <ul class="list list--noborder list--perflist">
       <li class="list-item list-item--nodivider list-item--perfradio">
         <div class="list-item__left list-item--nodivider__left list-item--perfradio__left">
           <label class="radio-button radio-button--material radio-button--perfarmer">
@@ -1814,7 +1810,7 @@
   elements: ons-list ons-list-item
   markup: |
     <!-- custom class: list-item--perfcheck list-item--perfcheck__center list-item--perfcheck__left -->
-    <ul class="list list--noborder list--input">
+    <ul class="list list--noborder list--perflist">
       <li class="list-item list-item--nodivider list-item--perfcheck">
         <div class="list-item__left list-item--nodivider__left list-item--perfcheck__left">
           <label class="checkbox checkbox--material checkbox--perfarmer">
