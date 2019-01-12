@@ -56,6 +56,11 @@ a {
   text-align: center;
 }
 
+.content--perfhome header img {
+  width: 148px;
+  height: 148px;
+}
+
 .content--perfhome > section {
   padding: 0 35px 30px 35px;
 }
