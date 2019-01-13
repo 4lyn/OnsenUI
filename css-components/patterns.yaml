@@ -1479,9 +1479,9 @@ markup: |
       </div>
     </div>
 
-    <div>
+    <div class="content--perfparams">
 
-      <section style="background-color: #0c3c2b">
+      <section>
 
         <img src="https://www.beta.perfarmer.com/landing/assets/badge_0feuille.png">
 

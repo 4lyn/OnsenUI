@@ -1721,6 +1721,16 @@
     </ul>
  */
 
+.list + .list-title--perflist {
+  margin-top: 27px;
+}
+
+.list-item--perfsimple__center {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+}
+
 /*~
   name: Perfarmer Badge List
   category: List
@@ -1740,6 +1750,37 @@
       </li>
     </ul>
  */
+
+.list--perfbadge {
+  border: 7px solid #3A584B;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.list--perfbadge .list-item__center {
+  padding: 16px 0;
+}
+
+.list--perfbadge .list-item__title {
+  flex: 0;
+  box-sizing: border-box;
+  margin: 0 0 5px 0;
+  padding: 0 11px;
+  min-width: 110px;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #fff;
+  background: var(--perfarmer-vert);
+  border-radius: 20px;
+}
+
+.list--perfbadge .list-item__subtitle {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+}
+
 
 /*~
   name: Perfarmer Segment Button List
