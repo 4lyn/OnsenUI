@@ -97,7 +97,7 @@
   --material-notification-color: white;
   --material-switch-active-thumb-color: var(--perfarmer-jaune);
   --material-switch-active-background-color: color(var(--perfarmer-jaune) a(0.33));
-  --material-switch-inactive-thumb-color: var(--perfarmer-gris-bleu-light);
+  --material-switch-inactive-thumb-color: var(--perfarmer-gris-very-light);
   --material-switch-inactive-background-color: var(--perfarmer-gris-normal);
   --material-range-track-color: #d8d8d8;
   --material-range-thumb-color: var(--perfarmer-vert);
