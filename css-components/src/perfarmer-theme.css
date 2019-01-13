@@ -120,10 +120,10 @@
   --material-list-item-separator-color: #eee;
   --material-list-header-text-color: var(--perfarmer-vert);
   --material-checkbox-active-color: var(--second-highlight-color);
-  --material-checkbox-inactive-color: var(--perfarmer-gris-dark);
+  --material-checkbox-inactive-color: var(--perfarmer-gris-normal);
   --material-checkbox-checkmark-color: white;
   --material-radio-button-active-color: var(--perfarmer-jaune);
-  --material-radio-button-inactive-color: var(--perfarmer-gris-dark);
+  --material-radio-button-inactive-color: var(--perfarmer-gris-normal);
   --material-radio-button-disabled-color: var(--perfarmer-gris-light);
   --material-text-input-text-color: var(--perfarmer-vert);
   --material-text-input-active-color: var(--perfarmer-vert);
