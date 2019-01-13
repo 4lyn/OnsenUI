@@ -219,3 +219,7 @@
       </div>
     </div>
 */
+
+.segment--perfarmer__button.segment--material__button {
+  height: 29px;
+}
