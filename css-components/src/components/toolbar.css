@@ -511,3 +511,19 @@
   padding-bottom: 13px;
   min-height: unset;
 }
+
+/*~
+  name: Perfarmer CTA Bottom Bar
+  category: Toolbar
+  elements: ons-bottom-toolbar
+  markup: |
+    <div class="bottom-bar bottom-bar--transparent bottom-bar--cta">
+      <button class="button button--large--cta button--perflarge">Suivant</button>
+    </div>
+*/
+
+.bottom-bar--cta {
+  height: auto;
+  padding: 15px;
+  margin-bottom: 15px;
+}

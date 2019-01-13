@@ -1266,9 +1266,9 @@ markup: |
         </div>
       </section>
 
-      <section style="padding: 20px;">
+      <div class="bottom-bar bottom-bar--transparent bottom-bar--cta">
         <button class="button button--large--cta button--perflarge">Suivant</button>
-      </section>
+      </div>
 
     </div>
 
@@ -1333,9 +1333,9 @@ markup: |
         </ul>
       </section>
 
-      <section style="padding: 20px;">
+      <div class="bottom-bar bottom-bar--transparent bottom-bar--cta">
         <button class="button button--large--cta button--perflarge">Terminer</button>
-      </section>
+      </div>
 
     </div>
 
