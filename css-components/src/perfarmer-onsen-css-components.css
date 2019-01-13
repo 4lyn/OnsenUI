@@ -178,8 +178,8 @@ a {
 }
 
 .content--perfwelcome header {
-  flex: 1;
-  padding: 70px 79px 0 42px;
+  flex: 2;
+  padding: 50px 42px 20px 42px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -205,7 +205,11 @@ a {
 }
 
 .content--perfwelcome section {
-  padding: 39px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  padding: 10px 40px;
   background: #fff;
 }
 
@@ -215,4 +219,8 @@ a {
   font-size: 14px;
   line-height: 22px;
   margin-bottom: 18px;
+}
+
+.content--perfwelcome section p + p {
+  margin: 0;
 }
