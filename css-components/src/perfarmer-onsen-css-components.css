@@ -145,10 +145,15 @@ a {
 }
 
 .result--perfarmer ons-col { /* stylelint-disable-line */
+  padding: 0 5px;
   font-size: 12px;
   font-weight: 500;
   line-height: 23px;
   color: var(--perfarmer-gris-normal);
+}
+
+.result--perfarmer ons-col > img {
+  width: 100%;
 }
 
 .result--perfarmer ons-col.result--perfarmer__active { /* stylelint-disable-line */
