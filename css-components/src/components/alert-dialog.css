@@ -353,3 +353,53 @@
       </div>
     </div>
 */
+
+.alert-dialog-mask--perfalert {
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.5)
+}
+
+.alert-dialog--perfalert {
+  z-index: 1;
+  background: #fff;
+}
+
+.alert-dialog--perfalert {
+  width: 320px;
+  padding: 35px;
+}
+
+.alert-dialog-container--perfalert {
+  padding: 0;
+}
+
+.alert-dialog-title--perfalert {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: center;
+  color: #000;
+}
+
+.alert-dialog-title--perfalert img {
+  max-width: 98px;
+  max-height: 98px;
+}
+
+.alert-dialog-content--perfalert {
+  padding: 10px 0 0 0;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #000;
+}
+
+.alert-dialog-content--perfalert .alert-dialog-button, .alert-dialog-content--perfalert .button--perfalert {
+  min-height: 60px;
+  line-height: 18px;
+  margin: 30px 0 0 0;
+  padding: 21px 16px;
+  border-radius: 5px;
+  font-weight: 500;
+  width: 100%;
+}
