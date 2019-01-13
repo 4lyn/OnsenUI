@@ -504,4 +504,5 @@
 
 .button--perfaide:active {
   background: white;
+  opacity: 1;
 }
