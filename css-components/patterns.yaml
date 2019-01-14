@@ -379,16 +379,16 @@ name: Perfarmer Onglet ventes
 markup: |
   <div class="page">
 
-    <div class="toolbar toolbar--noshadow toolbar--perfdetail">
-      <div class="toolbar__left toolbar--perfdetail__left">
+    <div class="toolbar toolbar--noshadow">
+      <div class="toolbar__left">
         <span class="toolbar-button">
           <i class="fa fa-chevron-left"></i>
         </span>
       </div>
-      <div class="toolbar__center toolbar__title toolbar--perfdetail__center">
+      <div class="toolbar__center toolbar__title">
         Blé tendre - Améliorant
       </div>
-      <div class="toolbar__right toolbar--perfdetail__right">
+      <div class="toolbar__right">
       </div>
     </div>
 
@@ -1071,16 +1071,16 @@ name: Perfarmer Onglet Alertes Empty
 markup: |
   <div class="page">
 
-    <div class="toolbar toolbar--noshadow toolbar--perfdetail">
-      <div class="toolbar__left toolbar--perfdetail__left">
+    <div class="toolbar toolbar--noshadow">
+      <div class="toolbar__left">
         <span class="toolbar-button">
           <i class="fa fa-chevron-left"></i>
         </span>
       </div>
-      <div class="toolbar__center toolbar__title toolbar--perfdetail__center">
+      <div class="toolbar__center toolbar__title">
         Blé tendre - Améliorant
       </div>
-      <div class="toolbar__right toolbar--perfdetail__right">
+      <div class="toolbar__right">
       </div>
     </div>
 
@@ -1127,16 +1127,16 @@ name: Perfarmer Onglet Alertes
 markup: |
   <div class="page">
 
-    <div class="toolbar toolbar--noshadow toolbar--perfdetail">
-      <div class="toolbar__left toolbar--perfdetail__left">
+    <div class="toolbar toolbar--noshadow">
+      <div class="toolbar__left">
         <span class="toolbar-button">
           <i class="fa fa-chevron-left"></i>
         </span>
       </div>
-      <div class="toolbar__center toolbar__title toolbar--perfdetail__center">
+      <div class="toolbar__center toolbar__title">
         Blé tendre - Améliorant
       </div>
-      <div class="toolbar__right toolbar--perfdetail__right">
+      <div class="toolbar__right">
       </div>
     </div>
 
@@ -1202,16 +1202,16 @@ name: Perfarmer Workflow Alerte Objectif
 markup: |
   <div class="page">
 
-    <div class="toolbar toolbar--noshadow toolbar--perfdetail">
-      <div class="toolbar__left toolbar--perfdetail__left">
+    <div class="toolbar toolbar--noshadow">
+      <div class="toolbar__left">
         <span class="toolbar-button">
           <i class="fa fa-chevron-left"></i>
         </span>
       </div>
-      <div class="toolbar__center toolbar__title toolbar--perfdetail__center">
+      <div class="toolbar__center toolbar__title">
         Mon prix objectif
       </div>
-      <div class="toolbar__right toolbar--perfdetail__right">
+      <div class="toolbar__right">
       </div>
     </div>
 
@@ -1245,16 +1245,16 @@ name: Perfarmer Workflow Alerte Cours
 markup: |
   <div class="page">
 
-    <div class="toolbar toolbar--noshadow toolbar--perfdetail">
-      <div class="toolbar__left toolbar--perfdetail__left">
+    <div class="toolbar toolbar--noshadow">
+      <div class="toolbar__left">
         <span class="toolbar-button">
           <i class="fa fa-chevron-left"></i>
         </span>
       </div>
-      <div class="toolbar__center toolbar__title toolbar--perfdetail__center">
+      <div class="toolbar__center toolbar__title">
         Mon alerte
       </div>
-      <div class="toolbar__right toolbar--perfdetail__right">
+      <div class="toolbar__right">
       </div>
     </div>
 
@@ -1334,16 +1334,16 @@ name: Perfarmer Workflow Alerte SMS
 markup: |
   <div class="page">
 
-    <div class="toolbar toolbar--noshadow toolbar--perfdetail">
-      <div class="toolbar__left toolbar--perfdetail__left">
+    <div class="toolbar toolbar--noshadow">
+      <div class="toolbar__left">
         <span class="toolbar-button">
           <i class="fa fa-chevron-left"></i>
         </span>
       </div>
-      <div class="toolbar__center toolbar__title toolbar--perfdetail__center">
+      <div class="toolbar__center toolbar__title">
         Mes SMS
       </div>
-      <div class="toolbar__right toolbar--perfdetail__right">
+      <div class="toolbar__right">
       </div>
     </div>
 
@@ -1467,16 +1467,16 @@ name: Perfarmer Tonnes Edit
 markup: |
   <div class="page">
 
-    <div class="toolbar toolbar--noshadow toolbar--perfdetail">
-      <div class="toolbar__left toolbar--perfdetail__left">
+    <div class="toolbar toolbar--noshadow">
+      <div class="toolbar__left">
         <span class="toolbar-button">
           <i class="fa fa-chevron-left"></i>
         </span>
       </div>
-      <div class="toolbar__center toolbar__title toolbar--perfdetail__center">
+      <div class="toolbar__center toolbar__title">
         Tonnes à vendre
       </div>
-      <div class="toolbar__right toolbar--perfdetail__right">
+      <div class="toolbar__right">
       </div>
     </div>
 
@@ -1525,7 +1525,7 @@ markup: |
     <div class="toolbar toolbar--noshadow toolbar--perfparams">
       <div class="toolbar__left toolbar--perfparams__left">
         <span class="toolbar-button">
-          <i class="fa fa-chevron-left"></i>
+          <i class="fa fa-chevron-down"></i>
         </span>
       </div>
       <div class="toolbar__center toolbar__title toolbar--perfparams__center">
@@ -1599,16 +1599,16 @@ name: Perfarmer Formulaire 1
 markup: |
   <div class="page">
 
-    <div class="toolbar toolbar--noshadow toolbar--perfdetail">
-      <div class="toolbar__left toolbar--perfdetail__left">
+    <div class="toolbar toolbar--noshadow">
+      <div class="toolbar__left">
         <span class="toolbar-button">
           <i class="fa fa-chevron-left"></i>
         </span>
       </div>
-      <div class="toolbar__center toolbar__title toolbar--perfdetail__center">
+      <div class="toolbar__center toolbar__title">
         J'ai réalisé une vente
       </div>
-      <div class="toolbar__right toolbar--perfdetail__right">
+      <div class="toolbar__right">
       </div>
     </div>
 
@@ -1693,16 +1693,16 @@ name: Perfarmer Formulaire 2
 markup: |
   <div class="page">
 
-    <div class="toolbar toolbar--noshadow toolbar--perfdetail">
-      <div class="toolbar__left toolbar--perfdetail__left">
+    <div class="toolbar toolbar--noshadow">
+      <div class="toolbar__left">
         <span class="toolbar-button">
           <i class="fa fa-chevron-left"></i>
         </span>
       </div>
-      <div class="toolbar__center toolbar__title toolbar--perfdetail__center">
+      <div class="toolbar__center toolbar__title">
         J'ai réalisé une vente
       </div>
-      <div class="toolbar__right toolbar--perfdetail__right">
+      <div class="toolbar__right">
       </div>
     </div>
 
@@ -1816,16 +1816,16 @@ name: Perfarmer Formulaire Error
 markup: |
   <div class="page">
 
-    <div class="toolbar toolbar--noshadow toolbar--perfdetail">
-      <div class="toolbar__left toolbar--perfdetail__left">
+    <div class="toolbar toolbar--noshadow">
+      <div class="toolbar__left">
         <span class="toolbar-button">
           <i class="fa fa-chevron-left"></i>
         </span>
       </div>
-      <div class="toolbar__center toolbar__title toolbar--perfdetail__center">
+      <div class="toolbar__center toolbar__title">
         Inscription 1/2
       </div>
-      <div class="toolbar__right toolbar--perfdetail__right">
+      <div class="toolbar__right">
       </div>
     </div>
 
