@@ -563,7 +563,7 @@ markup: |
 
       <div class="alert-dialog-content alert-dialog-content--perfalert">
         Prêt pour un petit tour de l'application ?
-        <button class="button button--perfalert">C'est parti !</button>
+        <button class="button button--large--cta button--perflarge">C'est parti !</button>
       </div>
 
     </div>
@@ -1387,20 +1387,20 @@ markup: |
 
   </div>
 
-  <div class="alert-dialog-mask alert-dialog-mask--perfalert"></div>
-  <div class="alert-dialog alert-dialog--perfalert">
-    <div class="alert-dialog-container alert-dialog-container--perfalert">
+  <div class="alert-dialog-mask alert-dialog-mask--perfbadge"></div>
+  <div class="alert-dialog alert-dialog--perfbadge">
+    <div class="alert-dialog-container alert-dialog-container--perfbadge">
 
-      <div class="alert-dialog-title alert-dialog-title--perfalert">
+      <div class="alert-dialog-title alert-dialog-title--perfbadge">
         <img src="https://www.beta.perfarmer.com/landing/assets/badge_1feuille.png"><br/>
         Bravo !
       </div>
 
-      <div class="alert-dialog-content alert-dialog-content--perfalert">
+      <div class="alert-dialog-content alert-dialog-content--perfbadge">
         Vous venez de créer votre première alerte, vous gagnez votre «Première feuille»
       </div>
 
-      <div class="alert-dialog-footer alert-dialog-footer--perfalert">
+      <div class="alert-dialog-footer alert-dialog-footer--perfbadge">
         <button class="alert-dialog-button">Merci Perfarmer</button>
       </div>
 

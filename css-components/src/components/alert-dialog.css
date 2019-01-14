@@ -344,10 +344,7 @@
 
         <div class="alert-dialog-content alert-dialog-content--perfalert">
           Hello World!
-        </div>
-
-        <div class="alert-dialog-footer alert-dialog-footer--perfalert">
-          <button class="alert-dialog-button">OK</button>
+          <button class="button button--large--cta button--perflarge">C'est parti !</button>
         </div>
 
       </div>
@@ -391,12 +388,33 @@
   color: #000;
 }
 
-.alert-dialog-content--perfalert .alert-dialog-button, .alert-dialog-content--perfalert .button--perfalert {
-  min-height: 60px;
-  line-height: 18px;
-  margin: 30px 0 0 0;
-  padding: 21px 16px;
-  border-radius: 5px;
-  font-weight: 500;
-  width: 100%;
+.alert-dialog-content--perfalert .button--perflarge {
+  margin-top: 30px;
 }
+
+/*~
+  name: Perfarmer Badge Alert Dialog
+  category: Alert Dialog
+  elements: ons-alert-dialog
+  markup: |
+    <!-- custom class: *--perfbadge -->
+    <div class="alert-dialog-mask alert-dialog-mask--perfbadge"></div>
+    <div class="alert-dialog alert-dialog--perfbadge">
+      <div class="alert-dialog-container alert-dialog-container--perfbadge">
+
+        <div class="alert-dialog-title alert-dialog-title--perfbadge">
+          <img src="https://www.beta.perfarmer.com/landing/assets/icon_alert.png"><br/>
+          Alert
+        </div>
+
+        <div class="alert-dialog-content alert-dialog-content--perfbadge">
+          Hello World!
+        </div>
+
+        <div class="alert-dialog-footer alert-dialog-footer--perfbadge">
+          <button class="alert-dialog-button">OK</button>
+        </div>
+
+      </div>
+    </div>
+*/
