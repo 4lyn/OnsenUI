@@ -569,6 +569,62 @@ markup: |
     </div>
   </div>
 ---
+name: Perfarmer Onboarding Popover
+markup: |
+  <div class="page">
+
+    <div class="toolbar toolbar--noshadow toolbar--perfhome">
+      <div class="toolbar__left">
+      </div>
+      <div class="toolbar__center toolbar__title toolbar--perfhome__center">
+        <button class="toolbar-button toolbar-button--perfrecolte">
+          Récolte 2018
+          <i class="fa fa-angle-down"></i>
+        </button>
+      </div>
+      <div class="toolbar__right toolbar--perfhome__right">
+        <span class="toolbar-button">
+          <img src="https://www.beta.perfarmer.com/landing/assets/icon_cog.png">
+        </span>
+      </div>
+    </div>
+
+    <div></div>
+
+    <div class="tabbar tabbar--perfhome">
+      <label class="tabbar__item tabbar--perfhome__item">
+        <input type="radio" name="tabbar-perfarmer-b" checked="checked">
+        <button class="tabbar__button tabbar--perfhome__button">
+          <div class="tabbar__icon">
+            <i class="fa fa-chart-line"></i>
+          </div>
+          <div class="tabbar__label">Commercialisation</div>
+        </button>
+      </label>
+
+      <label class="tabbar__item tabbar--perfhome__item">
+        <input type="radio" name="tabbar-perfarmer-b">
+        <button class="tabbar__button tabbar--perfhome__button">
+          <div class="tabbar__icon">
+            <i class="fa fa-leaf"></i>
+          </div>
+          <div class="tabbar__label">Mes cultures</div>
+        </button>
+      </label>
+    </div>
+
+  </div>
+
+  <div class="popover-mask popover-mask--perfarmer"></div>
+  <div class="popover popover--top popover--perfarmer" style="top: 55px; left: 30px;">
+    <div class="popover__arrow popover--top__arrow popover--perfarmer__arrow" style="margin-left: 160px;"></div>
+    <div class="popover__content popover--top__content popover--perfarmer__content">
+      <h2>On commence par commercialiser votre récolte 2018 ?</h2>
+      <p>Sinon changez de récolte avec ce menu.</p>
+      <button class="button button--large--cta button--perflarge">Compris !</button>
+    </div>
+  </div>
+---
 name: Perfarmer Switch Recolte
 markup: |
   <div class="page">
