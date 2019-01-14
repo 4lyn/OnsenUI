@@ -1718,6 +1718,24 @@
     </ul>
  */
 
+.list-item--perfchevron {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+}
+
+.list-item--perfchevron .list-item__center {
+  padding: 25px 0;
+  min-height: 0;
+}
+
+.list-item--perfchevron__right {
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: normal;
+  text-align: right;
+}
+
 /*~
   name: Perfarmer Simple List
   category: List
