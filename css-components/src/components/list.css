@@ -1069,7 +1069,7 @@
   padding: 4px 15px 13px;
 }
 
-.list--perflist .list-item--label:first-child {
+.list--perflist > .list-item--label:first-child {
   margin-top: 38px;
 }
 
