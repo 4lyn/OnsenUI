@@ -1771,7 +1771,7 @@
   font-weight: 500;
   line-height: 21px;
   color: #fff;
-  background: var(--perfarmer-vert);
+  background: var(--highlight-color);
   border-radius: 20px;
 }
 
@@ -1780,7 +1780,6 @@
   font-weight: 500;
   line-height: 17px;
 }
-
 
 /*~
   name: Perfarmer Segment Button List

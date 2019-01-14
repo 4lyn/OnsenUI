@@ -356,15 +356,12 @@
 
 .alert-dialog-mask--perfalert {
   z-index: 1;
-  background: rgba(0, 0, 0, 0.5)
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .alert-dialog--perfalert {
   z-index: 1;
   background: #fff;
-}
-
-.alert-dialog--perfalert {
   width: 320px;
   padding: 35px;
 }
