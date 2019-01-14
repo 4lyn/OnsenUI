@@ -46,6 +46,10 @@ a {
   text-align: center;
 }
 
+.footer--perfbutton {
+  padding: 30px 15px 60px;
+}
+
 .content--perfhome__empty {
   display: flex;
   flex-direction: column;

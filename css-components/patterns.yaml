@@ -1681,7 +1681,7 @@ markup: |
 
       </ul>
 
-      <section style="padding: 20px;">
+      <section class="footer--perfbutton">
         <button class="button button--large--cta button--perflarge">Enregistrer la vente</button>
       </section>
       

@@ -1,6 +1,6 @@
 
 :root {
-  --action-sheet-mask-color: rgba(0, 0, 0, 0.1);
+  --action-sheet-mask-color: rgba(0, 0, 0, 0.6);
 
   --material-action-sheet-mask-color: rgba(0, 0, 0, 0.2);
 }
@@ -229,14 +229,17 @@
 }
 
 /*~
-  name: Perfarmer Action Sheet
+  name: Perfarmer Material Action Sheet with Title
   category: Action Sheet
   markup: |
-    <!-- custom class: *--perfsheet -->
-    <div class="action-sheet-mask action-sheet-mask--perfsheet"></div>
-    <div class="action-sheet action-sheet--perfsheet">
-      <div class="action-sheet-title action-sheet-title--perfsheet">Title</div>
-      <button class="action-sheet-button action-sheet-button--perfsheet">Label</button>
-      <button class="action-sheet-button action-sheet-button--perfsheet">Cancel</button>
+    <div class="action-sheet-mask action-sheet-mask--material action-sheet-mask--perfsheet"></div>
+    <div class="action-sheet action-sheet--material action-sheet--perfsheet">
+      <div class="action-sheet-title action-sheet-title--material action-sheet-title--perfsheet">Title</div>
+      <button class="action-sheet-button action-sheet-button--material action-sheet-button--perfsheet">Label 1</button>
+      <button class="action-sheet-button action-sheet-button--material action-sheet-button--perfsheet">Label 2</button>
     </div>
 */
+
+.action-sheet-title--perfsheet {
+  color: var(--action-sheet-title-color);
+}

@@ -69,7 +69,7 @@
   --dialog-text-color: var(--text-color);
   --popover-background-color: white;
   --popover-text-color: var(--text-color);
-  --action-sheet-title-color: var(--perfarmer-gris-normal);
+  --action-sheet-title-color: var(--perfarmer-gris-dark);
   --action-sheet-button-separator-color: var(--perfarmer-gris-very-light);
   --action-sheet-button-color: var(--highlight-color);
   --action-sheet-button-destructive-color: var(--perfarmer-rouge);

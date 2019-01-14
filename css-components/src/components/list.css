@@ -1069,6 +1069,10 @@
   padding: 4px 15px 13px;
 }
 
+.list--perflist .list-item--label:first-child {
+  margin-top: 38px;
+}
+
 .list-item--input {
   margin: 0 0 25px;
   padding: 0 15px;
@@ -1689,6 +1693,11 @@
       </li>
     </ul>
  */
+
+ .list-item--perfswitch__center {
+  padding: 20px 11px 20px 0;
+  font-weight: 500;
+}
 
 /*~
   name: Perfarmer Chevron List
