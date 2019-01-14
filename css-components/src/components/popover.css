@@ -219,7 +219,7 @@
 }
 
 .popover--perfarmer__content {
-  padding: 35px;
+  padding: 35px 31px;
   width: 320px;
   text-align: center;
 }
@@ -231,6 +231,11 @@
   text-align: center;
 }
 
+.popover--perfarmer__content p {
+  padding: 0 7px;
+}
+
 .popover--perfarmer__content .button--perflarge {
-  margin-top: 30px;
+  margin: 30px auto 0;
+  max-width: 210px;
 }
