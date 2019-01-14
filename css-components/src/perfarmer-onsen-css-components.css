@@ -242,7 +242,7 @@ a {
   margin: 0;
 }
 
-.content--perfparams > section .list {
+.content--perfparams > section .list--perfbadge {
   margin: 0 35px;
 }
 

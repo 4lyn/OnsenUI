@@ -1149,16 +1149,25 @@
     </ul>
  */
 
-.list-item--perfdetail {
-  padding: 20px 0 20px 15px;
-  @apply(--retina-list-item-border);
-  background-position: 15px bottom;
-}
-
 .list-title--perflist {
   display: flex;
   justify-content: space-between;
   text-transform: none;
+}
+
+.list + .list-title--perflist {
+  margin-top: 27px;
+}
+
+.list-title--perflist__right {
+  font-size: 15px;
+  color: #000;
+}
+
+.list-item--perfdetail {
+  padding: 20px 0 20px 15px;
+  @apply(--retina-list-item-border);
+  background-position: 15px bottom;
 }
 
 .list-item--perfdetail__left {
@@ -1191,11 +1200,6 @@
 
 .list-item--perfdetail__right {
   background: none;
-}
-
-.list-title--perflist__right {
-  font-size: 15px;
-  color: #000;
 }
 
 .list-item--perfdetail__label {
@@ -1716,19 +1720,24 @@
         <div class="list-item__center list-item--perfsimple__center">Item A</div>
       </li>
       <li class="list-item list-item--chevron list-item--perfsimple">
-        <div class="list-item__center list-item--perfsimple__center">Item B</div>
+        <div class="list-item__center list-item--perfsimple__center">
+          <a href="#">Item B</a>
+        </div>
       </li>
     </ul>
  */
-
-.list + .list-title--perflist {
-  margin-top: 27px;
-}
 
 .list-item--perfsimple__center {
   font-size: 14px;
   font-weight: 500;
   line-height: 17px;
+}
+
+.list-item--perfsimple__center a {
+  color: inherit;
+  text-decoration: inherit;
+  font-weight: inherit;
+  width: 100%;
 }
 
 /*~
