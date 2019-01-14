@@ -1107,18 +1107,18 @@ markup: |
       </label>
     </div>
 
-    <div>
-
-      <img src="https://www.beta.perfarmer.com/landing/assets/icon_alert_bg.png"><br/>
-      <h3>Créez votre alerte de prix</h3>
-      <p>
-        Le détail apparaitra ici !
-      </p>
-
-      <section class="footer--perfbutton">
-        <button class="button button--large--cta button--perflarge">Créer mon alerte de prix</button>
+    <div class="content--perfalert__empty">
+      <section>
+        <img src="https://www.beta.perfarmer.com/landing/assets/icon_alert_bg.png" />
+        <h3>Créez votre alerte de prix</h3>
+        <p>
+          Le détail apparaitra ici !
+        </p>
       </section>
-    
+
+      <footer class="footer--perfbutton">
+        <button class="button button--large--cta button--perflarge">Créer mon alerte de prix</button>
+      </footer>
     </div>
 
   </div>
