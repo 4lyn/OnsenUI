@@ -154,6 +154,7 @@ a {
 
 .result--perfarmer ons-col > img { /* stylelint-disable-line */
   width: 100%;
+  max-width: 60px;
 }
 
 .result--perfarmer ons-col.result--perfarmer__active { /* stylelint-disable-line */
