@@ -1832,7 +1832,7 @@ markup: |
     <div>
 
       <section class="content--perferror">
-        <b>OUPS !</b><br/><br/>
+        <span style="font-weight: 500">OUPS !</span><br/><br/>
         - Le nom est obligatoire<br/>
         - L'email n'a pas un format valide<br/>
         <br/>
