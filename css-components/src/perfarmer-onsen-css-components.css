@@ -258,6 +258,22 @@ a {
   margin: 0 35px;
 }
 
+.list--perfbadge .list-item--perfbgvert__title {
+  background: var(--perfarmer-vert);
+}
+
+.list--perfbadge .list-item--perfbgjaune__title {
+  background: var(--perfarmer-jaune);
+}
+
+.list--perfbadge .list-item--perfbgorange__title {
+  background: var(--perfarmer-orange);
+}
+
+.list--perfbadge .list-item--perfbgrouge__title {
+  background: var(--perfarmer-rouge);
+}
+
 .content--perfparams > p { /* stylelint-disable-line */
   display: block;
   margin: 45px 0;

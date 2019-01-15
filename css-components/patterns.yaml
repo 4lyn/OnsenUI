@@ -1544,7 +1544,7 @@ markup: |
         <ul class="list list--inset list--perfbadge">
           <li class="list-item list-item--chevron">
             <div class="list-item__center">
-              <div class="list-item__title">
+              <div class="list-item__title list-item--perfbgvert__title">
                 Zéro feuille
               </div>
               <div class="list-item__subtitle">
