@@ -372,8 +372,8 @@
 }
 
 .alert-dialog-title--perfalert img {
-  max-width: 98px;
-  max-height: 98px;
+  max-width: 120px;
+  max-height: 120px;
 }
 
 .alert-dialog-content--perfalert {
