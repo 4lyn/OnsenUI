@@ -373,7 +373,6 @@
 
 .alert-dialog-title--perfalert img {
   max-width: 120px;
-  max-height: 120px;
 }
 
 .alert-dialog-content--perfalert {
@@ -413,7 +412,7 @@
         </div>
 
         <div class="alert-dialog-footer alert-dialog-footer--perfbadge">
-          <button class="alert-dialog-button">OK</button>
+          <button class="alert-dialog-button alert-dialog-button--perfbadge">OK</button>
         </div>
 
       </div>
@@ -421,12 +420,12 @@
 */
 
 .alert-dialog-mask--perfbadge {
-  z-index: 2;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .alert-dialog--perfbadge {
-  z-index: 2;
   padding: 0;
+  width: 290px;
 }
 
 .alert-dialog-container--perfbadge {
@@ -434,31 +433,35 @@
 }
 
 .alert-dialog-title--perfbadge {
-  padding: 35px 30px 10px 30px;
+  padding: 35px 30px 15px;
   font-size: 17px;
   font-weight: 500;
   line-height: 20px;
+  text-align: center;
 }
 
 .alert-dialog-title--perfbadge img {
-  width: 148px;
-  height: 148px;
+  max-width: 148px;
   margin: 0 0 10px 0;
 }
 
+.alert-dialog-title--perfbadge img.alert-dialog-icon--perfbadge {
+  max-width: 42px;
+}
+
 .alert-dialog-content--perfbadge {
-  padding: 0 30px;
+  padding: 0 25px;
+  margin: 0;
   font-size: 15px;
-  line-height: 18px;
+  line-height: 22px;
 }
 
 .alert-dialog-footer--perfbadge {
   margin-top: 50px;
 }
 
-.alert-dialog-footer--perfbadge .alert-dialog-button {
+.alert-dialog-button--perfbadge {
   font-size: 15px;
   font-weight: 500;
-  line-height: 18px;
   text-align: center;
 }

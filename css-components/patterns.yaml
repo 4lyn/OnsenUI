@@ -1457,7 +1457,7 @@ markup: |
       </div>
 
       <div class="alert-dialog-footer alert-dialog-footer--perfbadge">
-        <button class="alert-dialog-button">Merci Perfarmer</button>
+        <button class="alert-dialog-button alert-dialog-button--perfbadge">Merci Perfarmer</button>
       </div>
 
     </div>
