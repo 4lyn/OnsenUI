@@ -1066,15 +1066,18 @@
 
 .list-item--label {
   margin: 0;
-  padding: 4px 15px 13px;
+  padding: 4px 15px;
 }
 
 .list--perflist > .list-item--label:first-child {
   margin-top: 38px;
 }
 
+.list--perflist + .list--perflist > .list-item--label:first-child { /* stylelint-disable-line */
+  margin-top: 28px;
+}
+
 .list-item--input {
-  margin: 0 0 25px;
   padding: 0 15px;
 }
 
@@ -1087,7 +1090,7 @@
 
 .list-item--input__center {
   margin: 0;
-  padding: 0;
+  padding: 9px 0 25px;
   min-height: unset;
 }
 

@@ -50,6 +50,20 @@ a {
   padding: 30px 15px 60px;
 }
 
+.content--perferror {
+  margin: 20px;
+  padding: 35px;
+  border-radius: 4px;
+  line-height: 18px;
+  font-size: 15px;
+  color: white;
+  background-color: var(--perfarmer-rouge);
+}
+
+.content--perferror a {
+  color: inherit;
+}
+
 .content--perfhome__empty {
   display: flex;
   flex-direction: column;

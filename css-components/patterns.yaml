@@ -1831,11 +1831,12 @@ markup: |
 
     <div>
 
-      <section style="margin: 20px; padding: 39px 32px 45px; background-color: #e8612d; color: white;">
-        <b>OUPS !</b><br/>
+      <section class="content--perferror">
+        <b>OUPS !</b><br/><br/>
         - Le nom est obligatoire<br/>
         - L'email n'a pas un format valide<br/>
-        Un problème ? <a href="#donotclick"><b>Appelez-nous</b></a>
+        <br/>
+        Un problème ? <a href="#donotclick">Appelez-nous</a>
       </section>
 
     </div>
