@@ -104,6 +104,23 @@ a {
   text-align: center;
 }
 
+.perfdetail-score {
+  width: 100%;
+  margin: 0;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 29px;
+  color: var(--perfarmer-gris-very-dark);
+}
+
+.perfdetail-score span {
+  font-size: 15px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 18px;
+  color: var(--list-item-chevron-color);
+}
+
 .badge-orange {
   padding: 1px 5px;
   font-size: 15px;

@@ -43,23 +43,6 @@
   top: 0;
 }
 
-.pie-wrapper .perfdetail-score {
-  width: 100%;
-  margin: 0;
-  font-size: 25px;
-  font-weight: bold;
-  line-height: 29px;
-  color: var(--perfarmer-gris-very-dark)
-}
-
-.pie-wrapper .perfdetail-score span {
-  font-size: 15px;
-  font-weight: normal;
-  font-style: italic;
-  line-height: 18px;
-  color: var(--list-item-chevron-color);
-}
-
 /* 
 scss code
 
