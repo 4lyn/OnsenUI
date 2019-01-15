@@ -329,11 +329,11 @@ a {
   line-height: 19px;
 }
 
-.content--perfalert__empty > section p {
+.content--perfalert__empty > section p { /* stylelint-disable-line */
   margin: 0;
   font-size: 15px;
   line-height: 18px;
-  color: var(--perfarmer-gris-dark)
+  color: var(--perfarmer-gris-dark);
 }
 
 .content--perfalert__empty > .footer--perfbutton {
