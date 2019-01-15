@@ -218,9 +218,14 @@
   background: rgba(0, 0, 0, 0.5);
 }
 
-.popover--perfarmer__content {
-  padding: 35px 31px;
+.popover--perfarmer {
   width: 320px;
+  max-width: 95%;
+}
+
+.popover--perfarmer__content {
+  width: auto;
+  padding: 35px 31px;
   text-align: center;
 }
 
