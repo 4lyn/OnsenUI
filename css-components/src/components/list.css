@@ -1427,6 +1427,10 @@
   color: #000;
 }
 
+.list-item--perfcours__center .label-grey {
+  color: var(--border-color);
+}
+
 .list-item--perfcours__right {
   font-size: 15px;
   font-style: italic;
