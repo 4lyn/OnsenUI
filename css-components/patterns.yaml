@@ -1116,7 +1116,7 @@ markup: |
         </p>
       </section>
 
-      <footer class="footer--perfbutton">
+      <footer>
         <button class="button button--large--cta button--perflarge">Créer mon alerte de prix</button>
       </footer>
     </div>
