@@ -107,10 +107,10 @@
   --material-toolbar-background-color: var(--perfarmer-vert);
   --material-toolbar-text-color: white;
   --material-toolbar-button-color: white;
-  --material-segment-background-color: #fafafa;
-  --material-segment-active-background-color: #c8c8c8;
-  --material-segment-text-color: color(black a(38%));
-  --material-segment-active-text-color: #353535;
+  --material-segment-background-color: white;
+  --material-segment-active-background-color: var(--perfarmer-vert);
+  --material-segment-text-color: var(--perfarmer-vert);
+  --material-segment-active-text-color: white;
   --material-button-background-color: var(--perfarmer-vert);
   --material-button-text-color: white;
   --material-button-disabled-background-color: color(#4f4f4f a(26%));

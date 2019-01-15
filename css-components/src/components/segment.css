@@ -204,7 +204,7 @@
   category: Segment
   markup: |
     <!-- custom class: segment--perfarmer segment--perfarmer__* -->
-    <div class="segment segment--material segment--perfarmer" style="width: 280px; margin: 0 auto;">
+    <div class="segment segment--material segment--perfarmer" style="width: 290px; margin: 0 auto;">
       <div class="segment__item segment--material__item segment--perfarmer__item">
         <input type="radio" class="segment__input segment--material__input segment--perfarmer__input" name="segment-c" checked>
         <div class="segment__button segment--material__button segment--perfarmer__button">One</div>
