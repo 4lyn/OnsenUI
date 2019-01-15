@@ -445,7 +445,7 @@
   margin: 0 0 10px 0;
 }
 
-.alert-dialog-title--perfbadge img.alert-dialog-icon--perfbadge {
+.alert-dialog-title--perfbadge .alert-dialog-icon--perfbadge {
   max-width: 42px;
 }
 
