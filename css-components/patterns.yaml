@@ -1522,22 +1522,22 @@ name: Perfarmer Params
 markup: |
   <div class="page">
 
-    <div class="toolbar toolbar--noshadow toolbar--perfparams">
-      <div class="toolbar__left toolbar--perfparams__left">
-        <span class="toolbar-button">
-          <i class="fa fa-chevron-down"></i>
-        </span>
-      </div>
-      <div class="toolbar__center toolbar__title toolbar--perfparams__center">
-        Ferme Kelleg
-      </div>
-      <div class="toolbar__right">
-      </div>
-    </div>
-
     <div class="content--perfparams">
 
       <section>
+
+        <header>
+          <div class="toolbar__left">
+            <span class="toolbar-button">
+              <i class="fa fa-chevron-down"></i>
+            </span>
+          </div>
+          <div class="toolbar__center toolbar__title">
+            Ferme Kelleg
+          </div>
+          <div class="toolbar__right">
+          </div>
+        </header>
 
         <img src="https://www.beta.perfarmer.com/landing/assets/badge_0feuille.png">
 

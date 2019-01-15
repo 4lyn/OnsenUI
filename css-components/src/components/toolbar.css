@@ -447,30 +447,6 @@
 }
 
 /*~
-  name: Perfarmer Params No Shadow Toolbar
-  category: Toolbar
-  elements: ons-toolbar
-  markup: |
-    <!-- custom class: toolbar--perfparams toolbar--perfparams__left toolbar--perfparams__center -->
-    <div class="toolbar toolbar--noshadow toolbar--perfparams">
-      <div class="toolbar__left toolbar--perfparams__left">
-        <span class="toolbar-button">
-          <i class="fa fa-chevron-down"></i>
-        </span>
-      </div>
-      <div class="toolbar__center toolbar__title toolbar--perfparams__center">
-        Ferme Kelleg
-      </div>
-      <div class="toolbar__right">
-      </div>
-    </div>
-*/
-
-.toolbar--perfparams__center {
-  color: var(--second-highlight-color);
-}
-
-/*~
   name: Perfarmer Button Bottom Bar
   category: Toolbar
   elements: ons-bottom-toolbar

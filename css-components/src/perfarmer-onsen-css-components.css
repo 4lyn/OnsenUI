@@ -241,9 +241,17 @@ a {
   background: var(--perfarmer-vert);
 }
 
+.content--perfparams > section > header {
+  display: flex;
+}
+
+.content--perfparams > section .toolbar__title {
+  color: var(--second-highlight-color);
+}
+
 .content--perfparams > section > img {
   width: 140px;
-  margin: 0;
+  margin: 10px;
 }
 
 .content--perfparams > section .list--perfbadge {

@@ -1694,7 +1694,7 @@
     </ul>
  */
 
- .list-item--perfswitch__center {
+.list-item--perfswitch__center {
   padding: 20px 11px 20px 0;
   font-weight: 500;
 }
@@ -1788,7 +1788,7 @@
  */
 
 .list--perfbadge {
-  border: 7px solid #3A584B;
+  border: 7px solid color(var(--highlight-color) a(0.85));
   border-radius: 10px;
   background: #fff;
 }
