@@ -1157,13 +1157,10 @@
  */
 
 .list-title--perflist {
+  margin-top: 27px;
   display: flex;
   justify-content: space-between;
   text-transform: none;
-}
-
-.list + .list-title--perflist {
-  margin-top: 27px;
 }
 
 .list-title--perflist__right {
