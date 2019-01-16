@@ -435,7 +435,7 @@ markup: |
       <div class="list-title list-title--perflist">
         Ventes enregistrées
         <span class="list-title--perflist__right">
-          <span style="font-weight: normal;">Prix moyen :</span>
+          <span>Prix moyen :</span>
           215 €/t
         </span>
       </div>
@@ -1219,7 +1219,7 @@ markup: |
 
       <p class="title--perfalert">
         À quel prix net (ou «prix rendu») souhaitez-vous vendre votre
-        Blé tendre - Améliorant&nbsp;?
+        <span>Blé tendre - Améliorant&nbsp;?</span>
       </p>
       <button class="button button--perfaide">Je n'ai pas d'objectif en tête</button>
 
@@ -1832,7 +1832,7 @@ markup: |
     <div>
 
       <section class="content--perferror">
-        <span style="font-weight: 500">OUPS !</span><br/><br/>
+        <span>On aurait aimé vous laisser passer mais :</span><br/><br/>
         - Le nom est obligatoire<br/>
         - L'email n'a pas un format valide<br/>
         <br/>

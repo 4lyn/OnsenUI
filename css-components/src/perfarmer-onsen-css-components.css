@@ -60,6 +60,10 @@ a {
   background-color: var(--perfarmer-rouge);
 }
 
+.content--perferror span:first-child {
+  font-weight: 500;
+}
+
 .content--perferror a {
   color: inherit;
 }
@@ -113,7 +117,7 @@ a {
   color: var(--perfarmer-gris-very-dark);
 }
 
-.perfdetail-score span {
+.perfdetail-score span { /* stylelint-disable-line */
   font-size: 15px;
   font-weight: 400;
   font-style: italic;
@@ -142,6 +146,10 @@ a {
   font-size: 16px;
   font-weight: 500;
   line-height: 25px;
+}
+
+.title--perfalert span {
+  display: inline-block;
 }
 
 .content--perfalert .list--perflist {

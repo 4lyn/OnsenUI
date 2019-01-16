@@ -1094,6 +1094,10 @@
   min-height: unset;
 }
 
+.list-item--input__left {
+  padding: 9px 15px 25px 0;
+}
+
 .list-item--input__center input, .list-item--input__center ons-input, .list-item--input__center ons-select { /* stylelint-disable-line */
   width: 100%;
 }
@@ -1130,7 +1134,10 @@
     <!-- custom class: list-title--perflist list-title--perflist__right list-item--perfdetail list-item--perfdetail__* -->
     <div class="list-title list-title--perflist">
       Ventes enregistrées
-      <span class="list-title--perflist__right">Prix moyen : <strong>215 €/t</strong></span>
+      <span class="list-title--perflist__right">
+        <span>Prix moyen :</span>
+        215 €/t
+      </span>
     </div>
     <ul class="list list--noborder">
       <li class="list-item list-item--chevron list-item--perfdetail">
@@ -1166,6 +1173,10 @@
 .list-title--perflist__right {
   font-size: 15px;
   color: #000;
+}
+
+.list-title--perflist__right span {
+  font-weight: normal;
 }
 
 .list-item--perfdetail {
