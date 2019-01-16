@@ -1176,7 +1176,7 @@
 }
 
 .list-title--perflist__right span {
-  font-weight: normal;
+  font-weight: 400;
 }
 
 .list-item--perfdetail {
@@ -1749,6 +1749,11 @@
   line-height: 18px;
   font-weight: 400;
   text-align: right;
+}
+
+.list-item--perfchevron__label {
+  font-size: 15px;
+  opacity: 1;
 }
 
 /*~

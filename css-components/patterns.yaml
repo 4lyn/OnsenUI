@@ -1489,7 +1489,7 @@ markup: |
             Rendement prévisionnel
           </div>
           <div class="list-item__right list-item--chevron__right list-item--perfchevron__right">
-            <div class="list-item__label">6,9 t/ha</div>
+            <div class="list-item__label list-item--perfchevron__label">6,9 t/ha</div>
           </div>
         </li>
 

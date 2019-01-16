@@ -148,7 +148,7 @@ a {
   line-height: 25px;
 }
 
-.title--perfalert span {
+.title--perfalert span { /* stylelint-disable-line */
   display: inline-block;
 }
 
