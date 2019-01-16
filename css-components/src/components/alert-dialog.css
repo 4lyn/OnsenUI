@@ -278,6 +278,7 @@
   box-sizing: border-box;
   margin: 0;
   line-height: 1;
+  text-align: right;
 }
 
 .alert-dialog-button--material {
@@ -285,7 +286,7 @@
   text-transform: uppercase;
   display: inline-block;
   width: auto;
-  float: right;
+  /*float: right;*/
   background: none;
   border: none;
   border-radius: 2px;
