@@ -32,7 +32,7 @@
   src: url('./font/Rubik-Bold.ttf') format('truetype');
 }
 
-.background-white {
+.page--white__background {
   background-color: white;
 }
 
