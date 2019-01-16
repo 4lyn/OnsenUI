@@ -32,6 +32,10 @@
   src: url('./font/Rubik-Bold.ttf') format('truetype');
 }
 
+.background-white {
+  background-color: white;
+}
+
 .button--large--cta.button--perflarge:active { /* stylelint-disable-line */
   background-color: var(--perfarmer-vert-dark);
   opacity: 1;
@@ -104,8 +108,9 @@ a {
 }
 
 .content--perfdetail {
-  padding: 40px 0;
+  padding: 40px 0 20px;
   text-align: center;
+  background-color: var(--background-color);
 }
 
 .perfdetail-score {
