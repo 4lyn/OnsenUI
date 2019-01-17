@@ -50,10 +50,6 @@ a {
   text-align: center;
 }
 
-.footer--perfbutton {
-  padding: 30px 15px 60px;
-}
-
 .content--perferror {
   margin: 20px;
   padding: 35px;
@@ -318,19 +314,6 @@ a {
   background: var(--perfarmer-rouge);
 }
 
-.content--perfparams > p { /* stylelint-disable-line */
-  display: block;
-  margin: 45px 0;
-  text-align: center;
-  font-size: 14px;
-  line-height: 17px;
-}
-
-.content--perfparams > p a {
-  font-weight: 400;
-  color: black;
-}
-
 .content--perfalert__empty {
   display: flex;
   flex-direction: column;
@@ -370,4 +353,28 @@ a {
   width: 100%;
   padding: 15px;
   box-sizing: border-box;
+}
+
+.footer--perfbutton {
+  padding: 30px 15px 60px;
+}
+
+.footer--perfbutton > p { /* stylelint-disable-line */
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.footer--perfbutton > p a {
+  font-weight: 400;
+  color: black;
+}
+
+.footer--perfbutton .button + p {
+  margin: 20px 0 0;
+}
+
+.content--perfparams .footer--perfbutton {
+  padding-bottom: 30px;
 }

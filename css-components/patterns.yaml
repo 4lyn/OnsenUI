@@ -1587,9 +1587,11 @@ markup: |
 
       </ul>
 
-      <p>
-        <a href="#donotclick">Se déconnecter</a>
-      </p>
+      <footer class="footer--perfbutton">
+        <p>
+          <a href="#donotclick">Se déconnecter</a>
+        </p>
+      </footer>
 
     </div>
 
@@ -1681,9 +1683,9 @@ markup: |
 
       </ul>
 
-      <section class="footer--perfbutton">
+      <footer class="footer--perfbutton">
         <button class="button button--large--cta button--perflarge">Enregistrer la vente</button>
-      </section>
+      </footer>
       
     </div>
 
