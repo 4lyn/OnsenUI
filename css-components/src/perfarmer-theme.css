@@ -43,11 +43,11 @@
   --list-header-background-color: var(--perfarmer-jaune);
   --list-tap-active-background-color: var(--perfarmer-gris-light);
   --list-item-chevron-color: var(--perfarmer-gris-dark);
-  --progress-bar-color: var(--highlight-color);
-  --progress-bar-secondary-color: var(--perfarmer-jaune);
+  --progress-bar-color: var(--perfarmer-jaune);
+  --progress-bar-secondary-color: var(--perfarmer-jaune-light);
   --progress-bar-background-color: transparent;
-  --progress-circle-primary-color: var(--highlight-color);
-  --progress-circle-secondary-color: var(--perfarmer-jaune);
+  --progress-circle-primary-color: var(--progress-bar-color);
+  --progress-circle-secondary-color: var(--progress-bar-secondary-color);
   --progress-circle-background-color: transparent;
   --tabbar-background-color: var(--perfarmer-vert);
   --tabbar-text-color: rgba(255, 255, 255, 0.5);
@@ -135,8 +135,8 @@
   --material-alert-dialog-title-color: #31313a;
   --material-alert-dialog-content-color: rgba(49, 49, 58, 0.85);
   --material-alert-dialog-button-color: #37474f;
-  --material-progress-bar-primary-color: var(--perfarmer-vert);
-  --material-progress-bar-secondary-color: var(--perfarmer-jaune);
+  --material-progress-bar-primary-color: var(--perfarmer-jaune);
+  --material-progress-bar-secondary-color: var(--perfarmer-jaune-light);
   --material-progress-bar-background-color: transparent;
   --material-progress-circle-primary-color: var(--material-progress-bar-primary-color);
   --material-progress-circle-secondary-color: var(--material-progress-bar-secondary-color);
