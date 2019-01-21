@@ -220,10 +220,6 @@
     </div>
 */
 
-.segment--perfarmer {
-  min-width: 50px;
-}
-
 .segment--perfarmer__button.segment--material__button {
   height: 29px;
 }
