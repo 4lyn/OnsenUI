@@ -1485,27 +1485,25 @@
     <!-- custom class: *--perfalerte *--perfalerte__* -->
     <ul class="list list--noborder">
       <li class="list-item list-item--nodivider list-item--perfalerte">
-
         <div class="list-item__center list-item--nodivider__center list-item--perfalerte__center">
           Votre alerte
         </div>
-
         <div class="list-item__right list-item--nodivider__right list-item--perfalerte__right">
-          <!-- &#x1f44d; -->
           200 €/t
         </div>
-
       </li>
       <li class="list-item list-item--nodivider list-item--perfalerte">
-
         <div class="list-item__center list-item--nodivider__center list-item--perfalerte__center">
           Reste à vendre
         </div>
-
         <div class="list-item__right list-item--nodivider__right list-item--perfalerte__right">
           100 t
         </div>
-
+      </li>
+      <li class="list-item list-item--nodivider list-item--perfalerte">
+        <div class="list-item__center list-item--nodivider__center list-item--perfalerte__center">
+          <p><span style="font-weight: normal">Michel,</span> objectif atteint &#x1F44D;</p>
+        </div>
       </li>
     </ul>
  */
@@ -1524,6 +1522,11 @@
   font-size: 16px;
   font-weight: 500;
   line-height: 19px;
+}
+
+.list-item--perfalerte__center p {
+  margin: 15px auto 0;
+  color: var(--highlight-color);
 }
 
 .list-item--perfalerte__right {
