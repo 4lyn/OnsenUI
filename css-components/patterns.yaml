@@ -840,6 +840,7 @@ markup: |
     </div>
 
     <div class="content--perfhome">
+
       <header>
         <img src="https://www.beta.perfarmer.com/landing/assets/badge_1feuille.png">
       </header>
@@ -926,7 +927,8 @@ markup: |
         </span>
       </div>
     </div>
-    <div>
+
+    <div class="content--perfhome">
 
       <ul class="list list--noborder list--perflist">
 
@@ -963,6 +965,7 @@ markup: |
           </div>
 
         </li>
+
         <li class="list-item list-item--nodivider list-item--perfalerte">
         
           <div class="list-item__center list-item--nodivider__center list-item--perfalerte__center">
@@ -975,17 +978,20 @@ markup: |
 
         </li>
 
+        <li class="list-item list-item--nodivider list-item--perfalerte">
+          <div class="list-item__center list-item--nodivider__center list-item--perfalerte__center">
+            <p><span style="font-weight: normal">Michel,</span> objectif atteint &#x1F44D;</p>
+          </div>
+        </li>
+
         <li class="list-item list-item--perfbutton">
           <div class="list-item__center list-item--perfbutton__center">
-            <button class="button button--outline button--perflarge">Voir le détail</button>
+            <button class="button button--large--cta button--perflarge">Enregistrer une vente</button>
           </div>
         </li>
 
       </ul>
 
-    </div>
-    <div>
-
       <ul class="list list--noborder list--perflist">
 
         <li class="list-item list-item--chevron list-item--nodivider list-item--perfcultbg" style="background-image: url('https://www.beta.perfarmer.com/landing/assets/cultures/ble_tendre_bg.png');">
@@ -1021,6 +1027,7 @@ markup: |
           </div>
 
         </li>
+
         <li class="list-item list-item--nodivider list-item--perfalerte">
         
           <div class="list-item__center list-item--nodivider__center list-item--perfalerte__center">
@@ -1035,7 +1042,6 @@ markup: |
 
         <li class="list-item list-item--perfbutton">
           <div class="list-item__center list-item--perfbutton__center">
-            <button class="button button--outline button--perflarge">Voir le détail</button>
           </div>
         </li>
 

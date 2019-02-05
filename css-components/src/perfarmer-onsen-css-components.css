@@ -103,6 +103,11 @@ a {
   padding: 0 35px;
 }
 
+.content--perfhome > .list--perflist {
+  margin-bottom: 20px;
+  border-bottom: 1px solid color(var(--perfarmer-gris-very-light));
+}
+
 .content--perfdetail {
   padding: 40px 0 20px;
   text-align: center;
