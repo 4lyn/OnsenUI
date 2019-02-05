@@ -264,7 +264,7 @@
 }
 
 .range--perfarmer__input::-webkit-slider-runnable-track {
-  height: 26px;
+  height: 30px;
   border: none;
   border-radius: 0;
   background: none;
@@ -272,8 +272,8 @@
 
 .range--perfarmer__input::-webkit-slider-thumb {
   -webkit-appearance: none;
-  height: 26px;
-  width: 26px;
+  height: 30px;
+  width: 30px;
   box-shadow: none;
   border: 4px solid #fff;
 }
