@@ -79,7 +79,6 @@ a {
 }
 
 .content--perfhome header img {
-  width: 148px;
   height: 148px;
 }
 
@@ -233,6 +232,10 @@ a {
   line-height: 23px;
 }
 
+.content--perfinset > header img {
+  height: 42px;
+}
+
 .content--perfwelcome {
   display: flex;
   flex-direction: column;
@@ -248,7 +251,7 @@ a {
 
 .content--perfwelcome header img {
   margin: 0 0 0 -24px;
-  width: 145px;
+  height: 145px;
 }
 
 .content--perfwelcome header h1 {
@@ -302,7 +305,7 @@ a {
 }
 
 .content--perfparams > section > img {
-  width: 140px;
+  height: 140px;
   margin: 10px;
 }
 
@@ -342,7 +345,6 @@ a {
 }
 
 .content--perfalert__empty > section img {
-  width: 70px;
   height: 70px;
   margin: 0 0 30px 0;
 }
