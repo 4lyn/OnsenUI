@@ -423,13 +423,12 @@ markup: |
           <p class="perfdetail-score">
             200 t
             <br/>
-            <span>sur 375 t à vendre</span>
+            <span>
+              sur 375 t à vendre
+              <i class="fa fa-pen-square"></i>
+            </span>
           </p>
         </div>
-
-        <p>
-          <a href="#donotclick">Modifier mes tonnes à vendre</a>
-        </p>
       </div>
 
       <div class="list-title list-title--perflist">

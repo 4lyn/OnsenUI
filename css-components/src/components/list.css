@@ -1537,7 +1537,7 @@
   line-height: 19px;
 }
 
-.list-item--perfalerte + .list-item--perfbutton .list-item--perfbutton__center .button--perflarge {
+.list-item--perfalerte + .list-item--perfbutton .list-item--perfbutton__center .button--perflarge { /* stylelint-disable-line */
   margin-top: 10px;
 }
 

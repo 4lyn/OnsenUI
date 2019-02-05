@@ -131,6 +131,11 @@ a {
   color: var(--list-item-chevron-color);
 }
 
+.perfdetail-score span .fa.fa-pen-square {
+  color: var(--perfarmer-vert);
+  font-size: 24px;
+}
+
 .badge-orange {
   padding: 1px 5px;
   font-size: 15px;
