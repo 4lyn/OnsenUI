@@ -121,6 +121,7 @@ a {
   font-weight: 700;
   line-height: 29px;
   color: var(--perfarmer-gris-very-dark);
+  z-index: 3;
 }
 
 .perfdetail-score span { /* stylelint-disable-line */
