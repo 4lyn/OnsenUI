@@ -385,10 +385,15 @@ a {
   color: black;
 }
 
+.footer--perfbutton > p span { /* stylelint-disable-line */
+  font-size: 10px;
+  color: var(--perfarmer-gris-dark);
+}
+
 .footer--perfbutton .button + p {
   margin: 20px 0 0;
 }
 
 .content--perfparams .footer--perfbutton {
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
