@@ -15,7 +15,7 @@
   --list-header-min-height: 24px;
   --list-header-font-weight: var(--font-weight--large);
   --inset-list-border: 1px solid var(--list-item-separator-color);
-  --list-title-color: #6d6d72;
+  --list-title-color: var(--list-item-chevron-color);
   --list-title-font-size: 14px;
   --list-title-font-weight: 500;
   --list-title-line-height: 17px;
