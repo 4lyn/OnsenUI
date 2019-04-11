@@ -478,8 +478,7 @@
     </div>
 */
 
-.bottom-bar--cta {
+.bottom-bar.bottom-bar--cta {
   height: auto;
   padding: 15px;
-  margin-bottom: 15px;
 }
