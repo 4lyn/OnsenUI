@@ -1120,10 +1120,6 @@ markup: |
           Le détail apparaitra ici !
         </p>
       </section>
-
-      <footer>
-        <button class="button button--large--cta button--perflarge">Créer mon alerte de prix</button>
-      </footer>
     </div>
 
   </div>
