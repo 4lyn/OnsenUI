@@ -36,8 +36,8 @@
   --button-bar-active-text-color: white;
   --button-bar-active-background-color: color(var(--button-bar-color) tint(70%));
   --button-light-color: var(--perfarmer-gris-very-dark);
-  --segment-color: color(var(--segment-active-text-color) tint(70%));
-  --segment-active-text-color: var(--perfarmer-jaune-dark);
+  --segment-color: var(--perfarmer-jaune-light);
+  --segment-active-text-color: var(--perfarmer-jaune);
   --segment-active-background-color: transparent;
   --list-background-color: white;
   --list-header-background-color: var(--perfarmer-jaune);

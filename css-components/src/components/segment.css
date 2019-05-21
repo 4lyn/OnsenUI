@@ -197,7 +197,7 @@
 
 .segment--perfarmer__item {
   background-color: white;
-  padding: 19px 15px 19px;
+  padding: 17px 15px 17px;
 }
 
 .segment--perfarmer__button {
@@ -206,7 +206,8 @@
   color: black;
   border: none;
   border-radius: 4px;
-  height: 27px;
+  height: 32px;
+  line-height: 32px;
 }
 
 :active + .segment--perfarmer__button {
@@ -216,7 +217,7 @@
 
 .segment--perfarmer__item:first-child > .segment--perfarmer__button,
 .segment--perfarmer__item:last-child > .segment--perfarmer__button {
-  border-radius: 4px;
+  border-radius: 3px;
 }
 
 /*~
