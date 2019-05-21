@@ -209,14 +209,14 @@
   height: 27px;
 }
 
-.segment--perfarmer__item:first-child > .segment--perfarmer__button,
-.segment--perfarmer__item:last-child > .segment--perfarmer__button {
-  border-radius: 4px;
-}
-
 :active + .segment--perfarmer__button {
   border: none;
   font-size: 17px;
+}
+
+.segment--perfarmer__item:first-child > .segment--perfarmer__button,
+.segment--perfarmer__item:last-child > .segment--perfarmer__button {
+  border-radius: 4px;
 }
 
 /*~
