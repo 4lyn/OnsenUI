@@ -197,7 +197,7 @@
 
 .segment--perfarmer__item {
   background-color: white;
-  padding: 17px 15px 17px;
+  padding: 17px 0 17px;
 }
 
 .segment--perfarmer__button {
@@ -207,12 +207,15 @@
   border: none;
   border-radius: 4px;
   height: 32px;
+  width: 42px;
+  margin: 0 auto;
   line-height: 32px;
 }
 
 :active + .segment--perfarmer__button {
   border: none;
   font-size: 17px;
+  width: 42px;
 }
 
 .segment--perfarmer__item:first-child > .segment--perfarmer__button,
