@@ -49,9 +49,9 @@
   --progress-circle-primary-color: var(--progress-bar-color);
   --progress-circle-secondary-color: var(--progress-bar-secondary-color);
   --progress-circle-background-color: transparent;
-  --tabbar-background-color: var(--perfarmer-vert);
-  --tabbar-text-color: rgba(255, 255, 255, 0.5);
-  --tabbar-highlight-text-color: white;
+  --tabbar-background-color: white;
+  --tabbar-text-color: var(--perfarmer-gris-dark);
+  --tabbar-highlight-text-color: var(--perfarmer-vert);
   --tabbar-border-color: var(--perfarmer-gris-very-light);
   --switch-highlight-color: var(--perfarmer-jaune);
   --switch-border-color: var(--perfarmer-gris-light);
