@@ -1446,18 +1446,20 @@
   line-height: 18px;
   color: black;
   position: absolute;
-  right: 32px;
+  right: 37px;
   top: 14px;
 }
 
 .list-item--perfcours__center .right .badge {
-  padding: 0 6px;
   font-weight: 500;
   line-height: 18px;
   font-style: normal;
   color: #fff;
   background: var(--border-color);
   border-radius: 3px;
+  text-align: center;
+  width: 52px;
+  box-sizing: border-box;
 }
 
 .list-item--perfcours .list-item__expandable-content { /* stylelint-disable-line */
