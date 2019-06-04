@@ -451,6 +451,7 @@
   border-radius: 5px;
   font-weight: 500;
   width: 100%;
+  text-align: center;
 }
 
 /*~
@@ -463,8 +464,7 @@
 */
 
 .button--outline.button--perflarge {
-  border: 1px solid var(--border-color);
-  color: var(--button-light-color);
+  border-width: 2px;
 }
 
 .button--outline.button--perflarge:active {
