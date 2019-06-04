@@ -80,20 +80,20 @@ a {
   color: inherit;
 }
 
-.content--perfhome__msg header {
+.content--perfhome__msg section {
+  padding: 35px 15px;
+  display: inline-flex;
+}
+
+.content--perfhome__msg section header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.content--perfhome__msg header img {
+.content--perfhome__msg section header img {
   height: 108px;
-}
-
-.content--perfhome__msg > section {
-  padding: 35px 15px;
-  display: inline-flex;
 }
 
 .content--perfhome__empty {
@@ -123,13 +123,12 @@ a {
   text-align: center;
 }
 
-.content--perfhome__msg > section p {
-  margin-left: 10px;
+.content--perfhome__msg section p {
+  margin: 0 0 0 10px;
   text-align: left;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
 .content--perfhome > footer {

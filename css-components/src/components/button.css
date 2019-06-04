@@ -465,6 +465,7 @@
 
 .button--outline.button--perflarge {
   border-width: 2px;
+  border-radius: 8px;
 }
 
 .button--outline.button--perflarge:active {
