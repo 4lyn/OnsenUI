@@ -58,6 +58,10 @@ a {
   color: var(--highlight-color);
 }
 
+.label--invalid a {
+  color: var(--input-invalid-border-color);
+}
+
 .perfcenter {
   text-align: center;
 }
