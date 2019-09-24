@@ -1440,6 +1440,10 @@
   padding-left: 15px;
 }
 
+.list-item--perfcours__right {
+  font-weight: 500;
+}
+
 .list-item--perfcours__center .right {
   font-size: 15px;
   font-weight: 500;
