@@ -1442,16 +1442,15 @@
 
 .list-item--perfcours__right {
   font-weight: 500;
+  font-size: 15px;
 }
 
 .list-item--perfcours__center .right {
   font-size: 15px;
   font-weight: 500;
   line-height: 18px;
-  color: black;
   position: absolute;
   right: 37px;
-  top: 14px;
 }
 
 .list-item--perfcours__center .right .badge {
