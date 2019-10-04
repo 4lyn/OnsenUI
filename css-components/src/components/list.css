@@ -1250,6 +1250,7 @@
   height: auto;
   text-align: center;
   background: none;
+  max-width: 100%;
 }
 
 .list-item--perfbutton__center .button--quiet {
