@@ -1547,10 +1547,12 @@
 }
 
 .list-item--perfalerte__center p {
-  width: 230px;
-  margin: 12px auto 0;
+  width: 300px;
+  margin: 25px auto 5px;
   color: #0c3c2b;
   text-align: center;
+  font-weight: normal;
+  line-height: 26px;
 }
 
 .list-item--perfalerte__right {
