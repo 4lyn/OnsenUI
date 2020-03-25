@@ -76,7 +76,7 @@ a {
   background-color: var(--perfarmer-rouge);
 }
 
-.content--perferror span:first-child {
+.content--perferror > span:first-child {
   font-weight: 500;
 }
 
