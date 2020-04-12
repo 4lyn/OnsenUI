@@ -1359,8 +1359,12 @@
 
 .list-item--perfcultbg:before {
   top: auto;
-  bottom: 33px;
+  bottom: 36px;
   border-color: #fff;
+  border-right-width: 3px;
+  border-bottom-width: 3px;
+  width: 10px;
+  height: 10px;
 }
 
 .list-item--perfcultbg__center {
