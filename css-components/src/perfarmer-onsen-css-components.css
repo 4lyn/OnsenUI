@@ -131,7 +131,7 @@ a {
   font-size: 18px;
   line-height: 26px;
   color: var(--perfarmer-vert);
-  margin: 0 0 0 10px;
+  margin: 0 0 0 15px;
   text-align: left;
   display: flex;
   flex-direction: column;
@@ -161,6 +161,7 @@ a {
   line-height: 29px;
   color: var(--perfarmer-gris-very-dark);
   z-index: 3;
+  text-align: center;
 }
 
 .perfdetail-score span { /* stylelint-disable-line */

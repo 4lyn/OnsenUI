@@ -1077,6 +1077,10 @@
   margin-top: 28px;
 }
 
+.list-title--perflist + .list--perflist > .list-item--label:first-child { /* stylelint-disable-line */
+  margin-top: 15px;
+}
+
 .list-item--input {
   padding: 0 15px;
 }
