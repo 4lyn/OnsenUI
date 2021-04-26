@@ -1326,6 +1326,14 @@
   overflow: hidden;
 }
 
+.list-item--perfcult__title img {
+  height: 17px;
+}
+
+.list-item--perfvente__title img {
+  height: 13px;
+}
+
 .list-item--perfcult__subtitle {
   font-size: 16px;
   letter-spacing: 0.1px;
@@ -1384,6 +1392,10 @@
   text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
   color: #fff;
   opacity: 1;
+}
+
+.list-item--perfcultbg__title img {
+  height: 20px;
 }
 
 .list-item--perfcultbg__subtitle {
